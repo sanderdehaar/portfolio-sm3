@@ -1,56 +1,3 @@
-// Movement delay
-const throttled = (delay, fn) => {
-    let lastCall = 0;
-    return function (...args) {
-        const now = Date.now();
-        if (now - lastCall < delay) return;
-        lastCall = now;
-        return fn(...args);
-    };
-};
-
-// Moving items
-const wrapper = document.querySelector('.movement-wrapper');
-
-// Mouse movement
-const mouseMoveHandler = (e) => {
-    const moveX = e.movementX > 0 ? -e.movementX : e.movementX;
-    const moveY = e.movementY > 0 ? -e.movementY : e.movementY;
-
-    document.querySelectorAll('.movable').forEach((el) => {
-        gsap.to(el, {x: moveX, y: moveY, duration: 1});
-    });
-};
-
-// Paralax movement
-const mouseMoveHandler2 = (e) => {
-    if (window.innerWidth > 920) { // Only execute if window width is greater than 920px
-        document.querySelectorAll('.movable').forEach((el) => {
-            const shift = el.getAttribute('data-value');
-            const moveX = (e.clientX * shift) / 150;
-            const moveY = (e.clientY * shift) / 150;
-
-            gsap.to(el, {x: moveX, y: moveY, duration: 0.6});
-        });
-    }
-};
-
-
-// Reset positions
-const reset = () => {
-    if (window.innerWidth <= 920) {
-        document.querySelectorAll('.movable').forEach((el) => {
-            gsap.to(el, {x: 0, y: 0, duration: 0});
-        });
-    }
-};
-
-// Throttled handler
-const throttledHandler = throttled(200, mouseMoveHandler2);
-wrapper.onmousemove = throttledHandler;
-
-window.addEventListener('resize', reset);
-
 // Slider
 document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('#hero-home .slide');
@@ -106,3 +53,67 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     showSlide(currentIndex);
 });
+
+//
+
+const throttled = (delay, fn) => {
+    let lastCall = 0;
+    return function (...args) {
+        const now = (new Date).getTime();
+        if (now - lastCall < delay) {
+            return;
+        }
+        lastCall = now;
+        return fn(...args);
+    }
+}
+
+const movableElementsWrapper = document.querySelector('.movement-wrapper');
+
+const mouseMoveHandler = (e) => {
+    const y = e.movementY;
+    const x = e.movementX;
+
+    let moveX = x > 0 ? -x : x;
+    let moveY = y > 0 ? -y : y;
+
+    const movableElements = document.querySelectorAll('.movable');
+
+    movableElements.forEach(
+        (movableElement) => {
+            gsap.to(movableElement, { x: moveX, y: moveY, duration: 1 });
+        }
+    );
+};
+
+const mouseMoveHandler2 = (e) => {
+    const movableElements = document.querySelectorAll('.movable');
+
+    movableElements.forEach(
+        (movableElement) => {
+            const shiftValue = movableElement.getAttribute('data-value');
+            console.log(shiftValue);
+            const moveX = (e.clientX * shiftValue) / 250;
+            const moveY = (e.clientY * shiftValue) / 250;
+
+            gsap.to(movableElement, { x: moveX, y: moveY, duration: 1 });
+        }
+    );
+};
+
+const tHandler = throttled(200, mouseMoveHandler2);
+
+// Only add the event listener if the viewport width is above 920px
+const checkViewportAndAddListener = () => {
+    if (window.innerWidth > 920) {
+        movableElementsWrapper.onmousemove = tHandler;
+    } else {
+        movableElementsWrapper.onmousemove = null; // Remove the handler if under 920px
+    }
+};
+
+// Check on initial load
+checkViewportAndAddListener();
+
+// Check on resize
+window.addEventListener('resize', checkViewportAndAddListener);

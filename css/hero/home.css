@@ -52,15 +52,9 @@ body.project-3 #hero-home {
     animation: heightFromBottom 1s forwards;
 }
 
-#hero-home .container img.is-active {
-    display: none;
-}
-
-
 #hero-home .container img:hover {
     cursor: pointer;
 }
-
 
 @keyframes heightFromBottom {
     from {
@@ -96,6 +90,10 @@ body.project-3 #hero-home {
     color: var(--green);
     background-color: var(--light);
     margin-top: 15px;
+}
+
+#hero-home .container .project-information button:hover {
+    cursor: pointer;
 }
 
 body.project-2 #hero-home .container .project-information button {
