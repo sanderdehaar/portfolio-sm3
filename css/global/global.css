@@ -47,8 +47,17 @@ body.disable-scroll {
     display: flex;
 }
 
-h1,h2,h3,h4,p {
+/* slider */
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
 
+.slide.is-active {
+    display: flex;
+    justify-content: center;
 }
 
 /* Cursors */

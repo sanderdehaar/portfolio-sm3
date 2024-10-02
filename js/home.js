@@ -50,3 +50,51 @@ const throttledHandler = throttled(200, mouseMoveHandler2);
 wrapper.onmousemove = throttledHandler;
 
 window.addEventListener('resize', reset);
+
+// Slider
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('#hero-home .slide');
+    const totalSlides = slides.length;
+    let currentIndex = 0;
+    const line = document.querySelector('.progress');
+    const sliderCount = document.querySelector('.slider_count p:first-child');
+    const totalSlidesText = document.querySelector('.slider_count p:last-child');
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('is-active');
+            if (i === index) {
+                slide.classList.add('is-active');
+
+                // Set the height
+                line.style.height = '70px';
+
+                // Reset Height
+                setTimeout(() => {
+                    line.style.transition = 'none'; // Disable the transition
+                    line.style.height = '0px';
+
+                    // Re-enable the transition
+                    setTimeout(() => {
+                        line.style.transition = 'height 10s linear';
+                    }, 50);
+                }, 9900);
+            }
+        });
+        updateSliderCount(index);
+    }
+
+    function updateSliderCount(index) {
+        sliderCount.innerText = index + 1;
+        totalSlidesText.innerText = totalSlides;
+    }
+
+    // Auto slide every 10 seconds
+    setInterval(nextSlide, 10000);
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(currentIndex);
+    }
+    showSlide(currentIndex);
+});

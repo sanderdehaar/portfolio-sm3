@@ -38,6 +38,10 @@ main {
     animation: heightFromBottom 1s forwards;
 }
 
+#hero-home .container img.is-active {
+    display: none;
+}
+
 
 #hero-home .container img:hover {
     cursor: pointer;
@@ -135,9 +139,19 @@ main {
 
 
 #hero-home .container .extra .slider_count .line {
+    position: relative;
     height: 70px;
-    width: 1px;
+    width: 2px;
+    background-color: #002513;
+}
+
+#hero-home .container .extra .slider_count .progress {
+    position: relative;
+    top: 0;
+    width: 2px;
+    height: 0px;
     background-color: var(--light);
+    transition: height 10s linear;
 }
 
 #hero-home .container .title {
