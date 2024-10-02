@@ -22,7 +22,10 @@
 
 <!-- All content -->
 
-<body>
+<body class="movement-wrapper">
+    <div id="cursor">
+        <div class="cursor__circle"></div>
+    </div>
     <!-- Header -->
     <header>
         <div class="container">
@@ -48,11 +51,22 @@
         <section id="hero-home">
             <div class="container">
                 <div class="project-information">
-                    <h1>Portfolio</h1>
+                    <h1>portfolio</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-                    <a href=""><button>View all</button></a>
+                    <a href=""><button>view all</button></a>
                 </div>
-                <img src="./assets/images/projects/bolazno/mockup_bolzano.png" />
+                <div class="extra">
+                    <p class="copyright">portfolio ©2024</p>
+                    <div class="slider_count">
+                        <p>1</p>
+                        <div class="line"></div>
+                        <p>3</p>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2>bolzano</h2>
+                </div>
+                <img data-value="-3" class="movable" cursor-class="arrow" src="./assets/images/projects/bolazno/mockup_bolzano.png" />
             </div>
         </section>
     </main>

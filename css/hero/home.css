@@ -2,11 +2,16 @@
 * HERO HOME
 */
 
+main {
+    height: max-content;
+}
+
 #hero-home {
     position: relative;
     display: flex;
     justify-content: center;
     height: calc(100vh - 100px);
+    min-height: 780px;
     max-height: 880px;
     width: 100%;
     overflow: hidden;
@@ -24,11 +29,28 @@
 
 #hero-home .container img {
     position: relative;
+    z-index: 4;
     max-width: 990px;
     width: 100%;
+    height: 0; 
     object-fit: cover;
-    min-height: 990px;
-    top: 110px;
+    top: 40px;
+    animation: heightFromBottom 1s forwards;
+}
+
+
+#hero-home .container img:hover {
+    cursor: pointer;
+}
+
+
+@keyframes heightFromBottom {
+    0% {
+        height: 0; 
+    }
+    100% {
+        height: 100%; 
+    }
 }
 
 #hero-home .container .project-information {
@@ -48,12 +70,97 @@
 #hero-home .container .project-information button {
     padding: 15px;
     width: 180px;
-    border: 2px solid var(--light);
+    border: none;
     font-size: var(--text-small);
     font-family: var(--heading);
-    color: var(--light);
-    background-color: transparent;
+    color: var(--green);
+    background-color: var(--light);
     margin-top: 15px;
+}
+
+#hero-home .container .extra {
+    position: absolute;
+    left: calc(50% - 2.5rem);
+    transform: translateX(-50%);
+    z-index: 4;
+    width: calc(100% - 5.2rem);
+    height: 100%;
+    margin: 0 2.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-home .container .extra .copyright {
+    position: relative;
+    left: -51px;
+    font-size: var(--text-tiny);
+    font-family: var(--heading);
+    color: var(--light);
+    transform: rotate(270deg) translateY(-400%);
+    animation: fadeFromLeft 1s forwards;
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeFromLeft {
+    0% {
+        transform: rotate(270deg) translateY(-400%);
+    }
+    100% {
+        transform: rotate(270deg) translateY(0);
+    }
+}
+
+#hero-home .container .extra .slider_count {
+    font-size: var(--text-tiny);
+    font-family: var(--heading);
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transform: translateX(700%);
+    animation: fadeFromRight 1s forwards;
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeFromRight {
+    0% {
+        transform: translateX(700%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+#hero-home .container .extra .slider_count .line {
+    height: 70px;
+    width: 1px;
+    background-color: var(--light);
+}
+
+#hero-home .container .title {
+    height: 100%;
+    position: absolute;
+    bottom: -400px;
+    z-index: 7;
+    font-family: var(--respira);
+    font-size: 420px;
+    color: var(--light);
+    animation: fadeFromBottom 1s forwards;
+    animation-delay: 0.6s;
+    transform: translateY(100%);
+    pointer-events: none;
+}
+
+@keyframes fadeFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 1100px) {
@@ -89,6 +196,12 @@
     }
     #hero-home .container .project-information {
         margin-top: 485px;
+    }
+    #hero-home .container .extra {
+        display: none;
+    }
+    #hero-home .container .title {
+        display: none;
     }
 }
 
