@@ -214,6 +214,17 @@ body.project-3 #hero-home .container .extra .slider_count .line{
     #hero-home .container img {
         max-width: 690px;
     }
+    #hero-home {
+        min-height: 680px;
+        max-height: 680px;
+    }
+    #hero-home .container img {
+        top: 0;
+    }
+    #hero-home .container .title {
+        bottom: -280px;
+        font-size: 380px;
+    }
 }
 
 @media (max-width: 920px) {
@@ -238,7 +249,6 @@ body.project-3 #hero-home .container .extra .slider_count .line{
         max-width: 100%;
         min-height: 440px;
         max-height: 440px;
-        top: 0;
         right: 0;
         animation: none;
     }
