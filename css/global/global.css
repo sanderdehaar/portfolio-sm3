@@ -1,0 +1,105 @@
+/* 
+*   GLOBAL CSS VARIABLES
+*/
+
+/* Font family imports */
+@font-face {
+    font-family: heading;
+    src: url(../../assets/fonts/PPTelegraf-UltraBold.ttf);
+}
+
+@font-face {
+    font-family: desc;
+    src: url(../../assets/fonts/OpenSauceOne-Medium.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    user-select: none;
+    overflow-x: hidden !important;
+}
+
+body.disable-scroll {
+    overflow: hidden !important;
+}
+
+/* Custom container */
+.container {
+    max-width: 1800px;
+    width: 100%;
+    height: max-content;
+    margin: 0 2.6rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+h1,h2,h3,h4,p {
+
+}
+
+/* Color scheme */
+:root {
+    /* Main colors */
+    --white: rgb(255, 255, 255);
+    --light: #ECE6D5;
+
+    /* Project colors */
+    --green: #004120;
+
+    /* Sizes */
+    --heading-large: 28px;
+    --heading-medium: 22px;
+    --heading-small: 18px;
+
+    --text-medium: 18px;
+    --text-small: 16px;
+    --text-tiny: 14px;
+
+    /* Fonts */
+    --heading: heading;
+    --desc: desc;
+}
+
+h1 {
+    font-size: var(--heading-large);
+    font-family: var(--heading)
+}
+
+p {
+    font-size: var(--text-small);
+    font-family: var(--desc);
+}
+
+/* Custom container media */
+@media only screen and (max-width: 1100px) {
+
+}
+@media only screen and (max-width: 920px) {
+
+}
+@media only screen and (max-width: 750px) {
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: var(--heading-medium);
+    }
+    p {
+        font-size: var(--text-tiny);
+    }
+}
+@media only screen and (max-width: 450px) {
+
+}
