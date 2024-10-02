@@ -74,6 +74,6 @@ header .container nav ul a {
     body.project-3 header,
     header {
         background-color: transparent;
+        animation: none;
     }
-
 }

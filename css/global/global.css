@@ -47,20 +47,6 @@ body.disable-scroll {
     display: flex;
 }
 
-/* slider */
-.slide {
-    z-index: 5;
-    min-width: 100%;
-    box-sizing: border-box;
-    display: none;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.slide.is-active {
-    display: flex;
-    justify-content: center;
-}
-
 /* Cursors */
 #cursor {
     position: fixed;

@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('#hero-home .slide');
     const totalSlides = slides.length;
     let currentIndex = 0;
-    const line = document.querySelector('.progress');
     const sliderCount = document.querySelector('.slider_count p:first-child');
     const totalSlidesText = document.querySelector('.slider_count p:last-child');
     const body = document.querySelector('body');
@@ -13,20 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
             slide.classList.remove('is-active');
             if (i === index) {
                 slide.classList.add('is-active');
-
-                // Set the height
-                line.style.height = '70px';
-
-                // Reset Height
-                setTimeout(() => {
-                    line.style.transition = 'none'; // Disable the transition
-                    line.style.height = '0px';
-
-                    // Re-enable the transition
-                    setTimeout(() => {
-                        line.style.transition = 'height 10s linear';
-                    }, 50);
-                }, 9900);
 
                 // Remove the previous project class and add the new one
                 const previousClass = Array.from(body.classList).find(className => className.startsWith('project-'));
@@ -54,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     showSlide(currentIndex);
 });
 
-//
+// GSAP Moving element
 
 const throttled = (delay, fn) => {
     let lastCall = 0;

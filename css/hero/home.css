@@ -164,27 +164,8 @@ body.project-3 #hero-home .container .project-information button {
     position: relative;
     height: 70px;
     width: 2px;
-    background-color: #002513;
-    transition: background-color 0.4s ease-in-out;
-}
-
-/* Color changes based on project slider */
-
-body.project-2 #hero-home .container .extra .slider_count .line {
-    background-color: #2f2746;
-}
-
-body.project-3 #hero-home .container .extra .slider_count .line{
-    background-color: #523826;
-}
-
-#hero-home .container .extra .slider_count .progress {
-    position: relative;
-    top: 0;
-    width: 2px;
-    height: 0px;
     background-color: var(--light);
-    transition: height 10s linear;
+    transition: background-color 0.4s ease-in-out;
 }
 
 #hero-home .container .title {
@@ -199,6 +180,20 @@ body.project-3 #hero-home .container .extra .slider_count .line{
     animation-delay: 0.6s;
     transform: translateY(100%);
     pointer-events: none;
+}
+
+/* slider */
+.slide {
+    z-index: 5;
+    min-width: 100%;
+    box-sizing: border-box;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.is-active {
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes fadeFromBottom {
