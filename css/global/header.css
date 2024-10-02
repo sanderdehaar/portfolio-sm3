@@ -10,6 +10,20 @@ header {
     background-color: var(--green);
     display: flex;
     justify-content: center;
+    transition: background-color 0.4s ease-in-out;
+}
+
+/* different project colours */
+body.project-1 header {
+    background-color: var(--green);
+}
+
+body.project-2 header {
+    background-color: var(--purple);
+}
+
+body.project-3 header {
+    background-color: var(--orange);
 }
 
 header .container {
@@ -55,7 +69,11 @@ header .container nav ul a {
     header .container nav ul a:last-child {
         display: none;
     }
+    body.project-1 header,
+    body.project-2 header,
+    body.project-3 header,
     header {
         background-color: transparent;
     }
+
 }

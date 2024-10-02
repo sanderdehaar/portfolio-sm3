@@ -114,6 +114,8 @@ body.disable-scroll {
 
     /* Project colors */
     --green: #004120;
+    --purple: #4A3F6C;
+    --orange: #845C40;
 
     /* Sizes */
     --heading-large: 28px;

@@ -16,6 +16,20 @@ main {
     width: 100%;
     overflow: hidden;
     background-color: var(--green);
+    transition: background-color 0.4s ease-in-out;
+}
+
+/* different project colours */
+body.project-1 #hero-home {
+    background-color: var(--green);
+}
+
+body.project-2 #hero-home {
+    background-color: var(--purple);
+}
+
+body.project-3 #hero-home {
+    background-color: var(--orange);
 }
 
 #hero-home .container {
@@ -49,11 +63,13 @@ main {
 
 
 @keyframes heightFromBottom {
-    0% {
-        height: 0; 
+    from {
+        height: 0;
+        transform: translateY(100%);
     }
-    100% {
-        height: 100%; 
+    to {
+        height: 100%;
+        transform: translateY(0);
     }
 }
 
@@ -80,6 +96,14 @@ main {
     color: var(--green);
     background-color: var(--light);
     margin-top: 15px;
+}
+
+body.project-2 #hero-home .container .project-information button {
+    color: var(--purple);
+}
+
+body.project-3 #hero-home .container .project-information button {
+    color: var(--orange);
 }
 
 #hero-home .container .extra {
@@ -143,6 +167,17 @@ main {
     height: 70px;
     width: 2px;
     background-color: #002513;
+    transition: background-color 0.4s ease-in-out;
+}
+
+/* Color changes based on project slider */
+
+body.project-2 #hero-home .container .extra .slider_count .line {
+    background-color: #2f2746;
+}
+
+body.project-3 #hero-home .container .extra .slider_count .line{
+    background-color: #523826;
 }
 
 #hero-home .container .extra .slider_count .progress {
@@ -207,9 +242,10 @@ main {
         max-height: 440px;
         top: 0;
         right: 0;
+        animation: none;
     }
     #hero-home .container .project-information {
-        margin-top: 485px;
+        margin-top: 445px;
     }
     #hero-home .container .extra {
         display: none;
@@ -225,6 +261,6 @@ main {
         max-height: 340px;
     }
     #hero-home .container .project-information {
-        margin-top: 375px;
+        margin-top: 345px;
     }
 }

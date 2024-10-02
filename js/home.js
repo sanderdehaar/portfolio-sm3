@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const line = document.querySelector('.progress');
     const sliderCount = document.querySelector('.slider_count p:first-child');
     const totalSlidesText = document.querySelector('.slider_count p:last-child');
+    const body = document.querySelector('body');
 
     function showSlide(index) {
         slides.forEach((slide, i) => {
@@ -79,6 +80,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         line.style.transition = 'height 10s linear';
                     }, 50);
                 }, 9900);
+
+                // Remove the previous project class and add the new one
+                const previousClass = Array.from(body.classList).find(className => className.startsWith('project-'));
+                if (previousClass) {
+                    body.classList.remove(previousClass);
+                }
+                body.classList.add(`project-${index + 1}`);
             }
         });
         updateSliderCount(index);
