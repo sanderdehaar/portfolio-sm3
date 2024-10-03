@@ -86,3 +86,64 @@ function toggleMenu() {
 }
 
 navigationLinks.forEach(link => link.addEventListener('click', toggleMenu));
+
+// animation
+window.addEventListener("load", () => {
+  const splitWords = (selector) => {
+    document.querySelectorAll(selector).forEach(el => {
+      el.dataset.splitText = el.textContent;
+      el.innerHTML = el.textContent.split(/\s/).map(word =>
+        word.split("-").map(w => `<span class="word">${w}</span>`).join('<span class="hyphen">-</span>')
+      ).join('<span class="whitespace"> </span>');
+    });
+  };
+
+  const splitLines = (selector) => {
+    const elements = document.querySelectorAll(selector);
+    splitWords(selector);
+    elements.forEach(el => {
+      const lines = getLines(el);
+      el.innerHTML = lines.map(wordsArr => `<span class="line"><span class="words">${Array.from(wordsArr).map(w => w.outerHTML).join('')}</span></span>`).join('');
+    });
+  };
+
+  const getLines = (el) => {
+    const lines = [];
+    let line, lastTop;
+    el.querySelectorAll("span").forEach(word => {
+      if (word.offsetTop !== lastTop) {
+        if (!word.classList.contains("whitespace")) {
+          lastTop = word.offsetTop;
+          line = [];
+          lines.push(line);
+        }
+      }
+      line.push(word);
+    });
+    return lines;
+  };
+
+  splitLines(".reveal-text");
+
+  const revealText = document.querySelectorAll(".reveal-text");
+  gsap.registerPlugin(ScrollTrigger);
+
+  const animateText = () => {
+    revealText.forEach(element => {
+      const lines = element.querySelectorAll(".words");
+      gsap.timeline({
+        scrollTrigger: { trigger: element, toggleActions: "restart none none reset" }
+      }).set(element, { autoAlpha: 1 })
+        .from(lines, 1, { yPercent: 100, ease: Power3.out, stagger: 0.25, delay: 0.2 });
+    });
+  };
+
+  const menu = document.getElementById('menu');
+  new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      if (mutation.attributeName === 'class' && menu.classList.contains('is-active')) {
+        animateText();
+      }
+    });
+  }).observe(menu, { attributes: true });
+});

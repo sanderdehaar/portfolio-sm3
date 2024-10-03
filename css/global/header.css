@@ -129,7 +129,12 @@ body.project-3 header .container nav ul a {
 #menu .navigation-items ul {
     display: flex;
     flex-direction: column;
+    align-items: center;
     list-style: none;
+}
+
+#menu .navigation-items ul li {
+    width: max-content;
 }
 
 #menu .navigation-items ul li a {
@@ -138,6 +143,15 @@ body.project-3 header .container nav ul a {
     font-size: 160px;
     text-decoration: none;
     line-height: 1.1;
+}
+
+#menu .navigation-items ul li a .line {
+    transition: color 0.4s ease-in-out, font-size 0.4s ease-in-out;
+}
+
+#menu .navigation-items ul li a .line:hover {
+    color: var(--heading);
+    font-family: var(--heading);
 }
 
 #menu .extra {
@@ -171,6 +185,10 @@ body.project-3 header .container nav ul a {
     font-size: var(--text-large_xl);
 }
 
+#menu .extra .container .socials i:hover {
+    cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 920px) {
@@ -186,6 +204,9 @@ body.project-3 header .container nav ul a {
     }
     #menu .navigation-items ul li a {
         font-size: 100px;
+    }
+    #menu .navigation-items ul li a .line:hover {
+        font-family: inherit;
     }
 }
 

@@ -47,6 +47,18 @@ body.disable-scroll {
     display: flex;
 }
 
+/* Animations */
+.reveal-text {
+    visibility: hidden;
+}
+  
+.line {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
 /* Cursors */
 #cursor {
     position: fixed;
@@ -170,6 +182,7 @@ p {
     font-size: var(--text-small);
     font-family: var(--desc);
 }
+  
 
 /* NEDIA QUERIES */
 

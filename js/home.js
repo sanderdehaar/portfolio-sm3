@@ -98,3 +98,5 @@ const checkViewportAndAddListener = () => {
 
 checkViewportAndAddListener();
 window.addEventListener('resize', checkViewportAndAddListener);
+
+// reveal
