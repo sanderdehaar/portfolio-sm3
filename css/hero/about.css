@@ -1,0 +1,16 @@
+/* 
+* HERO ABOUT
+*/
+
+#hero-about {
+    width: 100%;
+    height: max-content;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+#hero-about .container {
+    display: flex;
+    justify-content: space-between;
+}

@@ -51,8 +51,15 @@ body.disable-scroll {
 .reveal-text {
     visibility: hidden;
 }
-  
+
 .line {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+}
+  
+#menu .line {
     position: relative;
     overflow: hidden;
     display: flex;

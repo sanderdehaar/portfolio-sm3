@@ -128,21 +128,30 @@ window.addEventListener("load", () => {
   const revealText = document.querySelectorAll(".reveal-text");
   gsap.registerPlugin(ScrollTrigger);
 
-  const animateText = () => {
-    revealText.forEach(element => {
+  const animateText = (elements) => {
+    elements.forEach(element => {
       const lines = element.querySelectorAll(".words");
       gsap.timeline({
         scrollTrigger: { trigger: element, toggleActions: "restart none none reset" }
       }).set(element, { autoAlpha: 1 })
-        .from(lines, 1, { yPercent: 100, ease: Power3.out, stagger: 0.25, delay: 0.2 });
+        .from(lines, { duration: 1, yPercent: 100, ease: Power3.out, stagger: 0.25, delay: 0.2 });
     });
   };
 
+  // Animate elements that are not inside #menu immediately
+  const nonMenuText = Array.from(revealText).filter(el => !el.closest('#menu'));
+  if (nonMenuText.length > 0) {
+    animateText(nonMenuText);
+  }
+
   const menu = document.getElementById('menu');
+  const menuText = Array.from(revealText).filter(el => el.closest('#menu'));
+
+  // Animate elements inside #menu when it becomes active
   new MutationObserver(mutations => {
     mutations.forEach(mutation => {
       if (mutation.attributeName === 'class' && menu.classList.contains('is-active')) {
-        animateText();
+        animateText(menuText);
       }
     });
   }).observe(menu, { attributes: true });
