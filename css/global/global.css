@@ -149,6 +149,8 @@ body.disable-scroll {
     --heading-medium: 22px;
     --heading-small: 18px;
 
+    --text-large_xl: 22px;
+    --text-large: 20px;
     --text-medium: 18px;
     --text-small: 16px;
     --text-tiny: 14px;

@@ -69,14 +69,20 @@ cursorModifiers.forEach(curosrModifier => {
 
 // Menu
 
-const navigationLinks = document.querySelectorAll('nav a'); // Select all nav links
+const navigationLinks = document.querySelectorAll('nav a');
 const menu = document.getElementById("menu");
 const body = document.body;
 
 function toggleMenu() {
-    menu.classList.toggle('is-active');
-    body.classList.toggle('disable-scroll');
+    if (menu.classList.contains('is-active')) {
+        menu.classList.remove('is-active');
+        body.classList.remove('disable-scroll');
+    } else {
+        if (this.classList.contains('menu')) {
+            menu.classList.add('is-active');
+            body.classList.add('disable-scroll');
+        }
+    }
 }
 
-// Close the menu when a link is clicked
 navigationLinks.forEach(link => link.addEventListener('click', toggleMenu));

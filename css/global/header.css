@@ -41,6 +41,7 @@ header .container nav {
 header .container nav ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     font-family: heading;
 }
@@ -49,6 +50,15 @@ header .container nav ul a {
     text-decoration: none;
     font-family: heading;
     font-size: var(--heading-medium);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+header .container nav ul a span {
+    width: 42px;
+    height: 2px;
+    background-color: black;
 }
 
 /* Project 1 */
@@ -98,14 +108,72 @@ body.project-3 header .container nav ul a {
     background-color: transparent;
 }
 
+#menu.is-active header .contact {
+    display: none;
+}
+
 #menu header .container nav ul a {
     color: var(--dark_gray);
+}
+
+#menu .navigation-items {
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#menu .navigation-items ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+#menu .navigation-items ul li a {
+    color: var(--dark_gray);
+    font-family: var(--respira);
+    font-size: 160px;
+    text-decoration: none;
+    line-height: 1.1;
+}
+
+#menu .extra {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu .extra .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu .extra .container p {
+    font-size: var(--text-tiny);
+    font-family: var(--heading);
+    color: var(--dark_gray);
+}
+
+#menu .extra .container .socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--dark_gray);
+    font-size: var(--text-large_xl);
 }
 
 /* MEDIA QUERIES */
 
 @media (max-width: 920px) {
-    #menu.is-active header .contact,
     header .contact {
         display: none;
     }
@@ -115,5 +183,21 @@ body.project-3 header .container nav ul a {
     header {
         background-color: transparent;
         animation: none;
+    }
+    #menu .navigation-items ul li a {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+}
+@media only screen and (max-width: 650px) {
+    #menu .navigation-items ul li a {
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #menu .navigation-items ul li a {
+        font-size: 50px;
     }
 }
