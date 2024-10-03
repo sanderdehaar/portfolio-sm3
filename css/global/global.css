@@ -89,6 +89,19 @@ body.disable-scroll {
       background-position: center;
     }
 
+    #cursor.navigation .cursor__circle {
+        width: 64px;
+        height: 64px;
+        margin-top: -50%;
+        margin-left: -50%;
+        border-radius: 50%;
+        transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+            background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+            border-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+            width 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+            height 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    }  
+
     /* Project 1 */
     body.project-1 .cursor__circle {
         border: solid 2px var(--projectOne_accent);
@@ -118,7 +131,8 @@ body.disable-scroll {
 /* Color scheme */
 :root {
     /* Main colors */
-    --white: rgb(255, 255, 255);
+    --white: #FFFFFF;
+    --dark_gray: #252525;
 
     /* Project colors */
     --projectOne: #171717;

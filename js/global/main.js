@@ -3,7 +3,7 @@ const cursorCircle = cursor.querySelector('.cursor__circle');
 
 const mouse = { x: -100, y: -100 }; // mouse pointer's coordinates
 const pos = { x: 0, y: 0 }; // cursor's coordinates
-const speed = 0.1; // between 0 and 1
+const speed = 0.1;
 
 const updateCoordinates = e => {
   mouse.x = e.clientX;
@@ -53,6 +53,7 @@ function loop() {
 requestAnimationFrame(loop);
 
 const cursorModifiers = document.querySelectorAll('[cursor-class]');
+console.log(cursorModifiers)
 
 cursorModifiers.forEach(curosrModifier => {
   curosrModifier.addEventListener('mouseenter', function() {
@@ -65,3 +66,17 @@ cursorModifiers.forEach(curosrModifier => {
     cursor.classList.remove(className);
   });
 });
+
+// Menu
+
+const navigationLinks = document.querySelectorAll('nav a'); // Select all nav links
+const menu = document.getElementById("menu");
+const body = document.body;
+
+function toggleMenu() {
+    menu.classList.toggle('is-active');
+    body.classList.toggle('disable-scroll');
+}
+
+// Close the menu when a link is clicked
+navigationLinks.forEach(link => link.addEventListener('click', toggleMenu));
