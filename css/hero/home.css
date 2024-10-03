@@ -15,21 +15,8 @@ main {
     max-height: 880px;
     width: 100%;
     overflow: hidden;
-    background-color: var(--green);
+    background-color: var(--projectOne);
     transition: background-color 0.4s ease-in-out;
-}
-
-/* different project colours */
-body.project-1 #hero-home {
-    background-color: var(--green);
-}
-
-body.project-2 #hero-home {
-    background-color: var(--purple);
-}
-
-body.project-3 #hero-home {
-    background-color: var(--orange);
 }
 
 #hero-home .container {
@@ -73,35 +60,17 @@ body.project-3 #hero-home {
     gap: 15px;
 }
 
-#hero-home .container .project-information h1 {
-    color: var(--light);
-}
-
-#hero-home .container .project-information p {
-    color: var(--light);
-}
-
 #hero-home .container .project-information button {
     padding: 15px;
     width: 180px;
     border: none;
     font-size: var(--text-small);
     font-family: var(--heading);
-    color: var(--green);
-    background-color: var(--light);
     margin-top: 15px;
 }
 
 #hero-home .container .project-information button:hover {
     cursor: pointer;
-}
-
-body.project-2 #hero-home .container .project-information button {
-    color: var(--purple);
-}
-
-body.project-3 #hero-home .container .project-information button {
-    color: var(--orange);
 }
 
 #hero-home .container .extra {
@@ -122,7 +91,6 @@ body.project-3 #hero-home .container .project-information button {
     left: -51px;
     font-size: var(--text-tiny);
     font-family: var(--heading);
-    color: var(--light);
     transform: rotate(270deg) translateY(-400%);
     animation: fadeFromLeft 1s forwards;
     animation-delay: 0.4s;
@@ -140,7 +108,6 @@ body.project-3 #hero-home .container .project-information button {
 #hero-home .container .extra .slider_count {
     font-size: var(--text-tiny);
     font-family: var(--heading);
-    color: var(--light);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,7 +131,6 @@ body.project-3 #hero-home .container .project-information button {
     position: relative;
     height: 70px;
     width: 2px;
-    background-color: var(--light);
     transition: background-color 0.4s ease-in-out;
 }
 
@@ -175,7 +141,6 @@ body.project-3 #hero-home .container .project-information button {
     z-index: 7;
     font-family: var(--respira);
     font-size: 420px;
-    color: var(--light);
     animation: fadeFromBottom 1s forwards;
     animation-delay: 0.6s;
     transform: translateY(100%);
@@ -204,6 +169,95 @@ body.project-3 #hero-home .container .project-information button {
         transform: translateY(0);
     }
 }
+
+/* Project 1 */
+body.project-1 #hero-home {
+    background-color: var(--projectOne);
+}
+body.project-1 #hero-home .container .project-information button {
+    color: var(--projectOne);
+    background-color: var(--projectOne_accent);
+}
+body.project-1 #hero-home .container .extra .copyright {
+    color: var(--projectOne_accent);
+}
+body.project-1 #hero-home .container .extra .slider_count .line {
+    background-color: var(--projectOne_accent);
+}
+body.project-1 #hero-home .container .extra .slider_count {
+    color: var(--projectOne_accent);
+}
+body.project-1 #hero-home .container .title {
+    color: var(--projectOne_accent);
+}
+body.project-1 #hero-home .container .project-information h1 {
+    color: var(--projectOne_accent);
+}
+body.project-1 #hero-home .container .project-information p {
+    color: var(--projectOne_accent);
+}
+
+/* Project 2 */
+body.project-2 #hero-home {
+    background-color: var(--projectTwo);
+}
+body.project-2 #hero-home .container .project-information button {
+    color: var(--projectTwo);
+    background-color: var(--projectTwo_accent);
+}
+body.project-2 #hero-home .container .extra .copyright {
+    color: var(--projectTwo_accent);
+}
+body.project-2 #hero-home .container .extra .slider_count .line {
+    background-color: var(--projectTwo_accent);
+}
+body.project-2 #hero-home .container .extra .slider_count {
+    color: var(--projectTwo_accent);
+}
+body.project-2 #hero-home .container .title {
+    color: var(--projectTwo_accent);
+}
+body.project-2 #cursor.arrow .cursor__circle {
+    border-color: var(--projectTwo_accent);
+}
+body.project-2 #hero-home .container .project-information h1 {
+    color: var(--projectTwo_accent);
+}
+body.project-2 #hero-home .container .project-information p {
+    color: var(--projectTwo_accent);
+}
+
+/* Project 3 */
+body.project-3 #hero-home {
+    background-color: var(--projectThree);
+}
+body.project-3 #hero-home .container .project-information button {
+    color: var(--projectThree);
+    background-color: var(--projectThree_accent);
+}
+body.project-3 #hero-home .container .extra .copyright {
+    color: var(--projectThree_accent);
+}
+body.project-3 #hero-home .container .extra .slider_count .line {
+    background-color: var(--projectThree_accent);
+}
+body.project-3 #hero-home .container .extra .slider_count {
+    color: var(--projectThree_accent);
+}
+body.project-3 #hero-home .container .title {
+    color: var(--projectThree_accent);
+}
+body.project-3 #cursor.arrow .cursor__circle {
+    border-color: var(--projectThree_accent);
+}
+body.project-3 #hero-home .container .project-information h1 {
+    color: var(--projectThree_accent);
+}
+body.project-3 #hero-home .container .project-information p {
+    color: var(--projectThree_accent);
+}
+
+/* MEDIA QUERIES */
 
 @media (max-width: 1100px) {
     #hero-home .container img {

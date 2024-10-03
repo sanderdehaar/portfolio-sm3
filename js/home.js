@@ -88,17 +88,13 @@ const mouseMoveHandler2 = (e) => {
 
 const tHandler = throttled(200, mouseMoveHandler2);
 
-// Only add the event listener if the viewport width is above 920px
 const checkViewportAndAddListener = () => {
     if (window.innerWidth > 920) {
         movableElementsWrapper.onmousemove = tHandler;
     } else {
-        movableElementsWrapper.onmousemove = null; // Remove the handler if under 920px
+        movableElementsWrapper.onmousemove = null;
     }
 };
 
-// Check on initial load
 checkViewportAndAddListener();
-
-// Check on resize
 window.addEventListener('resize', checkViewportAndAddListener);

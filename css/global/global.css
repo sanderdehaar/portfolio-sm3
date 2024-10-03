@@ -64,7 +64,6 @@ body.disable-scroll {
       margin-top: -50%;
       margin-left: -50%;
       border-radius: 50%;
-      border: solid 2px var(--light);
       transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1),
         background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
         border-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
@@ -72,14 +71,13 @@ body.disable-scroll {
         height 0.3s cubic-bezier(0.25, 1, 0.5, 1);
     }
     
-    #cursor.arrow .cursor__circle{
+    #cursor.arrow .cursor__circle {
       width: 100px;
       height: 100px;
       background-color: transparent;
-      border-color: var(--light);
     }
     
-    #cursor.arrow::after{
+    #cursor.arrow::after {
       content: '';
       position: absolute;
       left: -50%;
@@ -90,6 +88,30 @@ body.disable-scroll {
       background-repeat: no-repeat;
       background-position: center;
     }
+
+    /* Project 1 */
+    body.project-1 .cursor__circle {
+        border: solid 2px var(--projectOne_accent);
+    }
+    body.project-1 #cursor.arrow .cursor__circle {
+        border-color: var(--projectOne_accent);
+    }
+
+    /* Project 2 */
+    body.project-2 .cursor__circle {
+        border: solid 2px var(--projectTwo_accent);
+    }
+    body.project-2 #cursor.arrow .cursor__circle {
+        border-color: var(--projectTwo_accent);
+    }
+
+    /* Project 3 */
+    body.project-3 .cursor__circle {
+        border: solid 2px var(--projectThree_accent);
+    }
+    body.project-3 #cursor.arrow .cursor__circle {
+        border-color: var(--projectThree_accent);
+    }
 }
   
 
@@ -97,12 +119,16 @@ body.disable-scroll {
 :root {
     /* Main colors */
     --white: rgb(255, 255, 255);
-    --light: #ECE6D5;
 
     /* Project colors */
-    --green: #004120;
-    --purple: #4A3F6C;
-    --orange: #845C40;
+    --projectOne: #171717;
+    --projectOne_accent: #c4c4c4;
+
+    --projectTwo: #004120;
+    --projectTwo_accent: #ECE6D5;
+
+    --projectThree: #845C40;
+    --projectThree_accent: #FFCEAB;
 
     /* Sizes */
     --heading-large: 28px;
@@ -129,7 +155,8 @@ p {
     font-family: var(--desc);
 }
 
-/* Custom container media */
+/* NEDIA QUERIES */
+
 @media only screen and (max-width: 1100px) {
 
 }
