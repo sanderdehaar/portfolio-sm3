@@ -95,15 +95,6 @@ function adjustHeight() {
 window.addEventListener('resize', adjustHeight);
 adjustHeight();
 
-// Adjust height homepage
-function setHeroHeight() {
-  const heroHome = document.getElementById('hero-home');
-  const vh = window.innerHeight * 0.01;
-  heroHome.style.height = `${vh * 100}px`;
-}
-window.addEventListener('load', setHeroHeight);
-window.addEventListener('resize', setHeroHeight);
-
 // animation
 window.addEventListener("load", () => {
   const splitWords = (selector) => {
