@@ -277,6 +277,8 @@ body.project-3 #hero-home .container .project-information p {
 
 @media (max-width: 920px) {
     #hero-home {
+        position: relative;
+        z-index: 3;
         height: 100vh;
         max-height: 100vh;
         align-items: top;
@@ -291,9 +293,15 @@ body.project-3 #hero-home .container .project-information p {
         gap: 50px;
         height: max-content;
         padding-bottom: 60px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     #hero-home .container .project-information {
+        position: relative;
+        z-index: 6;
         display: flex;
+        padding: 60px 2.6rem;
     }
     #hero-home .container img {
         position: absolute;
