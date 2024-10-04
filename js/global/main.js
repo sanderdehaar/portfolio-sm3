@@ -88,14 +88,21 @@ function toggleMenu() {
 navigationLinks.forEach(link => link.addEventListener('click', toggleMenu));
 
 function adjustHeight() {
-  const heroHome = document.getElementById('hero-home');
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
-  heroHome.style.height = `${vh * 100}px`;
 }
 
 window.addEventListener('resize', adjustHeight);
 adjustHeight();
+
+// Adjust height homepage
+function setHeroHeight() {
+  const heroHome = document.getElementById('hero-home');
+  const vh = window.innerHeight * 0.01;
+  heroHome.style.height = `${vh * 100}px`;
+}
+window.addEventListener('load', setHeroHeight);
+window.addEventListener('resize', setHeroHeight);
 
 // animation
 window.addEventListener("load", () => {
