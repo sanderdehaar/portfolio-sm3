@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const containerHeight = container.offsetHeight;
   
     slides.forEach(img => {
-        img.style.height = `calc(100dvh - 40px + ${containerHeight}px)`;
+        img.style.height = `calc(100vh - 40px + ${containerHeight}px)`;
     });
   
     window.addEventListener('resize', function () {
