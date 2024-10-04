@@ -298,7 +298,7 @@ body.project-3 #hero-home .container .project-information p {
     #hero-home .container img {
         position: absolute;
         max-width: 100%;
-        height: calc(100vh - 317px);
+        height: 100vh;
         right: 0;
         animation: none;
     }
