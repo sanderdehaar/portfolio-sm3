@@ -277,8 +277,8 @@ body.project-3 #hero-home .container .project-information p {
 
 @media (max-width: 920px) {
     #hero-home {
-        height: 100vh;
-        max-height: 100vh;
+        height: 100dvh;
+        max-height: 100dvh;
         align-items: top;
         top: -99px;
         margin-bottom: -100px;
