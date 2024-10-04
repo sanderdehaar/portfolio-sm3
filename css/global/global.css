@@ -121,6 +121,30 @@ body.disable-scroll {
             height 0.3s cubic-bezier(0.25, 1, 0.5, 1);
     }  
 
+    #cursor.project-1 .cursor__circle,
+    #cursor.project-2 .cursor__circle,
+    #cursor.project-3 .cursor__circle {
+      width: 150px;
+      height: 180px;
+      background-image: url(../../assets/images/projects/elegant/mockup_elegant.png);
+      background-size: cover;
+      background-position: center;
+      border-radius: 0;
+      border: none;
+      transform: translate(-50%, -50%);
+      transition: width 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+        height 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+        transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    #cursor.project-2 .cursor__circle {
+        background-image: url(../../assets/images/projects/bolazno/mockup_bolzano.png);
+    }
+
+    #cursor.project-3 .cursor__circle {
+        background-image: url(../../assets/images/projects/jerrys/mockup_jerrys.png);
+    }
+
     /* Project 1 */
     body.project-1 .cursor__circle {
         border: solid 2px var(--projectOne_accent);
