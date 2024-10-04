@@ -88,8 +88,10 @@ function toggleMenu() {
 navigationLinks.forEach(link => link.addEventListener('click', toggleMenu));
 
 function adjustHeight() {
+  const heroHome = document.getElementById('hero-home');
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
+  heroHome.style.height = `${vh * 100}px`;
 }
 
 window.addEventListener('resize', adjustHeight);
