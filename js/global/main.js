@@ -87,6 +87,14 @@ function toggleMenu() {
 
 navigationLinks.forEach(link => link.addEventListener('click', toggleMenu));
 
+function adjustHeight() {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+window.addEventListener('resize', adjustHeight);
+adjustHeight();
+
 // animation
 window.addEventListener("load", () => {
   const splitWords = (selector) => {
