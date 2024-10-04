@@ -150,6 +150,7 @@ body.disable-scroll {
 /* Color scheme */
 :root {
     /* Main colors */
+    --black: black;
     --white: #FFFFFF;
     --dark_gray: #252525;
 
@@ -164,10 +165,13 @@ body.disable-scroll {
     --projectThree_accent: #FFCEAB;
 
     /* Sizes */
+    --heading-super: 38px;
+    --heading-big: 32px;
     --heading-large: 28px;
     --heading-medium: 22px;
     --heading-small: 18px;
 
+    --text-large_xxl: 28px;
     --text-large_xl: 22px;
     --text-large: 20px;
     --text-medium: 18px;
@@ -181,7 +185,7 @@ body.disable-scroll {
 }
 
 h1 {
-    font-size: var(--heading-large);
+    font-size: var(--heading-super);
     font-family: var(--heading)
 }
 
@@ -206,10 +210,13 @@ p {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    h1 {
+        font-size: var(--heading-big);
+    }
 }
 @media only screen and (max-width: 650px) {
     h1 {
-        font-size: var(--heading-medium);
+        font-size: var(--heading-large);
     }
     p {
         font-size: var(--text-tiny);
