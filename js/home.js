@@ -98,25 +98,3 @@ const checkViewportAndAddListener = () => {
 
 checkViewportAndAddListener();
 window.addEventListener('resize', checkViewportAndAddListener);
-
-// Dynamic image change for home image on mobile
-document.addEventListener('DOMContentLoaded', function () {
-    const container = document.querySelector('#hero-home .container');
-    const slides = document.querySelectorAll('#hero-home .container .slide img');
-  
-    function updateSlideHeights() {
-        const containerHeight = container.offsetHeight;
-        const viewportHeight = window.innerHeight; // Get the current viewport height
-        const effectiveHeight = viewportHeight - containerHeight; // Calculate the effective height
-  
-        slides.forEach(img => {
-            img.style.height = `${effectiveHeight}px`; // Set the height based on the effective height
-        });
-    }
-  
-    // Initial call to set heights
-    updateSlideHeights();
-  
-    // Update heights on window resize
-    window.addEventListener('resize', updateSlideHeights);
-  });
