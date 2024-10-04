@@ -277,37 +277,28 @@ body.project-3 #hero-home .container .project-information p {
 
 @media (max-width: 920px) {
     #hero-home {
-        position: relative;
-        z-index: 3;
-        max-height: 100vh;
+        height: 100vh;
         align-items: top;
         top: -99px;
         margin-bottom: -100px;
         min-height: max-content;
+        max-height: 100%;
         align-items: end;
     }
     #hero-home .container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: start;
         gap: 50px;
         height: max-content;
         padding-bottom: 60px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
     }
     #hero-home .container .project-information {
-        position: relative;
-        z-index: 6;
         display: flex;
-        padding: 60px 2.6rem;
-        padding-bottom: 120px;
     }
     #hero-home .container img {
         position: absolute;
         max-width: 100%;
-        min-height: 700px;
-        height: calc(100vh - 60px);
+        height: calc(100vh - 317px);
         right: 0;
         animation: none;
     }
@@ -316,5 +307,17 @@ body.project-3 #hero-home .container .project-information p {
     }
     #hero-home .container .title {
         display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    #hero-home .container img {
+        height: calc(100vh - 340px);
+    }
+}
+
+@media (max-width: 383px) {
+    #hero-home .container img {
+        height: calc(100vh - 355px);
     }
 }
