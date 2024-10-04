@@ -124,8 +124,8 @@ body.disable-scroll {
     #cursor.project-1 .cursor__circle,
     #cursor.project-2 .cursor__circle,
     #cursor.project-3 .cursor__circle {
-      width: 150px;
-      height: 180px;
+      width: 230px;
+      height: 230px;
       background-image: url(../../assets/images/projects/elegant/mockup_elegant.png);
       background-size: cover;
       background-position: center;
