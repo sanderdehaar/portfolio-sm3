@@ -27,7 +27,7 @@
 }
 
 #hero-work .container .title h2 {
-    font-size: 160px;
+    font-size: 110px;
     font-family: var(--heading);
     color: var(--white);
     white-space: nowrap;
@@ -100,7 +100,7 @@
         font-size: 80px;
     }
     #hero-work .container .showcase-work .item {
-        height: 120px;
+        height: 100px;
     }
     #hero-work .container .showcase-work .item i {
         font-size: var(--text-large_xl);

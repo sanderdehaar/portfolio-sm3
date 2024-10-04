@@ -99,4 +99,20 @@ const checkViewportAndAddListener = () => {
 checkViewportAndAddListener();
 window.addEventListener('resize', checkViewportAndAddListener);
 
-// reveal
+// Dynamic image change for home image on mobile
+document.addEventListener('DOMContentLoaded', function () {
+    const container = document.querySelector('#hero-home .container');
+    const slides = document.querySelectorAll('#hero-home .container .slide img');
+    const containerHeight = container.offsetHeight;
+  
+    slides.forEach(img => {
+        img.style.height = `calc(100vh - ${containerHeight}px)`;
+    });
+  
+    window.addEventListener('resize', function () {
+        const newContainerHeight = container.offsetHeight;
+        slides.forEach(img => {
+            img.style.height = `calc(100vh - ${newContainerHeight}px)`;
+        });
+    });
+  });
