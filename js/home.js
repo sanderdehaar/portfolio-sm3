@@ -106,13 +106,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const containerHeight = container.offsetHeight;
   
     slides.forEach(img => {
-        img.style.height = `calc(100dvh - ${containerHeight}px)`;
+        img.style.height = `calc(100dvh - 40px + ${containerHeight}px)`;
     });
   
     window.addEventListener('resize', function () {
         const newContainerHeight = container.offsetHeight;
         slides.forEach(img => {
-            img.style.height = `calc(100dvh - ${newContainerHeight}px)`;
+            img.style.height = `calc(100vh - 40px + ${newContainerHeight}px)`;
         });
     });
   });
