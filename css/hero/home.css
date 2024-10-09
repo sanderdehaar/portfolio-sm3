@@ -63,6 +63,7 @@ main {
 #hero-home .container .project-information button {
     padding: 15px;
     width: 180px;
+    height: 60px;
     border: none;
     font-size: var(--text-small);
     font-family: var(--heading);
@@ -261,12 +262,6 @@ body.project-3 #hero-home .container .project-information p {
 
 @media (max-width: 1100px) {
     #hero-home .container img {
-        max-width: 690px;
-    }
-    #hero-home {
-        min-height: 680px;
-    }
-    #hero-home .container img {
         top: 0;
     }
     #hero-home .container .title {
@@ -277,13 +272,12 @@ body.project-3 #hero-home .container .project-information p {
 
 @media (max-width: 920px) {
     #hero-home {
-        height: 100vh;
+        height: max-content;
         align-items: top;
         top: -99px;
         margin-bottom: -100px;
         min-height: max-content;
         max-height: 100%;
-        align-items: end;
     }
     #hero-home .container {
         flex-direction: column;
@@ -296,9 +290,12 @@ body.project-3 #hero-home .container .project-information p {
         display: flex;
     }
     #hero-home .container img {
-        position: absolute;
+        position: relative;
+        left: -2.6rem;
+        min-width: calc(100% + 10.4rem);
         max-width: 100%;
-        height: calc(100vh - 317px);
+        padding-top: 0px;
+        height: 280px;
         right: 0;
         animation: none;
     }
@@ -311,13 +308,9 @@ body.project-3 #hero-home .container .project-information p {
 }
 
 @media (max-width: 425px) {
-    #hero-home .container img {
-        height: calc(100vh - 340px);
-    }
+
 }
 
 @media (max-width: 383px) {
-    #hero-home .container img {
-        height: calc(100vh - 355px);
-    }
+
 }

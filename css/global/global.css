@@ -177,6 +177,7 @@ body.disable-scroll {
     --black: black;
     --white: #FFFFFF;
     --dark_gray: #252525;
+    --gray: #CBCBCB;
 
     /* Project colors */
     --projectOne: #171717;

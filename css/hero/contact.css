@@ -1,0 +1,73 @@
+/* 
+* HERO CONTACT
+*/
+
+#hero-contact {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-contact .container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    gap: 35px;
+}
+
+#hero-contact .container h2 {
+    font-size: 160px;
+    font-family: var(--heading);
+    white-space: nowrap;
+}
+
+#hero-contact .container button {
+    position: relative;
+    top: -20px;
+    width: 240px;
+    height: 60px;
+    border: 2px solid var(--black);
+    background-color: transparent;
+    font-size: var(--text_medium);
+    font-family: var(--heading);
+}
+
+/* NEDIA QUERIES */
+
+@media only screen and (max-width: 1400px) {
+    #hero-contact .container h2 {
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    #hero-contact .container h2 {
+        font-size: 80px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    #hero-contact .container h2 {
+        width: 100%;
+        font-size: 70px;
+    }
+    #hero-contact .container button {
+    padding: 15px;
+    width: 180px;
+    top: 0;
+}
+}
+@media only screen and (max-width: 750px) {
+        #hero-contact .container h2 {
+        font-size: var(--heading-super);
+    }
+}
+@media only screen and (max-width: 650px) {
+        #hero-contact .container h2 {
+        font-size: var(--heading-big);
+    }
+}
+@media only screen and (max-width: 450px) {
+
+}
