@@ -1,0 +1,324 @@
+/* 
+* HERO PROJECT BANNER
+*/
+
+#hero-project-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 650px;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+}
+
+#hero-project-banner .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero-project-banner .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: #002311d9;
+}
+
+#hero-project-banner .image {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    max-width: 650px;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+#hero-project-banner h3 {
+    position: absolute;
+    bottom: -500px;
+    z-index: 1;
+    font-family: var(--respira);
+    font-size: 620px;
+    color: rgb(0, 0, 0);
+    animation: fadeFromBottom 1s forwards;
+    animation-delay: 0.6s;
+    pointer-events: none;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* 
+* HERO PROJECT INFORMATION
+*/
+
+#hero-project-information {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-project-information .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    gap: 35px;
+}
+
+#hero-project-information .container p {
+    font-size: var(--text-medium);
+    font-family: var(--desc);
+}
+
+#hero-project-information .container .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-project-information .container .title h1 {
+    font-size: 160px;
+    font-family: var(--heading);
+    white-space: nowrap;
+}
+
+#hero-project-information .container .title p {
+    font-size: var(--text-medium);
+    font-family: var(--desc);
+    max-width: 650px;
+}
+
+#hero-project-information .container img {
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+}
+
+/* 
+* HERO PROJECT OUTCOMES
+*/
+
+#hero-project-outcomes {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-project-outcomes .container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+#hero-project-outcomes .container h2 {
+    font-size: var(--heading-large);
+    font-family: var(--heading);
+    color: var(--dark_gray);
+    white-space: nowrap;
+}
+
+#hero-project-outcomes .container .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#hero-project-outcomes .container .buttons button {
+    position: relative;
+    width: 240px;
+    height: 60px;
+    border: 2px solid var(--dark_gray);
+    color: var(--dark_gray);
+    background-color: transparent;
+    font-size: var(--text_medium);
+    font-family: var(--heading);
+    white-space: nowrap;
+    min-width: 220px;
+}
+
+#hero-project-outcomes .container .buttons button.is-active  {
+    background-color: var(--dark_gray);
+    color: var(--white);
+    border: none;
+}
+
+#hero-project-outcomes .container .buttons button:hover {
+    cursor: pointer;
+}
+
+#hero-project-outcomes .container span {
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark_gray);
+}
+
+#hero-project-outcomes .container .outcomes-container {
+    display: none;
+}
+
+#hero-project-outcomes .container .outcomes-container.is-active {
+    display: block;
+}
+
+#hero-project-outcomes .container .outcomes-container > .outcomes {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+}
+
+#hero-project-outcomes .container .outcomes-container > .outcomes:nth-of-type(even) {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-project-outcomes .container .outcomes img {
+    max-height: 408px;
+    max-width: 725px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero-project-outcomes .container .outcomes .information  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#hero-project-outcomes .container .outcomes .information h3 {
+    font-size: var(--heading-large);
+    font-family: var(--heading);
+    color: var(--dark_gray);
+}
+
+#hero-project-outcomes .container .outcomes .information p {
+    font-size: var(--text-medium);
+    font-family: var(--desc);
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1400px) {
+    #hero-project-information .container .title h1 {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #hero-project-information .container .title p {
+        max-width: 550px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #hero-project-information .container .title h1 {
+        font-size: 80px;
+    }
+    #hero-project-information .container .title p {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 920px) {
+    #hero-project-banner {
+        height: 400px;
+    }
+    #hero-project-banner .image {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    #hero-project-banner h3 {
+        bottom: -180px;
+        font-size: 270px;
+    }
+    #hero-project-information .container .title {
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+    #hero-project-information .container .title h1 {
+        font-size: 70px;
+    }
+    #hero-project-information .container p,
+    #hero-project-information .container .title p,
+    #hero-project-outcomes .container .outcomes .information p {
+        max-width: 100%;
+        font-size: var(--text-small);
+    }
+    #hero-project-information .container img {
+        height: 380px;
+    }
+    #hero-project-outcomes .container .buttons {
+        gap: 0px;
+    }
+    #hero-project-outcomes .container .buttons button {
+        padding: 15px;
+        max-width: max-content;
+        min-width: 50px;
+        max-height: 50px;
+        top: 0;
+        border: none;
+    }
+    #hero-project-outcomes .container .outcomes-container > .outcomes {
+        flex-direction: column-reverse;
+    }
+    #hero-project-outcomes .container .outcomes img {
+        max-width: 100%;
+        height: 380px;
+    }
+    #hero-project-outcomes .container .outcomes .information h3,
+    #hero-project-outcomes .container h2 {
+        font-size: var(--heading-medium);
+    }
+    #hero-project-outcomes .container .outcomes-container {
+        flex-direction: column;
+        gap: 35px;
+    }
+    #hero-project-outcomes .container .outcomes-container > .outcomes:nth-of-type(even) {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #hero-project-information .container .title h1 {
+        font-size: var(--heading-super);
+    }
+}
+
+@media (max-width: 650px) {
+    #hero-project-banner {
+        height: 360px;
+    }
+    #hero-project-banner .image {
+        top: 60%;
+        max-width: 300px;
+        max-height: 300px;
+    }
+    #hero-project-information .container .title h1 {
+        font-size: var(--heading-big);
+    }
+    #hero-project-information .container p,
+    #hero-project-information .container .title p,
+    #hero-project-outcomes .container .outcomes .information p {
+        font-size: var(--text-tiny);
+    }
+    #hero-project-information .container img {
+        height: 240px;
+    }
+    #hero-project-outcomes .container .outcomes img {
+        height: 240px;
+    }
+}

@@ -137,6 +137,9 @@ footer h3 {
         height: 200px;
         margin-top: 50px;
     }
+    footer .container .top .row h2 {
+        font-size: var(--heading-medium);
+    }
 }
 
 @media only screen and (max-width: 750px) {

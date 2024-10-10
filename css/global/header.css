@@ -13,6 +13,14 @@ header {
     transition: background-color 0.4s ease-in-out;
 }
 
+#work-header {
+    background-color: transparent;
+}
+
+#work-header .container nav ul a {
+    color: var(--white);
+}
+
 header .container {
     height: 100%;
     padding: 0;

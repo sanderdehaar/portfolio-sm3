@@ -5,7 +5,7 @@
 #hero-work {
     width: 100%;
     height: max-content;
-    background-color: var(--black);
+    background-color: var(--white);
     display: flex;
     justify-content: center;
 }
@@ -29,14 +29,14 @@
 #hero-work .container .title h2 {
     font-size: 110px;
     font-family: var(--heading);
-    color: var(--white);
+    color: var(--black);
     white-space: nowrap;
 }
 
 #hero-work .container .title p {
     font-size: var(--text-smkall);
     font-family: var(--desc);
-    color: var(--white);
+    color: var(--black);
     max-width: 800px;
 }
 
@@ -47,11 +47,15 @@
     flex-direction: column;
 }
 
+#hero-work .container .showcase-work a {
+    text-decoration: none;
+}
+
 
 #hero-work .container .showcase-work .item {
     width: 100%;
     height: 150px;
-    border-bottom: 1px dashed var(--white);
+    border-bottom: 1px dashed var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +66,7 @@
 }
 
 #hero-work .container .showcase-work .item:nth-child(1) {
-    border-top: 1px dashed var(--white);
+    border-top: 1px dashed var(--black);
 }
 
 #hero-work .container .showcase-work .item .information {
@@ -74,18 +78,18 @@
 #hero-work .container .showcase-work .item .information h3 {
     font-size: var(--heading-large);
     font-family: var(--desc);
-    color: var(--white);
+    color: var(--black);
 }
 
 #hero-work .container .showcase-work .item .information p {
     font-size: var(--text-large_xl);
     font-family: var(--desc);
-    color: var(--white);
+    color: var(--black);
 }
 
 #hero-work .container .showcase-work .item i {
     font-size: var(--text-large_xxl);
-    color: var(--white);
+    color: var(--black);
 }
 
 /* NEDIA QUERIES */

@@ -11,17 +11,15 @@
     <link href="css/global/global.css" rel="stylesheet" />
     <link href="css/global/header.css" rel="stylesheet" />
     <link href="css/global/footer.css" rel="stylesheet" />
-    <link href="css/hero/home.css" rel="stylesheet" />
-    <link href="css/hero/about.css" rel="stylesheet" />
-    <link href="css/hero/work.css" rel="stylesheet" />
     <link href="css/hero/contact.css" rel="stylesheet" />
+    <link href="css/hero/project.css" rel="stylesheet" />
     <!-- Extra links -->
     <script src="https://kit.fontawesome.com/d4864e9a98.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <!-- Portfolio title -->
-    <title>Portfolio - Home</title>
+    <title>Portfolio - Project</title>
 </head>
 
 <!-- All content -->
@@ -31,7 +29,7 @@
         <div class="cursor__circle"></div>
     </div>
     <!-- Header -->
-    <header>
+    <header id="work-header">
         <div class="container">
             <!-- Header navigation -->
             <nav>
@@ -61,7 +59,7 @@
         <div class="navigation-items">
             <ul>
                 <li><a href="index.html" cursor-class="navigation" class="reveal-text">about</a></li>
-                <li><a href="#hero-work" cursor-class="navigation" class="reveal-text">my work</a></li>
+                <li><a href="index.html#hero-work" cursor-class="navigation" class="reveal-text">my work</a></li>
                 <li class="contact"><a href="#hero-contact" cursor-class="navigation" class="reveal-text">contact</a></li>
             </ul>
         </div>
@@ -78,77 +76,79 @@
     </div>
     <!-- Main content -->
     <main>
-        <!-- Hero section home -->
-        <section id="hero-home">
-            <div class="container movement-wrapper">
-                <div class="extra">
-                    <p class="copyright">portfolio ©2024</p>
-                    <div class="slider_count">
-                        <p>1</p>
-                        <div class="line"></div>
-                        <p>3</p>
-                    </div>
-                </div>
-                <div class="slide is-active movable" data-value="-4">
-                    <div class="title">
-                        <h2>elegant</h2>
-                    </div>
-                    <img cursor-class="arrow" src="./assets/images/projects/elegant/mockup_elegant.png" />
-                </div>
-                <div class="slide movable" data-value="-4">
-                    <div class="title">
-                        <h2>bolzano</h2>
-                    </div>
-                    <img cursor-class="arrow" src="./assets/images/projects/bolazno/mockup_bolzano.png" />
-                </div>
-                <div class="slide movable" data-value="-4">
-                    <div class="title">
-                        <h2>webshop</h2>
-                    </div>
-                    <img cursor-class="arrow" src="./assets/images/projects/jerrys/mockup_jerrys.png" />
-                </div>
-                <div class="project-information">
-                    <h1>portfolio</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                    <a href=""><button>view all</button></a>
-                </div>
-            </div>
+        <!-- Hero section project banner -->
+        <section id="hero-project-banner">
+            <img class="background-image" src="./assets/images/projects/bolazno/background_image.png" />
+            <div class="background-overlay"></div>
+            <img class="image" src="./assets/images/projects/bolazno/banner_image.png" />
+            <h3>bolzano</h3>
         </section>
-        <!-- Hero section about -->
-        <section id="hero-about">
-            <div class="container">
-            </div>
-        </section>
-        <!-- Hero section work -->
-        <section id="hero-work">
+        <!-- Hero section project information -->
+        <section id="hero-project-information">
             <div class="container">
                 <div class="title">
-                    <h2>my work</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
+                    <h1>bolzano</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum has been the best.</p>
                 </div>
-                <div class="showcase-work">
-                    <a href="work.html"><div class="item" cursor-class="project-1">
+                <img src="./assets/images/projects/bolazno/mockup_bolzano.png" />
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </section>
+        <!-- Hero section project outcomes -->
+        <section id="hero-project-outcomes">
+            <div class="container">
+                <h2>Learning Outcomes</h2>
+                <div class="buttons">
+                    <button class="learning-outcome is-active" data-text="1">learning outcome 1</button>
+                    <button class="learning-outcome" data-text="2">learing outcome 2</button>
+                    <button class="learning-outcome" data-text="3">learing outcome 3</button>
+                    <button class="learning-outcome" data-text="4">learing outcome 4</button>
+                    <button class="learning-outcome" data-text="5">learing outcome 5</button>
+                </div>
+                <span></span>
+                <div class="outcomes-container is-active" id="learning-outcome-1">
+                    <div class="outcomes">
+                        <img src="./assets/images/projects/bolazno/mockup_bolzano.png" />
                         <div class="information">
-                            <p class="reveal-text">0</p>
-                            <h3 class="reveal-text">brand studio</h3>
+                            <h3>Outcome 1</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
                         </div>
-                        <i class="fa-solid fa-plus reveal-text"></i>
-                    </div></a>
-                    <div class="item" cursor-class="project-2">
-                        <div class="information">
-                            <p class="reveal-text">1</p>
-                            <h3 class="reveal-text">client project</h3>
-                        </div>
-                        <i class="fa-solid fa-plus"></i>
                     </div>
-                    <div class="item" cursor-class="project-3">
+                </div>
+                <div class="outcomes-container" id="learning-outcome-2">
+                    <div class="outcomes">
+                        <img src="./assets/images/projects/bolazno/mockup_bolzano.png" />
                         <div class="information">
-                            <p class="reveal-text">2</p>
-                            <h3 class="reveal-text">passionate project</h3>
+                            <h3>Outcome 2</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
                         </div>
-                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="outcomes-container" id="learning-outcome-3">
+                    <div class="outcomes">
+                        <img src="./assets/images/projects/bolazno/mockup_bolzano.png" />
+                        <div class="information">
+                            <h3>Outcome 3</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="outcomes-container" id="learning-outcome-4">
+                    <div class="outcomes">
+                        <img src="./assets/images/projects/bolazno/mockup_bolzano.png" />
+                        <div class="information">
+                            <h3>Outcome 4</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="outcomes-container" id="learning-outcome-5">
+                    <div class="outcomes">
+                        <img src="./assets/images/projects/bolazno/mockup_bolzano.png" />
+                        <div class="information">
+                            <h3>Outcome 5</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@
     <!-- Javascript files -->
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="js/global/main.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/project.js"></script>
 </body>
 
 </html>

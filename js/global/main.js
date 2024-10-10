@@ -70,6 +70,8 @@ cursorModifiers.forEach(curosrModifier => {
 // Menu
 
 const navigationLinks = document.querySelectorAll('nav a');
+const navigationLinksMenu = document.querySelectorAll('.navigation-items li');
+console.log(navigationLinks)
 const menu = document.getElementById("menu");
 const body = document.body;
 
@@ -86,6 +88,7 @@ function toggleMenu() {
 }
 
 navigationLinks.forEach(link => link.addEventListener('click', toggleMenu));
+navigationLinksMenu.forEach(link => link.addEventListener('click', toggleMenu));
 
 function adjustHeight() {
   let vh = window.innerHeight * 0.01;
