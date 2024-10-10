@@ -208,6 +208,44 @@
     font-family: var(--desc);
 }
 
+#hero-project-outcomes .container .extra-information {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: -20px;
+}
+
+#hero-project-outcomes .container .extra-information a {
+    text-decoration: none;
+}
+
+#hero-project-outcomes .container .extra-information button {
+    position: relative;
+    width: max-content;
+    height: 60px;
+    border: none;
+    color: var(--dark_gray);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#hero-project-outcomes .container .extra-information button:hover {
+    cursor: pointer;
+}
+
+#hero-project-outcomes .container .extra-information button p {
+    font-size: var(--text-medium);
+    font-family: var(--heading);
+}
+
+#hero-project-outcomes .container .extra-information button i {
+    color: var(--dark_gray);
+    font-size: var(--text-medium);
+}
+
 
 /* MEDIA QUERIES */
 
@@ -274,6 +312,7 @@
     }
     #hero-project-outcomes .container .outcomes-container > .outcomes {
         flex-direction: column-reverse;
+        align-items: start;
     }
     #hero-project-outcomes .container .outcomes img {
         max-width: 100%;
@@ -289,6 +328,29 @@
     }
     #hero-project-outcomes .container .outcomes-container > .outcomes:nth-of-type(even) {
         flex-direction: column-reverse;
+    }
+    #hero-project-outcomes .container .extra-information {
+        gap: 15px;
+        margin-top: 0px;
+    }
+    #hero-project-outcomes .container .extra-information button {
+        padding: 15px;
+        max-width: max-content;
+        min-width: 50px;
+        max-height: 50px;
+        background-color: var(--dark_gray);
+        border: none;
+        padding: 0;
+    }
+    #hero-project-outcomes .container .extra-information button p {
+        display: none;
+    }
+    #hero-project-outcomes .container .extra-information button i {
+        font-size: 20px;
+        color: var(--white);
+    }
+    .extra-title {
+        display: none;
     }
 }
 

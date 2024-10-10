@@ -12,8 +12,8 @@ function updateButtonText() {
     }
 }
 
-window.onload = updateButtonText;
-window.onresize = updateButtonText;
+window.addEventListener('load', updateButtonText);
+window.addEventListener('resize', updateButtonText);
 
 // Learning outcomes change
 document.addEventListener('DOMContentLoaded', () => {

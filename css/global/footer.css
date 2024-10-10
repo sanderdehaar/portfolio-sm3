@@ -38,6 +38,7 @@ footer .container .top .row p {
     font-size: var(--text-medium);
     font-family: var(--desc);
     max-width: 300px;
+    margin-bottom: -10px;
 }
 
 footer .container .top .row .socials {
@@ -46,6 +47,7 @@ footer .container .top .row .socials {
     gap: 15px;
     color: var(--dark_gray);
     font-size: var(--text-large_xl);
+    margin-top: 10px;
 }
 
 footer .container .top .row .socials i:hover {
