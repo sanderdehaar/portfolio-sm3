@@ -167,3 +167,17 @@ window.addEventListener("load", () => {
     });
   }).observe(menu, { attributes: true });
 });
+
+
+// URL project information
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.showcase-work .item').forEach(item => {
+    item.addEventListener('click', function() {
+      const projectName = this.getAttribute('data-name');
+      
+      const url = `work.html?name=${encodeURIComponent(projectName)}`;
+      window.location.href = url;
+    });
+  });
+});
+

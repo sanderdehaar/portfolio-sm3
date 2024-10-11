@@ -176,12 +176,17 @@
     align-items: center;
     gap: 35px;
     width: 100%;
+    margin-bottom: 35px;
+}
+
+#hero-project-outcomes .container .outcomes-container .outcomes:last-child {
+    margin-bottom: 0px;
 }
 
 #hero-project-outcomes .container .outcomes-container > .outcomes:nth-of-type(even) {
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 #hero-project-outcomes .container .outcomes img {
@@ -195,6 +200,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 90%;
 }
 
 #hero-project-outcomes .container .outcomes .information h3 {
@@ -310,6 +316,9 @@
         top: 0;
         border: none;
     }
+    #hero-project-outcomes .container .outcomes .information  {
+        width: 100%;
+    }
     #hero-project-outcomes .container .outcomes-container > .outcomes {
         flex-direction: column-reverse;
         align-items: start;
@@ -328,6 +337,7 @@
     }
     #hero-project-outcomes .container .outcomes-container > .outcomes:nth-of-type(even) {
         flex-direction: column-reverse;
+        align-items: start;
     }
     #hero-project-outcomes .container .extra-information {
         gap: 15px;
