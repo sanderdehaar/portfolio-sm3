@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                                     <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
                                 </div>
                                 <p class="carousel-index">1/${outcome.images.length}</p>
-                                <div id="full-screen">
+                                <div class="full-screen" id="${outcome.id}">
                                     <p>full screen</p>
                                     <i class="fa-solid fa-expand"></i>
                                 </div>
@@ -110,6 +110,9 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         // Set up event listeners for outcome buttons (if any)
         changeOutcomes();
+
+        // Initialize full screen carousel
+        callFullScreenCarousel(project);
 
         const loader = document.querySelector('#loader');
         loader.classList.remove('is-active');
@@ -185,4 +188,94 @@ function hexToRgba(hex, opacity) {
     const b = parseInt(hex.substring(4, 6), 16);
 
     return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+}
+
+
+function callFullScreenCarousel(project) {
+    const iconsFullScreen = document.querySelectorAll('.full-screen');
+    const viewCarousel = document.querySelector('#carousel-view');
+
+    function fullScreenCarousel() {
+        const activeOutcome = document.querySelector('.outcomes-container.is-active');
+
+        // Reset carousel content
+        viewCarousel.innerHTML = `
+            <div class="top">
+                <p class="carousel-index"></p>
+                <div class="close" id="close-carousel"> 
+                    <span>close</span>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        `;
+
+        if (activeOutcome) {
+            const outcomeId = activeOutcome.id.split('-').pop();
+            const outcomeData = project.outcomes[outcomeId];
+
+            if (outcomeData) {
+                // Find the specific element within the outcome data that matches this.id
+                const specificOutcomeData = outcomeData.find(item => item.id === this.id);
+
+                if (specificOutcomeData) {
+                    const outcomeImages = specificOutcomeData.images;
+                    let currentIndex = 0;
+
+                    function updateCarousel() {
+                        // Clear existing images
+                        const imgElement = document.createElement('img');
+                        imgElement.src = outcomeImages[currentIndex];
+                        imgElement.classList.add('is-active');
+
+                        // Clear and append the new image
+                        viewCarousel.querySelectorAll('img').forEach(img => img.remove());
+                        viewCarousel.appendChild(imgElement);
+
+                        // Update index display
+                        const indexDisplay = viewCarousel.querySelector('.carousel-index');
+                        indexDisplay.textContent = `images ${currentIndex + 1}/${outcomeImages.length}`;
+                    }
+
+                    updateCarousel(); // Initial update of the carousel
+
+                    // Next button event
+                    viewCarousel.querySelector('.next-btn').addEventListener('click', () => {
+                        currentIndex = (currentIndex + 1) % outcomeImages.length;
+                        updateCarousel();
+                    });
+
+                    // Previous button event
+                    viewCarousel.querySelector('.prev-btn').addEventListener('click', () => {
+                        currentIndex = (currentIndex - 1 + outcomeImages.length) % outcomeImages.length;
+                        updateCarousel();
+                    });
+
+                    // Close button event
+                    viewCarousel.querySelector('#close-carousel').addEventListener('click', () => {
+                        viewCarousel.classList.toggle('is-active');
+                        document.body.classList.toggle('disable-scroll');
+                    });
+                } else {
+                    console.warn(`No specific outcome data found for ID: ${this.id}`);
+                }
+            } else {
+                console.warn(`No outcome data found for outcome ID: ${outcomeId}`);
+            }
+        } else {
+            console.log('No active learning outcome found.');
+        }
+
+        // Toggle full screen mode
+        document.body.classList.toggle('disable-scroll');
+        viewCarousel.classList.toggle("is-active");
+    }
+
+    // Attach event listeners to each full-screen icon
+    iconsFullScreen.forEach(icon => {
+        icon.addEventListener('click', fullScreenCarousel);
+    });
 }

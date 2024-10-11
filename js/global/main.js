@@ -53,7 +53,6 @@ function loop() {
 requestAnimationFrame(loop);
 
 const cursorModifiers = document.querySelectorAll('[cursor-class]');
-console.log(cursorModifiers)
 
 cursorModifiers.forEach(curosrModifier => {
   curosrModifier.addEventListener('mouseenter', function() {
@@ -71,7 +70,6 @@ cursorModifiers.forEach(curosrModifier => {
 
 const navigationLinks = document.querySelectorAll('nav a');
 const navigationLinksMenu = document.querySelectorAll('.navigation-items li');
-console.log(navigationLinks)
 const menu = document.getElementById("menu");
 const body = document.body;
 

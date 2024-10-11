@@ -256,7 +256,7 @@
     font-size: var(--text-medium);
 }
 
-#hero-project-outcomes .container .outcomes .carousel #full-screen {
+#hero-project-outcomes .container .outcomes .carousel .full-screen {
     position: absolute;
     z-index: 3;
     display: flex;
@@ -268,16 +268,16 @@
     width: calc(100% - 50px);
 }
 
-#hero-project-outcomes .container .outcomes .carousel #full-screen:hover {
+#hero-project-outcomes .container .outcomes .carousel .full-screen:hover {
     cursor: pointer;
 }
 
-#hero-project-outcomes .container .outcomes .carousel #full-screen i {
+#hero-project-outcomes .container .outcomes .carousel .full-screen i {
     color: var(--white);
     font-size: 32px;
 }
 
-#hero-project-outcomes .container .outcomes .carousel #full-screen p {
+#hero-project-outcomes .container .outcomes .carousel .full-screen p {
     position: initial;
 }
 
@@ -348,6 +348,111 @@
     font-size: var(--text-medium);
 }
 
+/* VIEW PROJECT */
+
+#carousel-view {
+    display: none;
+}
+
+#carousel-view.is-active {
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.829);
+    backdrop-filter: blur(4px);
+}
+
+#carousel-view img {
+    display: none
+}
+
+#carousel-view img.is-active {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: calc(100% - 10.4rem);
+    width: calc(100% - 10.4rem);
+    object-fit: contain;
+}
+
+#carousel-view .buttons {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100% - 5.2rem);
+    left: 2.6rem;
+    top: 2.6rem;
+    width: calc(100% - 5.2rem);
+}
+
+#carousel-view .buttons button {
+    width: 50px;
+    height: 50px;
+    min-width: 0px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.373);
+    color: var(--white);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel-view .buttons button:hover {
+    cursor: pointer;
+}
+
+#carousel-view .buttons button i {
+    font-size: var(--text-medium);
+}
+
+#carousel-view .top {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 2.6rem;
+    left: 2.6rem;
+    width: calc(100% - 5.2rem);
+}
+
+#carousel-view .top p {
+    color: var(--white);
+    font-size: var(--text-medium);
+}
+
+#carousel-view .top .close {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#carousel-view .top .close:hover {
+    cursor: pointer;
+}
+
+#carousel-view .top .close span {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--white);
+    font-size: var(--text-medium);
+    font-family: var(--heading);
+}
+
+#carousel-view .top .close i {
+    font-size: 38px;
+    color: var(--white);
+}
 
 /* MEDIA QUERIES */
 
@@ -471,15 +576,15 @@
         width: calc(100% - 30px);
         font-size: var(--text-small);
     }
-    #hero-project-outcomes .container .outcomes .carousel #full-screen {
+    #hero-project-outcomes .container .outcomes .carousel .full-screen {
         left: 15px;
         top: 15px;
         width: calc(100% - 30px);
     } 
-    #hero-project-outcomes .container .outcomes .carousel #full-screen i {
+    #hero-project-outcomes .container .outcomes .carousel .full-screen i {
         font-size: 28px;
     }
-    #hero-project-outcomes .container .outcomes .carousel #full-screen p {
+    #hero-project-outcomes .container .outcomes .carousel .full-screen p {
         display: none;
     }
     @keyframes fadeFromBottom {

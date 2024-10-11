@@ -77,7 +77,6 @@ const mouseMoveHandler2 = (e) => {
     movableElements.forEach(
         (movableElement) => {
             const shiftValue = movableElement.getAttribute('data-value');
-            console.log(shiftValue);
             const moveX = (e.clientX * shiftValue) / 250;
             const moveY = (e.clientY * shiftValue) / 250;
 
