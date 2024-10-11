@@ -428,6 +428,7 @@
 #carousel-view .top p {
     color: var(--white);
     font-size: var(--text-medium);
+    font-family: var(--heading);
 }
 
 #carousel-view .top .close {
