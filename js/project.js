@@ -89,6 +89,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         // Set up event listeners for outcome buttons
         changeOutcomes();
 
+        const loader = document.querySelector('#loader');
+        loader.classList.remove('is-active');
+
     } catch (error) {
         console.error('Error fetching data.json:', error);
     }
