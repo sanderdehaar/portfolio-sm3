@@ -18,6 +18,9 @@ window.addEventListener('resize', updateButtonText);
 // Retrieve project data
 document.addEventListener('DOMContentLoaded', async function () {
     try {
+        // Scroll back to top on page load
+        window.scrollTo(0, 0);
+
         // Function to get URL parameters
         const getUrlParam = (param) => {
             const urlParams = new URLSearchParams(window.location.search);
@@ -44,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         bannerSection.querySelector('.background-image').src = project.banner.backgroundImage;
         bannerSection.querySelector('.image').src = project.banner.bannerImage;
         bannerSection.querySelector('h3').textContent = project.banner.heading;
-        
+
         // Update banner background color
         const rgbaColor = hexToRgba(project.banner.color, 0.9);
         bannerSection.querySelector('.background-overlay').style.backgroundColor = rgbaColor;
@@ -65,7 +68,20 @@ document.addEventListener('DOMContentLoaded', async function () {
                 <div class="outcomes-container ${activeClass}" id="learning-outcome-${outcomeKey}">
                     ${outcomes.map(outcome => `
                         <div class="outcomes">
-                            <img src="${outcome.image}" alt="${outcome.title} image" />
+                            <div class="carousel">
+                                <div class="buttons">
+                                    <button class="prev-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                                    <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                                <p class="carousel-index">1/${outcome.images.length}</p>
+                                <div id="full-screen">
+                                    <p>full screen</p>
+                                    <i class="fa-solid fa-expand"></i>
+                                </div>
+                                ${outcome.images.map((image, imgIndex) => `
+                                    <img src="${image}" alt="${outcome.title} image" class="${imgIndex === 0 ? 'is-active' : ''}" />
+                                `).join('')}
+                            </div>
                             <div class="information">
                                 <h3>${outcome.title}</h3>
                                 <p>${outcome.description}</p>
@@ -75,6 +91,9 @@ document.addEventListener('DOMContentLoaded', async function () {
                 </div>`;
             outcomesContainer.insertAdjacentHTML('beforeend', outcomesHTML);
         });
+
+        // Initialize carousel functionality
+        imageCarousel();
 
         // Update social icons
         const extraInfoContainer = document.querySelector('#extra-information');
@@ -89,7 +108,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             extraInfoContainer.insertAdjacentHTML('beforeend', socialHTML);
         });
 
-        // Set up event listeners for outcome buttons
+        // Set up event listeners for outcome buttons (if any)
         changeOutcomes();
 
         const loader = document.querySelector('#loader');
@@ -99,6 +118,41 @@ document.addEventListener('DOMContentLoaded', async function () {
         console.error('Error fetching data.json:', error);
     }
 });
+
+// Initialize carousel functionality
+function imageCarousel() {
+    const carousels = document.querySelectorAll('.carousel');
+    carousels.forEach(carousel => {
+        const images = carousel.querySelectorAll('img');
+        const prevBtn = carousel.querySelector('.prev-btn');
+        const nextBtn = carousel.querySelector('.next-btn');
+        const indexDisplay = carousel.querySelector('.carousel-index');
+        let currentIndex = 0;
+
+        const updateIndexDisplay = () => {
+            indexDisplay.textContent = `images ${currentIndex + 1}/${images.length}`;
+        };
+
+        const showImage = () => {
+            images.forEach((img, idx) => {
+                img.classList.toggle('is-active', idx === currentIndex);
+            });
+            updateIndexDisplay();
+        };
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage();
+        });
+
+        showImage();
+    });
+}
 
 // Function to set up event listeners for outcome buttons
 function changeOutcomes() {
