@@ -36,6 +36,9 @@ document.addEventListener('DOMContentLoaded', async function () {
             return;
         }
 
+        // Update the page title
+        document.title = `Portfolio - ${project.title}`;
+
         // Update banner section
         const bannerSection = document.querySelector('#hero-project-banner');
         bannerSection.querySelector('.background-image').src = project.banner.backgroundImage;
