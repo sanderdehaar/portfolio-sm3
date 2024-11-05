@@ -1,201 +1,258 @@
 {
-    "projects": [
-      {
-        "name": "brand studio",
-        "title": "bolzano",
-        "banner": {
-          "backgroundImage": "./assets/images/projects/bolazno/background_image.png",
-          "bannerImage": "./assets/images/projects/bolazno/banner_image.png",
-          "heading": "bolzano",
-          "color": "#002311"
-        },
-        "information": {
-          "title": "project Information",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-          "mockupImage": "./assets/images/projects/bolazno/mockup_bolzano.png",
-          "fullDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        },
-        "outcomes": {
-          "1": [
-            {
-              "id": "1",
-              "title": "outcome 1",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png",
-                "./assets/images/projects/jerrys/mockup_jerrys.png"
-              ]
-            },
-            {
-              "id": "2",
-              "title": "outcome 1 - 1",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/jerrys/mockup_jerrys.png",
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png"
-              ]
-            },
-            {
-                "id": "3",
-                "title": "outcome 1 - 2",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-                "images": [
-                  "./assets/images/projects/elegant/mockup_elegant.png",
-                  "./assets/images/projects/jerrys/mockup_jerrys.png",
-                  "./assets/images/projects/bolazno/mockup_bolzano.png"
-                ]
-              }
-          ],
-          "2": [
-            {
-              "id": "1",
-              "title": "outcome 2",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png",
-                "./assets/images/projects/jerrys/mockup_jerrys.png"
-              ]
-            },
-            {
-              "id": "2",
-              "title": "outcome 2 - 1",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/jerrys/mockup_jerrys.png",
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png"
-              ]
-            },
-            {
-                "id": "3",
-                "title": "outcome 2 - 2",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-                "images": [
-                  "./assets/images/projects/elegant/mockup_elegant.png",
-                  "./assets/images/projects/jerrys/mockup_jerrys.png",
-                  "./assets/images/projects/bolazno/mockup_bolzano.png"
-                ]
-              }
-          ],
-          "3": [
-            {
-              "id": "1",
-              "title": "outcome 3",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png",
-                "./assets/images/projects/jerrys/mockup_jerrys.png"
-              ]
-            },
-            {
-              "id": "2",
-              "title": "outcome 3 - 1",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/jerrys/mockup_jerrys.png",
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png"
-              ]
-            },
-            {
-                "id": "3",
-                "title": "outcome 3 - 2",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-                "images": [
-                  "./assets/images/projects/elegant/mockup_elegant.png",
-                  "./assets/images/projects/jerrys/mockup_jerrys.png",
-                  "./assets/images/projects/bolazno/mockup_bolzano.png"
-                ]
-              }
-          ],
-          "4": [
-            {
-              "id": "1",
-              "title": "outcome 4",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png",
-                "./assets/images/projects/jerrys/mockup_jerrys.png"
-              ]
-            },
-            {
-              "id": "2",
-              "title": "outcome 4 - 1",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/jerrys/mockup_jerrys.png",
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png"
-              ]
-            },
-            {
-                "id": "3",
-                "title": "outcome 4 - 2",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-                "images": [
-                  "./assets/images/projects/elegant/mockup_elegant.png",
-                  "./assets/images/projects/jerrys/mockup_jerrys.png",
-                  "./assets/images/projects/bolazno/mockup_bolzano.png"
-                ]
-              }
-          ],
-          "5": [
-            {
-              "id": "1",
-              "title": "outcome 5",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png",
-                "./assets/images/projects/jerrys/mockup_jerrys.png"
-              ]
-            },
-            {
-              "id": "2",
-              "title": "outcome 5 - 1",
-              "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-              "images": [
-                "./assets/images/projects/jerrys/mockup_jerrys.png",
-                "./assets/images/projects/bolazno/mockup_bolzano.png",
-                "./assets/images/projects/elegant/mockup_elegant.png"
-              ]
-            },
-            {
-                "id": "3",
-                "title": "outcome 5 - 2",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
-                "images": [
-                  "./assets/images/projects/elegant/mockup_elegant.png",
-                  "./assets/images/projects/jerrys/mockup_jerrys.png",
-                  "./assets/images/projects/bolazno/mockup_bolzano.png"
-                ]
-              }
-          ]
-        },
-        "extraInformation": {
-          "socials": [
-            {
-              "text": "figma",
-              "icon": "fa-brands fa-figma",
-              "link": "https://www.figma.com"
-            },
-            {
-              "text": "gitHub",
-              "icon": "fa-brands fa-github",
-              "link": "https://github.com"
-            },
-            {
-              "text": "website",
-              "icon": "fa-solid fa-globe",
-              "link": "https://www.example.com"
-            }
-          ]
-        }
+  "projects": [
+    {
+      "name": "brand studio",
+      "title": "brand studio",
+      "banner": {
+        "backgroundImage": "./assets/images/projects/brand_studio/building.jpg",
+        "bannerImage": "./assets/images/projects/brand_studio/banner_image.png",
+        "heading": "uxynergy",
+        "color": "#1E96FC"
+      },
+      "information": {
+        "title": "project Information",
+        "description": "Read about our brand studio project were we created our own brand that stands out of others and shows who we are.",
+        "mockupImage": "./assets/images/projects/brand_studio/banner_second.png",
+        "fullDescription": "Our teamproject is about creating a studio brand that represents our company called UXY (UXYnergy). We put a lot of thought into our brand’s voice, logo, and look to create something unique. Our goal was to make a brand identity that feels fun, stands out, and shows our team spirit."
+      },
+      "outcomes": {
+        "1": [
+          {
+            "id": "1",
+            "title": "sketches",
+            "description": "First we talked and voted about our brand voice and characteristics to determine who we are as a brand studio. We have written this down in the brand <a href='./assets/images/projects/brand_studio/documents/branding_document.pdf' target='_blank'>document</a>, since that will be shown within the logo with colors, shapes, etc. <br></br> For the logo design, we came up with the name (UXYnergy). I started the design by making some rough sketches on paper, focusing on how to create a good user experience and appealing visuals that represent the brand well with the core characteristics fun, eye-catching, & dynamic. That’s why I’ve chosen these shapes with a flow.",
+            "images": [
+              "./assets/images/projects/brand_studio/sketches_logo.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "stylescape",
+            "description": "I’ve created a stylescape to get a feeling of the brand. It was difficult to find the right images to represent our brand, but in the end it worked very well.",
+            "images": [
+              "./assets/images/projects/brand_studio/stylescape.png"
+            ]
+          }
+        ],
+        "2": [
+          {
+            "id": "1",
+            "title": "github",
+            "description": "For better communication and workflow, I set up a <a href='https://github.com/Dracopol/uxy' target='_blank'>github</a> repository with a simple structure. This was very easy because it wasn’t difficult to setup.",
+            "images": [
+              "./assets/images/projects/brand_studio/uxy_github.png"
+            ]
+          }
+        ],
+        "3": [
+          {
+            "id": "1",
+            "title": "business cards",
+            "description": "I created three <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>business cards</a> and designed them using our brand's color palette. <br></br> Based on our teacher's feedback, I created a new logo design where the puzzle pieces fit together. This shows the idea of unity and teamwork. The teacher also liked bright colors, so I added vibrant colors to make the design more fun and appealing. The process of making these business cards went very well, I also got some good feedback from the teachers and I looked up some nice designs on <a href='https: //www.awwwards.com/' target='_blank'>awwwards.com</a> and <a href='https://nl.pinterest.com/homefeed/' target='_blank'>Pinterest</a>.",
+            "images": [
+              "./assets/images/projects/brand_studio/bs1.png",
+              "./assets/images/projects/brand_studio/bs2.png",
+              "./assets/images/projects/brand_studio/bs3.png",
+              "./assets/images/projects/brand_studio/bsfeedback.png",
+              "./assets/images/projects/brand_studio/bs4.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "wireframes",
+            "description": "I started with a low-fidelity <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>wireframe</a> for the website in figma. While creating the high-fidelity wireframe, we asked for feedback. The main points were to use more imagery, colors and the way of using the puzzle pieces in the design. I also improved the readability of the header navigation and updated the colors to match recent changes made by our branding team. <br></br> The design phase went well, but we faced some challenges. We had to figure out how to show the puzzle pieces and the structure of the website. In the end, we worked through these issues successfully, but for next time I would focus more on iterating, and look at the time management. <br></br> I developed these designs into a <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>website</a>.",
+            "images": [
+              "./assets/images/projects/brand_studio/wireframe.png",
+              "./assets/images/projects/brand_studio/wireframe_feedback1.png",
+              "./assets/images/projects/brand_studio/wireframe_feedback2.png",
+              "./assets/images/projects/brand_studio/Homepages.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "website",
+            "description": "I developed these designs into a <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>website</a>. I tried to create these as similar to the design. It went very well and didn’t walk into any issues with the communication with my colleague and time management wasn’t much of an issue here. Also I made everything in the code a bit readable by having a well structured file with the right name spacing and comments.",
+            "images": [
+              "./assets/images/projects/brand_studio/website.png",
+              "./assets/images/projects/brand_studio/code.png"
+            ]
+          }
+        ],
+        "4": [
+          {
+            "id": "1",
+            "title": "Process",
+            "description": "At the start of the project, I helped set up <a href='https://trello.com/b/Mk6JKvMD/to-do' target='_blank'>trello</a> to track our goals. This way, we can keep stakeholders updated on our progress. <br></br> During the development phase, I noticed that one colleague needed help with branches and GitHub. I gave him a short lesson and assisted him throughout the process. <br></br> For communication, I regularly shared my progress with my team to keep them updated on how far I was in the project phase. <br></br> The accessibility is also a crucial part, to have our users be able to visit the website on mobile and desktop, since I’m trying to achieve the standard for websites and to keep up with website trend.",
+            "images": [
+              "./assets/images/projects/brand_studio/trello.png"
+            ]
+          }
+        ],
+        "5": [
+          {
+            "id": "1",
+            "title": "Personal leadership",
+            "description": "At the beginning of the project, we discussed our strengths and weaknesses. I saw an opportunity to help the team with development since I have some background in it. So, I volunteered to assist during the development phase of the project. I recognized that planning is one of my weaknesses, so I helped set up Trello and made sure everything was on track. The planning and giving people feedback will definitely be there when I’m working as a frontend developer in a company, so these insights could really help me seeing my own qualities. The project went well, but next time, I want to focus on having more direct communication within the team. This will help us make decisions faster and improve our time management.",
+            "images": []
+          }
+        ]
+      },
+      "extraInformation": {
+        "socials": [
+          {
+            "text": "website",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=14-2287&t=t3tIIHwFGQ6Atz9O-1"
+          },
+          {
+            "text": "github",
+            "icon": "fa-brands fa-github",
+            "link": "https://github.com/Dracopol/uxy/tree/main"
+          },
+          {
+            "text": "trello",
+            "icon": "fa-brands fa-trello",
+            "link": "https://trello.com/b/Mk6JKvMD/to-do"
+          },
+          {
+            "text": "brandguide",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/brand_studio/documents/branding_document.pdf"
+          },
+          {
+            "text": "brandguide",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=14-2287&t=t3tIIHwFGQ6Atz9O-1"
+          }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "name": "portfolio",
+      "title": "portfolio",
+      "banner": {
+        "backgroundImage": "./assets/images/projects/portfolio/nature.avif",
+        "bannerImage": "./assets/images/projects/portfolio/mockup.png",
+        "heading": "portfolio",
+        "color": "#282828"
+      },
+      "information": {
+        "title": "project Information",
+        "description": "Read about my portfolio project were I created a website to display my work and my passion.",
+        "mockupImage": "./assets/images/projects/portfolio/banner.png",
+        "fullDescription": "Our teamproject is about creating a studio brand that represents our company called UXY (UXYnergy). We put a lot of thought into our brand’s voice, logo, and look to create something unique. Our goal was to make a brand identity that feels fun, stands out, and shows our team spirit."
+      },
+      "outcomes": {
+        "1": [
+          {
+            "id": "1",
+            "title": "sketches",
+            "description": "First we talked and voted about our brand voice and characteristics to determine who we are as a brand studio. We have written this down in the brand <a href='./assets/images/projects/brand_studio/documents/branding_document.pdf' target='_blank'>document</a>, since that will be shown within the logo with colors, shapes, etc. <br></br> For the logo design, we came up with the name (UXYnergy). I started the design by making some rough sketches on paper, focusing on how to create a good user experience and appealing visuals that represent the brand well with the core characteristics fun, eye-catching, & dynamic. That’s why I’ve chosen these shapes with a flow.",
+            "images": [
+              "./assets/images/projects/brand_studio/sketches_logo.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "stylescape",
+            "description": "I’ve created a stylescape to get a feeling of the brand. It was difficult to find the right images to represent our brand, but in the end it worked very well.",
+            "images": [
+              "./assets/images/projects/brand_studio/stylescape.png"
+            ]
+          }
+        ],
+        "2": [
+          {
+            "id": "1",
+            "title": "github",
+            "description": "For better communication and workflow, I set up a <a href='https://github.com/Dracopol/uxy' target='_blank'>github</a> repository with a simple structure. This was very easy because it wasn’t difficult to setup.",
+            "images": [
+              "./assets/images/projects/brand_studio/uxy_github.png"
+            ]
+          }
+        ],
+        "3": [
+          {
+            "id": "1",
+            "title": "business cards",
+            "description": "I created three <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>business cards</a> and designed them using our brand's color palette. <br></br> Based on our teacher's feedback, I created a new logo design where the puzzle pieces fit together. This shows the idea of unity and teamwork. The teacher also liked bright colors, so I added vibrant colors to make the design more fun and appealing. The process of making these business cards went very well, I also got some good feedback from the teachers and I looked up some nice designs on <a href='https: //www.awwwards.com/' target='_blank'>awwwards.com</a> and <a href='https://nl.pinterest.com/homefeed/' target='_blank'>Pinterest</a>.",
+            "images": [
+              "./assets/images/projects/brand_studio/bs1.png",
+              "./assets/images/projects/brand_studio/bs2.png",
+              "./assets/images/projects/brand_studio/bs3.png",
+              "./assets/images/projects/brand_studio/bsfeedback.png",
+              "./assets/images/projects/brand_studio/bs4.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "wireframes",
+            "description": "I started with a low-fidelity <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>wireframe</a> for the website in figma. While creating the high-fidelity wireframe, we asked for feedback. The main points were to use more imagery, colors and the way of using the puzzle pieces in the design. I also improved the readability of the header navigation and updated the colors to match recent changes made by our branding team. <br></br> The design phase went well, but we faced some challenges. We had to figure out how to show the puzzle pieces and the structure of the website. In the end, we worked through these issues successfully, but for next time I would focus more on iterating, and look at the time management. <br></br> I developed these designs into a <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>website</a>.",
+            "images": [
+              "./assets/images/projects/brand_studio/wireframe.png",
+              "./assets/images/projects/brand_studio/wireframe_feedback1.png",
+              "./assets/images/projects/brand_studio/wireframe_feedback2.png",
+              "./assets/images/projects/brand_studio/Homepages.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "website",
+            "description": "I developed these designs into a <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>website</a>. I tried to create these as similar to the design. It went very well and didn’t walk into any issues with the communication with my colleague and time management wasn’t much of an issue here. Also I made everything in the code a bit readable by having a well structured file with the right name spacing and comments.",
+            "images": [
+              "./assets/images/projects/brand_studio/website.png",
+              "./assets/images/projects/brand_studio/code.png"
+            ]
+          }
+        ],
+        "4": [
+          {
+            "id": "1",
+            "title": "Process",
+            "description": "At the start of the project, I helped set up <a href='https://trello.com/b/Mk6JKvMD/to-do' target='_blank'>trello</a> to track our goals. This way, we can keep stakeholders updated on our progress. <br></br> During the development phase, I noticed that one colleague needed help with branches and GitHub. I gave him a short lesson and assisted him throughout the process. <br></br> For communication, I regularly shared my progress with my team to keep them updated on how far I was in the project phase. <br></br> The accessibility is also a crucial part, to have our users be able to visit the website on mobile and desktop, since I’m trying to achieve the standard for websites and to keep up with website trend.",
+            "images": [
+              "./assets/images/projects/brand_studio/trello.png"
+            ]
+          }
+        ],
+        "5": [
+          {
+            "id": "1",
+            "title": "Personal leadership",
+            "description": "At the beginning of the project, we discussed our strengths and weaknesses. I saw an opportunity to help the team with development since I have some background in it. So, I volunteered to assist during the development phase of the project. I recognized that planning is one of my weaknesses, so I helped set up Trello and made sure everything was on track. The planning and giving people feedback will definitely be there when I’m working as a frontend developer in a company, so these insights could really help me seeing my own qualities. The project went well, but next time, I want to focus on having more direct communication within the team. This will help us make decisions faster and improve our time management.",
+            "images": []
+          }
+        ]
+      },
+      "extraInformation": {
+        "socials": [
+          {
+            "text": "website",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=14-2287&t=t3tIIHwFGQ6Atz9O-1"
+          },
+          {
+            "text": "github",
+            "icon": "fa-brands fa-github",
+            "link": "https://github.com/Dracopol/uxy/tree/main"
+          },
+          {
+            "text": "trello",
+            "icon": "fa-brands fa-trello",
+            "link": "https://trello.com/b/Mk6JKvMD/to-do"
+          },
+          {
+            "text": "brandguide",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/brand_studio/documents/branding_document.pdf"
+          },
+          {
+            "text": "brandguide",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=14-2287&t=t3tIIHwFGQ6Atz9O-1"
+          }
+        ]
+      }
+    }
+  ]
+}

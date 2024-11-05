@@ -186,7 +186,9 @@
 }
 
 #hero-project-outcomes .container .outcomes-container.is-active {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #hero-project-outcomes .container .outcomes-container > .outcomes {
@@ -195,6 +197,7 @@
     gap: 35px;
     width: 100%;
     margin-bottom: 35px;
+    max-width: 1400px;
 }
 
 #hero-project-outcomes .container .outcomes-container .outcomes:last-child {
@@ -212,6 +215,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+#hero-project-outcomes .container .outcomes .carousel:not(:has(img)) {
+    display: none !important;
 }
 
 #hero-project-outcomes .container .outcomes .carousel .buttons {
@@ -283,9 +290,11 @@
 
 #hero-project-outcomes .container .outcomes img {
     max-height: 408px;
+    min-height: 408px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: none;
+    background-color: var(--dark_gray);
 }
 
 #hero-project-outcomes .container .outcomes img.is-active {
@@ -308,6 +317,10 @@
 #hero-project-outcomes .container .outcomes .information p {
     font-size: var(--text-medium);
     font-family: var(--desc);
+}
+
+#hero-project-outcomes .container .outcomes .information a {
+    color: var(--dark_gray);
 }
 
 #hero-project-outcomes .container .extra-information {
