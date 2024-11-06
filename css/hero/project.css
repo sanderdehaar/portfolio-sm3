@@ -334,6 +334,13 @@
     width: 140%;
 }
 
+#hero-project-outcomes .container .outcomes .information span {
+    background-color: transparent !important;
+    font-family: var(--heading);
+    color: var(--dark_gray);
+    font-weight: 600;
+}
+
 #hero-project-outcomes .container .outcomes .information h3 {
     font-size: var(--heading-large);
     font-family: var(--heading);
