@@ -118,6 +118,30 @@
     max-width: 650px;
 }
 
+#hero-project-information .container .title a {
+    font-size: var(--text-medium);
+    font-family: var(--desc);
+    color: var(--dark_gray);
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--dark_gray);
+    width: max-content;
+}
+
+#hero-project-information .container .title a i {
+    position: relative;
+    top: 6px;
+    font-size: var(--text-medium);
+    padding-left: 15px;
+    transform: rotate(-45deg);
+}
+
+#hero-project-information .container .title .small-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 #hero-project-information .container img {
     width: 100%;
     height: 680px;
@@ -137,6 +161,8 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 #hero-project-outcomes .container h2 {
@@ -197,7 +223,7 @@
     gap: 35px;
     width: 100%;
     margin-bottom: 35px;
-    max-width: 1400px;
+    max-width: 1500px;
 }
 
 #hero-project-outcomes .container .outcomes-container .outcomes:last-child {
@@ -321,6 +347,16 @@
 
 #hero-project-outcomes .container .outcomes .information a {
     color: var(--dark_gray);
+    text-decoration: none;
+    border-bottom: 2px solid var(--dark_gray);
+}
+
+#hero-project-outcomes .container .outcomes .information a i {
+    position: relative;
+    top: 4px;
+    font-size: var(--text-medium);
+    padding-left: 10px;
+    transform: rotate(-45deg);
 }
 
 #hero-project-outcomes .container .extra-information {
