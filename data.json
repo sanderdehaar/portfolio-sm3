@@ -147,7 +147,7 @@
           {
             "id": "1",
             "title": "moodboard",
-            "description": "<span>Why:</span> I made a moodboard because I wanted to explore different design ideas and find out what really speaks to me. I needed a way to see a variety of styles and ideas all in one place, so I could pick the elements that match my vision. Creating this moodboard helped give me direction and made me think more about what makes a design interesting and effective. <br></br> <span>What:</span> For my inspiration, I used the website awwwards.com. This site has some of the best website designs, so it was perfect for finding quality examples. I looked for sites with unique styles, strong visuals, and clear layouts. Then, I collected a mix of design styles, colors, layouts, and interactions to see what stood out to me. <br></br> <span>How:</span> Putting these inspirations together in a moodboard helped me clearly see which design principles I like most. It gave me a chance to look at different visual styles and decide what might work for my project. By making this moodboard it helps me with the basics of designing, for example understanding in a design why a element is placed on that particular position with that styling.",
+            "description": "<span>Why:</span> I made a <a href='https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1' target='_blank'>moodboard<i class='fa-solid fa-arrow-right'></i></a> because I wanted to explore different design ideas and find out what really speaks to me. I needed a way to see a variety of styles and ideas all in one place, so I could pick the elements that match my vision. Creating this moodboard helped give me direction and made me think more about what makes a design interesting and effective. <br></br> <span>What:</span> For my inspiration, I used the website awwwards.com. This site has some of the best website designs, so it was perfect for finding quality examples. I looked for sites with unique styles, strong visuals, and clear layouts. Then, I collected a mix of design styles, colors, layouts, and interactions to see what stood out to me. <br></br> <span>How:</span> Putting these inspirations together in a moodboard helped me clearly see which design principles I like most. It gave me a chance to look at different visual styles and decide what might work for my project. By making this moodboard it helps me with the basics of designing, for example understanding in a design why a element is placed on that particular position with that styling.",
             "images": [
               "./assets/images/projects/portfolio/moodboard.png"
             ]
@@ -163,18 +163,36 @@
           {
             "id": "3",
             "title": "interactive prototyping",
-            "description": "<span>Why:</span> I created an interactive prototype using Figma to see how the final product would look and work. I wanted to test how users would move through the design and make sure it worked well. This helped me see the design more clearly before building it and focused on making a good experience for users. <br></br> <span>What:</span> While working on the prototype, I learned how to use Figma’s prototyping tools, like making navigation flows and adding animations. I practiced how users would interact with the design, making it feel more real and dynamic. <br></br> <span>How:</span> The prototype helped me see the design in action, and using Figma’s tools showed me how important user flow and interaction are. I now feel more confident in making interactive prototypes. I’ve learned the basics, and this will help me in future projects. Next time, I can explore more advanced features in Figma to make my prototypes even better and more realistic.",
+            "description": "<span>Why:</span> I created an interactive <a href='https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1' target='_blank'>prototype<i class='fa-solid fa-arrow-right'></i></a> using Figma to see how the final product would look and work. I wanted to test how users would move through the design and make sure it worked well. This helped me see the design more clearly before building it and focused on making a good experience for users. <br></br> <span>What:</span> While working on the prototype, I learned how to use Figma’s prototyping tools, like making navigation flows and adding animations. I practiced how users would interact with the design, making it feel more real and dynamic. <br></br> <span>How:</span> The prototype helped me see the design in action, and using Figma’s tools showed me how important user flow and interaction are. I now feel more confident in making interactive prototypes. I’ve learned the basics, and this will help me in future projects. Next time, I can explore more advanced features in Figma to make my prototypes even better and more realistic.",
             "images": [
               "./assets/images/projects/portfolio/interactive.png"
             ]
+          },
+          {
+            "id": "4",
+            "title": "mobile responsiveness",
+            "description": "<span>Why:</span> I made my <a href='https://sanderdehaar.github.io/portfolio-sm3/' target='_blank'>portfolio<i class='fa-solid fa-arrow-right'></i></a> mobile responsive because I want to give my user the option to use any device. I wanted to make sure my portfolio works well on all screen sizes. <br></br> <span>What:</span> During the process, I had to make design decisions like changing buttons and text size based on the screen size. This helped me apply user-centered design principles, ensuring that the design is functional and easy to use on both mobile and desktop. <br></br> <span>How:</span> Making my portfolio responsive was not too difficult, but it helped me improve my web development skills. It also gave me a chance to explore how to create interactive and engaging media products that work well across different devices. This experience made me better at designing and developing websites with users in mind.",
+            "images": [
+              "./assets/images/projects/portfolio/mobile1.png",
+              "./assets/images/projects/portfolio/mobile2.png"
+            ]
           }
         ],
-        "2": [],
+        "2": [
+          {
+            "id": "1",
+            "title": "github",
+            "description": "<span>Why:</span> I created a <a href='https://github.com/sanderdehaar/portfolio-sm3' target='_blank'>GitHub<i class='fa-solid fa-arrow-right'></i></a> repository to keep track of all my project files and versions. I also added a readme to help others understand what my repository is about. This was helpful because I used GitHub Pages to host my website, which gave me a working URL. <br></br> <span>What:</span> The readme explained the purpose of the repository, and using GitHub Pages allowed me to quickly publish and test my website online. <br></br> <span>How:</span> By using GitHub and GitHub Pages, I was able to manage my project better and make it accessible online. This process helped me keep everything organized and gave me a simple way to share my website with others.",
+            "images": [
+              "./assets/images/projects/portfolio/github_portfolio.png"
+            ]
+          }
+        ],
         "3": [
           {
             "id": "1",
             "title": "wireframes home",
-            "description": "<span>Why:</span> I created mid-fidelity wireframes to explore the design layout and functionality based on the moodboard I made. This helped me see how the design would look and work before adding more details. <br></br> <span>What:</span> I used the moodboard to guide my wireframe design. The wireframes helped me focus on the structure and layout without getting distracted by colors or images. <br></br> <span>How:</span> The wireframes helped me plan the layout and test the design’s flow. This step made it easier to improve the design before adding more details later.",
+            "description": "<span>Why:</span> I created mid-fidelity <a href='https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1' target='_blank'>wireframes<i class='fa-solid fa-arrow-right'></i></a> to explore the design layout and functionality based on the <a href='https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1' target='_blank'>moodboard<i class='fa-solid fa-arrow-right'></i></a> I made. This helped me see how the design would look and work before adding more details. <br></br> <span>What:</span> I used the moodboard to guide my wireframe design. The wireframes helped me focus on the structure and layout without getting distracted by colors or images. <br></br> <span>How:</span> The wireframes helped me plan the layout and test the design’s flow. This step made it easier to improve the design before adding more details later.",
             "images": [
               "./assets/images/projects/portfolio/wireframes.png"
             ]
@@ -191,7 +209,7 @@
           {
             "id": "3",
             "title": "wireframes high",
-            "description": "<span>Why:</span> I turned the wireframes into high-fidelity versions to focus on details and improve the design. <br></br> <span>What:</span> I added more details to the wireframes, making them look more like the final design. <br></br> <span>How:</span> This process helped me realize how important user feedback is early on, as it helped me make better design choices.",
+            "description": "<span>Why:</span> I turned the <a href='https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1' target='_blank'>wireframes<i class='fa-solid fa-arrow-right'></i></a> into high-fidelity versions to focus on details and improve the design. <br></br> <span>What:</span> I added more details to the wireframes, making them look more like the final design. <br></br> <span>How:</span> This process helped me realize how important user feedback is early on, as it helped me make better design choices.",
             "images": [
               "./assets/images/projects/portfolio/wireframe_high1.png",
               "./assets/images/projects/portfolio/wireframe_high2.png",
@@ -201,7 +219,7 @@
           {
             "id": "4",
             "title": "wireframes updated",
-            "description": "<span>Why:</span> I chose the design wireframe I liked and built the full page to see how it would work in real life. I wanted to turn my idea into something more practical and see how everything would fit together. <br></br> <span>What:</span> I worked on the homepage, making changes based on my teacher's feedback. My teacher suggested making the 'Let's connect' section more eye-catching, using different buttons on the project page, and adding icons for the links. <br></br> <span>How:</span> The changes helped improve the design. By testing the design and using feedback, I could see where things needed to be better. These steps made me feel more confident in my choices, and now I have clear ideas for further improvements.",
+            "description": "<span>Why:</span> I chose the design <a href='https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1' target='_blank'>wireframe<i class='fa-solid fa-arrow-right'></i></a> I liked and built the full page to see how it would work in real life. I wanted to turn my idea into something more practical and see how everything would fit together. <br></br> <span>What:</span> I worked on the homepage, making changes based on my teacher's feedback. My teacher suggested making the 'Let's connect' section more eye-catching, using different buttons on the project page, and adding icons for the links. <br></br> <span>How:</span> The changes helped improve the design. By testing the design and using feedback, I could see where things needed to be better. These steps made me feel more confident in my choices, and now I have clear ideas for further improvements.",
             "images": [
               "./assets/images/projects/portfolio/design_feedback1.png",
               "./assets/images/projects/portfolio/updated1.png",
@@ -212,7 +230,7 @@
           {
             "id": "5",
             "title": "development",
-            "description": "<span>Why:</span> I started developing by setting up a GitHub and organizing my workspace with the right folder structure. I followed my Figma design and used ChatGPT to help speed up my coding process. I also added an animation library and FontAwesome for better user experience and easier embedding. I wanted to make sure the project was well-structured and efficient. <br></br> <span>What:</span> My teacher gave feedback that my coding structure was good, but suggested I learn more about frameworks, like modules and their structure. I didn’t face many problems, but I asked for feedback on how I could improve my coding skills and avoid bad habits. <br></br> <span>How:</span> This feedback made me realize I could improve by looking deeper into frameworks in the future. Although the process wasn’t too hard because of my experience, I’m eager to expand my skills and knowledge to create even better projects.",
+            "description": "<span>Why:</span> I started developing by setting up a <a href='https://github.com/sanderdehaar/portfolio-sm3' target='_blank'>GitHub<i class='fa-solid fa-arrow-right'></i></a> and organizing my workspace with the right folder structure. I followed my Figma design and used ChatGPT to help speed up my coding process. I also added an animation library and FontAwesome for better user experience and easier embedding. I wanted to make sure the project was well-structured and efficient. <br></br> <span>What:</span> My teacher gave feedback that my coding structure was good, but suggested I learn more about frameworks, like modules and their structure. I didn’t face many problems, but I asked for feedback on how I could improve my coding skills and avoid bad habits. <br></br> <span>How:</span> This feedback made me realize I could improve by looking deeper into frameworks in the future. Although the process wasn’t too hard because of my experience, I’m eager to expand my skills and knowledge to create even better projects.",
             "images": [
               "./assets/images/projects/portfolio/development1.png",
               "./assets/images/projects/portfolio/development2.png",
@@ -222,7 +240,7 @@
           {
             "id": "6",
             "title": "the website",
-            "description": "<span>Why:</span> After getting feedback from my teacher, I realized the project page needed some improvements to make it clearer and easier to use. <br></br> <span>What:</span> My teacher suggested making the tabs more obvious so that users know they can click on them. For the learning outcomes section, I was advised to create different sections for each topic to make the page more organized. <br></br> <span>How:</span> These changes would help make the page more user-friendly and easier to navigate. By making the tabs clearer and organizing the learning outcomes, the design will be easier to understand and more effective. This feedback will help me keep improving the design in the next steps.",
+            "description": "<span>Why:</span> After getting feedback from my teacher, I realized the project page on the <a href='https://sanderdehaar.github.io/portfolio-sm3/' target='_blank'>website<i class='fa-solid fa-arrow-right'></i></a> needed some improvements to make it clearer and easier to use. <br></br> <span>What:</span> My teacher suggested making the tabs more obvious so that users know they can click on them. For the learning outcomes section, I was advised to create different sections for each topic to make the page more organized. <br></br> <span>How:</span> These changes would help make the page more user-friendly and easier to navigate. By making the tabs clearer and organizing the learning outcomes, the design will be easier to understand and more effective. This feedback will help me keep improving the design in the next steps.",
             "images": [
               "./assets/images/projects/portfolio/website_feedback3.png",
               "./assets/images/projects/portfolio/website_feedback1.png",
@@ -233,7 +251,7 @@
           {
             "id": "7",
             "title": "portfolio structure",
-            "description": "<span>Why:</span> My teacher gave feedback to make the 'why, what, & how' method easier to see and understand. The 'Learning Outcomes' heading on desktop didn’t fit well, and the links in the learning outcomes needed to be clearer. Also, I should add more text to the project introduction for better context. <br></br> <span>What:</span> The feedback was to make the 'why, what, & how' method more visible. On desktop, I should remove the 'Learning Outcomes' heading and add an icon to the links to make them stand out. I also need to show more text in the introduction to give more details. <br></br> <span>How:</span> These changes will make the page easier to read and understand. Adding icons and more text will help make the design clearer and more helpful for users. This feedback really helped my design.",
+            "description": "<span>Why:</span> My teacher gave feedback on the <a href='https://sanderdehaar.github.io/portfolio-sm3/' target='_blank'>website<i class='fa-solid fa-arrow-right'></i></a> to make the 'why, what, & how' method easier to see and understand. The 'Learning Outcomes' heading on desktop didn’t fit well, and the links in the learning outcomes needed to be clearer. Also, I should add more text to the project introduction for better context. <br></br> <span>What:</span> The feedback was to make the 'why, what, & how' method more visible. On desktop, I should remove the 'Learning Outcomes' heading and add an icon to the links to make them stand out. I also need to show more text in the introduction to give more details. <br></br> <span>How:</span> These changes will make the page easier to read and understand. Adding icons and more text will help make the design clearer and more helpful for users. This feedback really helped my design.",
             "images": [
               "./assets/images/projects/portfolio/website_feedback5.png",
               "./assets/images/projects/portfolio/structure1.png",
@@ -244,18 +262,22 @@
         "4": [
           {
             "id": "1",
-            "title": "Process",
-            "description": "At the start of the project, I helped set up <a href='https://trello.com/b/Mk6JKvMD/to-do' target='_blank'>trello<i class='fa-solid fa-arrow-right'></i></a> to track our goals. This way, we can keep stakeholders updated on our progress. <br></br> During the development phase, I noticed that one colleague needed help with branches and GitHub. I gave him a short lesson and assisted him throughout the process. <br></br> For communication, I regularly shared my progress with my team to keep them updated on how far I was in the project phase. <br></br> The accessibility is also a crucial part, to have our users be able to visit the website on mobile and desktop, since I’m trying to achieve the standard for websites and to keep up with website trend.",
-            "images": [
-              "./assets/images/projects/brand_studio/trello.png"
-            ]
+            "title": "communication",
+            "description": "<span>Why:</span> During the process of creating my portfolio, I stayed in contact with my teachers and regularly asked for feedback. This feedback was essential in helping me make informed decisions about both my work and the development of my professional skills. <br><br> <span>What:</span> By regularly consulting my teachers, I was able to involve a stakeholder (my teacher) who provided advice and feedback on the decisions I was making. This was valuable in shaping my project in a professional manner and improved the overall quality of my work. <br><br> <span>How:</span> This process helped me realize the importance of feedback and communication in achieving a professional standard. However, I noticed that while time management and work ethic were effective, I could improve my planning next time by scheduling my tasks more efficiently. This would help me stay organized and streamline my work process, especially when working solo.",
+            "images": []
           }
         ],
         "5": [
           {
             "id": "1",
-            "title": "Personal leadership",
-            "description": "At the beginning of the project, we discussed our strengths and weaknesses. I saw an opportunity to help the team with development since I have some background in it. So, I volunteered to assist during the development phase of the project. I recognized that planning is one of my weaknesses, so I helped set up Trello and made sure everything was on track. The planning and giving people feedback will definitely be there when I’m working as a frontend developer in a company, so these insights could really help me seeing my own qualities. The project went well, but next time, I want to focus on having more direct communication within the team. This will help us make decisions faster and improve our time management.",
+            "title": "future portfolio",
+            "description": "<span>Why:</span> For this portfolio, I wanted to create something I could use for my internship or easily adapt for an upcoming internship. My goal was to make it professional and relevant to work and contact, rather than project-based. I aimed to design it in a way that would stand out to potential employers. <br><br> <span>What:</span> To achieve this, I focused on aligning the portfolio with current design trends. I made sure the structure was clean and professional, highlighting my skills and contact information to make it easy for potential employers to see my work and get in touch. <br><br> <span>How:</span> By creating a portfolio with a professional approach and modern trends, I am more confident it will help me get a good internship. I focused on the details that would make my portfolio stand out and appeal to companies in my field.",
+            "images": []
+          },
+          {
+            "id": "2",
+            "title": "internship",
+            "description": "<span>Why:</span> Last year, I attended a career day and have since been following companies on LinkedIn. My goal was to get their attention and show that I've been following them for a while. I wanted to establish a connection and make it clear that I’m interested in their work and future opportunities. <br><br> <span>What:</span> By following these companies on LinkedIn, I’m staying updated on their projects and openings, which helps me stay informed and engaged. It also allows me to show my interest in a more personal way. <br><br> <span>How:</span> This strategy has helped me build a stronger connection with potential employers. By consistently engaging with their content, I hope to stand out as a dedicated candidate who has been actively following their progress. In the future, I plan to engage even more with their posts and try to create a conversation that could lead to opportunities.",
             "images": []
           }
         ]
@@ -263,29 +285,34 @@
       "extraInformation": {
         "socials": [
           {
-            "text": "website",
+            "text": "moodboard",
             "icon": "fa-brands fa-figma",
-            "link": "https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=14-2287&t=t3tIIHwFGQ6Atz9O-1"
+            "link": "https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1"
+          },
+          {
+            "text": "prototype",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1"
+          },
+          {
+            "text": "wireframes",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/VzoC5vZwlzW39b4PClFRA0/Portfolio-semester-3?node-id=0-1&t=GRdmfxArJrvKJf0A-1"
           },
           {
             "text": "github",
             "icon": "fa-brands fa-github",
-            "link": "https://github.com/Dracopol/uxy/tree/main"
+            "link": "https://github.com/sanderdehaar/portfolio-sm3"
           },
           {
-            "text": "trello",
-            "icon": "fa-brands fa-trello",
-            "link": "https://trello.com/b/Mk6JKvMD/to-do"
-          },
-          {
-            "text": "brandguide",
+            "text": "testing flow/design",
             "icon": "fa-solid fa-file",
-            "link": "./assets/images/projects/brand_studio/documents/branding_document.pdf"
+            "link": "./assets/images/projects/portfolio/documents/testing_document.pdf"
           },
           {
-            "text": "brandguide",
-            "icon": "fa-brands fa-figma",
-            "link": "https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=14-2287&t=t3tIIHwFGQ6Atz9O-1"
+            "text": "website",
+            "icon": "fa-solid fa-paperclip",
+            "link": "https://sanderdehaar.github.io/portfolio-sm3/"
           }
         ]
       }
