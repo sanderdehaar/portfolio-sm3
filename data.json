@@ -140,68 +140,104 @@
         "title": "project Information",
         "description": "Read about my portfolio project were I created a website to display my work and my passion.",
         "mockupImage": "./assets/images/projects/portfolio/banner.png",
-        "fullDescription": "Our teamproject is about creating a studio brand that represents our company called UXY (UXYnergy). We put a lot of thought into our brand’s voice, logo, and look to create something unique. Our goal was to make a brand identity that feels fun, stands out, and shows our team spirit."
+        "fullDescription": "In my portfolio, I show the process I went through for each project and why I made certain choices. I wanted every decision to be clear and have a purpose, helping the viewer understand my skills and style. I kept the layout simple so that each project is easy to explore. I chose colors, fonts, and design elements that match each project’s theme to make them stand out. I also listened to feedback, which helped me see areas for improvement and made my portfolio look more professional and engaging."
       },
       "outcomes": {
         "1": [
           {
             "id": "1",
-            "title": "sketches",
-            "description": "First we talked and voted about our brand voice and characteristics to determine who we are as a brand studio. We have written this down in the brand <a href='./assets/images/projects/brand_studio/documents/branding_document.pdf' target='_blank'>document<i class='fa-solid fa-arrow-right'></i></a>, since that will be shown within the logo with colors, shapes, etc. <br></br> For the logo design, we came up with the name (UXYnergy). I started the design by making some rough sketches on paper, focusing on how to create a good user experience and appealing visuals that represent the brand well with the core characteristics fun, eye-catching, & dynamic. That’s why I’ve chosen these shapes with a flow.",
+            "title": "moodboard",
+            "description": "<span>Why:</span> I made a moodboard because I wanted to explore different design ideas and find out what really speaks to me. I needed a way to see a variety of styles and ideas all in one place, so I could pick the elements that match my vision. Creating this moodboard helped give me direction and made me think more about what makes a design interesting and effective. <br></br> <span>What:</span> For my inspiration, I used the website awwwards.com. This site has some of the best website designs, so it was perfect for finding quality examples. I looked for sites with unique styles, strong visuals, and clear layouts. Then, I collected a mix of design styles, colors, layouts, and interactions to see what stood out to me. <br></br> <span>How:</span> Putting these inspirations together in a moodboard helped me clearly see which design principles I like most. It gave me a chance to look at different visual styles and decide what might work for my project. By making this moodboard it helps me with the basics of designing, for example understanding in a design why a element is placed on that particular position with that styling.",
             "images": [
-              "./assets/images/projects/brand_studio/sketches_logo.png"
+              "./assets/images/projects/portfolio/moodboard.png"
             ]
           },
           {
             "id": "2",
-            "title": "stylescape",
-            "description": "I’ve created a stylescape to get a feeling of the brand. It was difficult to find the right images to represent our brand, but in the end it worked very well.",
+            "title": "testing flow/design",
+            "description": "<span>Why:</span> I did flow and design testing <a href='./assets/images/projects/portfolio/documents/testing_document.pdf' target='_blank'>document<i class='fa-solid fa-arrow-right'></i></a> on my portfolio wireframe with 5 people to make sure users could easily find my projects and contact me. I wanted to understand how they felt about the design and structure. <br></br> <span>What:</span> I gave them 5 tasks to complete, and based on their feedback, I learned that the menu icon wasn’t clear to users and they wanted a quicker way to navigate to the projects. <br></br> <span>How:</span> The testing went well good, since everyone finished their tasks quickly. I got useful feedback that I can improve on, and I’ll definitely do this again in the future because it helped me make the design better.",
             "images": [
-              "./assets/images/projects/brand_studio/stylescape.png"
-            ]
-          }
-        ],
-        "2": [
-          {
-            "id": "1",
-            "title": "github",
-            "description": "For better communication and workflow, I set up a <a href='https://github.com/Dracopol/uxy' target='_blank'>github<i class='fa-solid fa-arrow-right'></i></a> repository with a simple structure. This was very easy because it wasn’t difficult to setup.",
-            "images": [
-              "./assets/images/projects/brand_studio/uxy_github.png"
-            ]
-          }
-        ],
-        "3": [
-          {
-            "id": "1",
-            "title": "business cards",
-            "description": "I created three <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>business cards<i class='fa-solid fa-arrow-right'></i></a> and designed them using our brand's color palette. <br></br> Based on our teacher's feedback, I created a new logo design where the puzzle pieces fit together. This shows the idea of unity and teamwork. The teacher also liked bright colors, so I added vibrant colors to make the design more fun and appealing. The process of making these business cards went very well, I also got some good feedback from the teachers and I looked up some nice designs on <a href='https: //www.awwwards.com/' target='_blank'>awwwards.com<i class='fa-solid fa-arrow-right'></i></a> and <a href='https://nl.pinterest.com/homefeed/' target='_blank'>Pinterest<i class='fa-solid fa-arrow-right'></i></a>.",
-            "images": [
-              "./assets/images/projects/brand_studio/bs1.png",
-              "./assets/images/projects/brand_studio/bs2.png",
-              "./assets/images/projects/brand_studio/bs3.png",
-              "./assets/images/projects/brand_studio/bsfeedback.png",
-              "./assets/images/projects/brand_studio/bs4.png"
-            ]
-          },
-          {
-            "id": "2",
-            "title": "wireframes",
-            "description": "I started with a low-fidelity <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>wireframe<i class='fa-solid fa-arrow-right'></i></a> for the website in figma. While creating the high-fidelity wireframe, we asked for feedback. The main points were to use more imagery, colors and the way of using the puzzle pieces in the design. I also improved the readability of the header navigation and updated the colors to match recent changes made by our branding team. <br></br> The design phase went well, but we faced some challenges. We had to figure out how to show the puzzle pieces and the structure of the website. In the end, we worked through these issues successfully, but for next time I would focus more on iterating, and look at the time management. <br></br> I developed these designs into a <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>website<i class='fa-solid fa-arrow-right'></i></a>.",
-            "images": [
-              "./assets/images/projects/brand_studio/wireframe.png",
-              "./assets/images/projects/brand_studio/wireframe_feedback1.png",
-              "./assets/images/projects/brand_studio/wireframe_feedback2.png",
-              "./assets/images/projects/brand_studio/Homepages.png"
+              "./assets/images/projects/portfolio/testing.png"
             ]
           },
           {
             "id": "3",
-            "title": "website",
-            "description": "I developed these designs into a <a href='https://www.figma.com/design/mqormZsN6gVOSTxJgNX6TZ/uxynergy?node-id=0-1&t=26fK9ZyDULif6hdn-1' target='_blank'>website<i class='fa-solid fa-arrow-right'></i></a>. I tried to create these as similar to the design. It went very well and didn’t walk into any issues with the communication with my colleague and time management wasn’t much of an issue here. Also I made everything in the code a bit readable by having a well structured file with the right name spacing and comments.",
+            "title": "interactive prototyping",
+            "description": "<span>Why:</span> I created an interactive prototype using Figma to see how the final product would look and work. I wanted to test how users would move through the design and make sure it worked well. This helped me see the design more clearly before building it and focused on making a good experience for users. <br></br> <span>What:</span> While working on the prototype, I learned how to use Figma’s prototyping tools, like making navigation flows and adding animations. I practiced how users would interact with the design, making it feel more real and dynamic. <br></br> <span>How:</span> The prototype helped me see the design in action, and using Figma’s tools showed me how important user flow and interaction are. I now feel more confident in making interactive prototypes. I’ve learned the basics, and this will help me in future projects. Next time, I can explore more advanced features in Figma to make my prototypes even better and more realistic.",
             "images": [
-              "./assets/images/projects/brand_studio/website.png",
-              "./assets/images/projects/brand_studio/code.png"
+              "./assets/images/projects/portfolio/interactive.png"
+            ]
+          }
+        ],
+        "2": [],
+        "3": [
+          {
+            "id": "1",
+            "title": "wireframes home",
+            "description": "<span>Why:</span> I created mid-fidelity wireframes to explore the design layout and functionality based on the moodboard I made. This helped me see how the design would look and work before adding more details. <br></br> <span>What:</span> I used the moodboard to guide my wireframe design. The wireframes helped me focus on the structure and layout without getting distracted by colors or images. <br></br> <span>How:</span> The wireframes helped me plan the layout and test the design’s flow. This step made it easier to improve the design before adding more details later.",
+            "images": [
+              "./assets/images/projects/portfolio/wireframes.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "wireframes low",
+            "description": "<span>Why:</span> I chose the design wireframe I liked and built the full page based on the flow/design <a href='./assets/images/projects/portfolio/documents/testing_document.pdf' target='_blank'>testing<i class='fa-solid fa-arrow-right'></i></a> I did earlier. I wanted to turn my idea into a real layout and see how it would work in practice. <br></br> <span>What:</span> I worked through the first stage of the homepage, making changes based on the insights from the testing. This helped me see how the design could be improved. <br></br> <span>How:</span> By using the insights to improve the design, I felt more confident about how the homepage was coming together and had clear ideas for future changes.",
+            "images": [
+              "./assets/images/projects/portfolio/wireframe_full1.png",
+              "./assets/images/projects/portfolio/wireframe_full2.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "wireframes high",
+            "description": "<span>Why:</span> I turned the wireframes into high-fidelity versions to focus on details and improve the design. <br></br> <span>What:</span> I added more details to the wireframes, making them look more like the final design. <br></br> <span>How:</span> This process helped me realize how important user feedback is early on, as it helped me make better design choices.",
+            "images": [
+              "./assets/images/projects/portfolio/wireframe_high1.png",
+              "./assets/images/projects/portfolio/wireframe_high2.png",
+              "./assets/images/projects/portfolio/wireframe_high3.png"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "wireframes updated",
+            "description": "<span>Why:</span> I chose the design wireframe I liked and built the full page to see how it would work in real life. I wanted to turn my idea into something more practical and see how everything would fit together. <br></br> <span>What:</span> I worked on the homepage, making changes based on my teacher's feedback. My teacher suggested making the 'Let's connect' section more eye-catching, using different buttons on the project page, and adding icons for the links. <br></br> <span>How:</span> The changes helped improve the design. By testing the design and using feedback, I could see where things needed to be better. These steps made me feel more confident in my choices, and now I have clear ideas for further improvements.",
+            "images": [
+              "./assets/images/projects/portfolio/design_feedback1.png",
+              "./assets/images/projects/portfolio/updated1.png",
+              "./assets/images/projects/portfolio/updated2.png",
+              "./assets/images/projects/portfolio/updated3.png"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "development",
+            "description": "<span>Why:</span> I started developing by setting up a GitHub and organizing my workspace with the right folder structure. I followed my Figma design and used ChatGPT to help speed up my coding process. I also added an animation library and FontAwesome for better user experience and easier embedding. I wanted to make sure the project was well-structured and efficient. <br></br> <span>What:</span> My teacher gave feedback that my coding structure was good, but suggested I learn more about frameworks, like modules and their structure. I didn’t face many problems, but I asked for feedback on how I could improve my coding skills and avoid bad habits. <br></br> <span>How:</span> This feedback made me realize I could improve by looking deeper into frameworks in the future. Although the process wasn’t too hard because of my experience, I’m eager to expand my skills and knowledge to create even better projects.",
+            "images": [
+              "./assets/images/projects/portfolio/development1.png",
+              "./assets/images/projects/portfolio/development2.png",
+              "./assets/images/projects/portfolio/development3.png"
+            ]
+          },
+          {
+            "id": "6",
+            "title": "the website",
+            "description": "<span>Why:</span> After getting feedback from my teacher, I realized the project page needed some improvements to make it clearer and easier to use. <br></br> <span>What:</span> My teacher suggested making the tabs more obvious so that users know they can click on them. For the learning outcomes section, I was advised to create different sections for each topic to make the page more organized. <br></br> <span>How:</span> These changes would help make the page more user-friendly and easier to navigate. By making the tabs clearer and organizing the learning outcomes, the design will be easier to understand and more effective. This feedback will help me keep improving the design in the next steps.",
+            "images": [
+              "./assets/images/projects/portfolio/website_feedback3.png",
+              "./assets/images/projects/portfolio/website_feedback1.png",
+              "./assets/images/projects/portfolio/website_feedback2.png",
+              "./assets/images/projects/portfolio/website_feedback4.png"
+            ]
+          },
+          {
+            "id": "7",
+            "title": "portfolio structure",
+            "description": "<span>Why:</span> My teacher gave feedback to make the 'why, what, & how' method easier to see and understand. The 'Learning Outcomes' heading on desktop didn’t fit well, and the links in the learning outcomes needed to be clearer. Also, I should add more text to the project introduction for better context. <br></br> <span>What:</span> The feedback was to make the 'why, what, & how' method more visible. On desktop, I should remove the 'Learning Outcomes' heading and add an icon to the links to make them stand out. I also need to show more text in the introduction to give more details. <br></br> <span>How:</span> These changes will make the page easier to read and understand. Adding icons and more text will help make the design clearer and more helpful for users. This feedback really helped my design.",
+            "images": [
+              "./assets/images/projects/portfolio/website_feedback5.png",
+              "./assets/images/projects/portfolio/structure1.png",
+              "./assets/images/projects/portfolio/structure2.png"
             ]
           }
         ],
