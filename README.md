@@ -4,13 +4,9 @@ Welcome to the **Portfolio-SM3** project! This repository contains the source co
 
 ## Table of Contents
 
-- [About](#about)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [(https://sanderdehaar.github.io/portfolio-sm3/](#home)
+- [Technologies Used](#my-work)
+- [Technologies Used](#contact)
 
 ## About
 
