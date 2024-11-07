@@ -1,6 +1,7 @@
-# Portfolio-SM3
+# Portfolio
 
-Welcome to the **Portfolio-SM3** project! This repository contains the source code for my portfolio website, designed to showcase my work and provide details about my skills, projects, and experiences.
+Welcome to the **Portfolio website**! 
+This repository contains the source code for my portfolio website, designed to showcase my work and provide details about my skills, projects, and experiences.
 
 ## Website
 
