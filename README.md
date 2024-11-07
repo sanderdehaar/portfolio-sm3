@@ -2,11 +2,11 @@
 
 Welcome to the **Portfolio-SM3** project! This repository contains the source code for my portfolio website, designed to showcase my work and provide details about my skills, projects, and experiences.
 
-## Table of Contents
+## Website
 
 - [home](https://sanderdehaar.github.io/portfolio-sm3/)
-- [about](https://sanderdehaar.github.io/portfolio-sm3/)
-- [my work](https://sanderdehaar.github.io/portfolio-sm3/)
+- [my work](https://sanderdehaar.github.io/portfolio-sm3/#hero-work)
+- [contact](https://sanderdehaar.github.io/portfolio-sm3/#hero-contact)
 
 ## About
 
