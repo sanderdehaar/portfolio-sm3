@@ -11,7 +11,7 @@ This repository contains the source code for my portfolio website, designed to s
 
 ## About
 
-The **Portfolio-SM3** is a personal portfolio website built to present my web development projects, skills, and achievements.
+This website is a personal portfolio built to present my projects, skills, and achievements.
 It is designed to showcase my work to other people that are interessted.
 
 ## Technologies Used
