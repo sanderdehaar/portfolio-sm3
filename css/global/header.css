@@ -193,6 +193,10 @@ body.project-3 header .container nav ul a {
     font-size: var(--text-large_xl);
 }
 
+#menu .extra .container .socials a {
+    color: var(--dark_gray);
+}
+
 #menu .extra .container .socials i:hover {
     cursor: pointer;
 }

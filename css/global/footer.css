@@ -50,6 +50,10 @@ footer .container .top .row .socials {
     margin-top: 10px;
 }
 
+footer .container .top .row .socials a {
+    color: var(--dark_gray);
+}
+
 footer .container .top .row .socials i:hover {
     cursor: pointer;
 }

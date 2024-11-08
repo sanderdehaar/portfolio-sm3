@@ -316,6 +316,243 @@
           }
         ]
       }
+    },
+    {
+      "name": "customer",
+      "title": "client work",
+      "banner": {
+        "backgroundImage": "./assets/images/projects/client/desert.avif",
+        "bannerImage": "./assets/images/projects/client/banner_image.png",
+        "heading": "client work",
+        "color": "#F3804D"
+      },
+      "information": {
+        "title": "project Information",
+        "description": "Read about my client project I did with my group were we created a fast fashion solution product",
+        "mockupImage": "./assets/images/projects/client/banner_mockup.png",
+        "fullDescription": "This project is about finding a solution for fast fashion aimed at teenagers aged 15 to 17. Fast fashion here means the quick and affordable production of trendy clothes, which often has environmental impacts. In this project, we use agile methods like Scrum, working in sprints with retrospectives to review progress. We’re also using the Double Diamond method, which gives us a clear process to follow. Our goal is to understand the issues with fast fashion and create a product that addresses these challenges."
+      },
+      "outcomes": {
+        "1": [
+          {
+            "id": "1",
+            "title": "ripping the brief",
+            "description": "<span>Why:</span> We started by ripping the brief to fully understand the client’s problem and asked our client some <a href='./assets/images/projects/client/documents/transcript_problem.pdf' target='_blank'>questions<i class='fa-solid fa-arrow-right'></i></a> based on the problem to identify which areas needed more research. I focused on researching our target audience because understanding their needs and behaviors was crucial for creating a design that would resonate with them. <br></br> <span>What:</span> I began with a literature study on our target group. I set up a shared <a href='./assets/images/projects/client/documents/research_document.pdf' target='_blank'>research document<i class='fa-solid fa-arrow-right'></i></a> in Teams to organize and present my findings clearly. We focused on one main question, and I researched one sub-question with five smaller questions. My research aimed to understand why teenagers buy fast fashion, what motivates them, and why they continue despite the negative environmental and ethical impacts. <br></br> <span>How:</span> This research helped us understand that teenagers prioritize price, trends, and convenience when shopping for fast fashion, but are often unaware of the ethical and environmental issues involved. They can be influenced by marketing and education, and the main barriers they face are high costs and limited options for stylish alternatives. This deep understanding of our audience helped guide our design choices and confirmed the importance of focusing on their real needs and behaviors.",
+            "images": [
+              "./assets/images/projects/client/diamond.png",
+              "./assets/images/projects/client/literature_research.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "lotus blossom",
+            "description": "<span>Why:</span> To come up with ideas for our research, we needed a method that would help us think in different ways and explore new ideas. We used the Lotus Blossom method, which started with our main goal: making fast fashion less attractive. This method helped us break the problem down and look at it from different sides. <br></br> <span>What:</span> We started by brainstorming ideas around our main goal with the group. I wrote down my thoughts and expanded on them. The Lotus Blossom method helped us come up with several ideas by organizing our thoughts and building on each one. We also used Brain Writing to get more ideas from everyone in the group. <br></br> <span>How:</span> This method helped us think of new ways to reach our goal. It was a good way to generate ideas, and I would definitely recommend it for future projects because it helps you focus on important points. After showing our teacher the Lotus Blossom and Brain Writing methods, they advised us to apply co-creation and research methods to each idea with users, do both primary and secondary research for each idea, and have a clear concept before talking to the target audience.",
+            "images": [
+              "./assets/images/projects/client/lotus_blossom.png",
+              "./assets/images/projects/client/feedback_lotus.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "brainwriting",
+            "description": "<span>Why:</span> Another method we used to come up with ideas was the Brainwriting method. This method helped us explore many ideas and find possible solutions for our concepts. It encouraged everyone in the group to think creatively and share their ideas. <br></br> <span>What:</span> Each member of our group started by writing down their own ideas on our topic. I wrote my ideas down too. After that, we exchanged our ideas and built on each other’s thoughts for several rounds. This allowed us to develop a wider range of ideas. <br></br> <span>How:</span> The Brainwriting method helped us think of many different possibilities for our concept. It was really useful for expanding on each other's ideas, and I would recommend using it in the future for idea generation.",
+            "images": [
+              "./assets/images/projects/client/brainwriting.png"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "gamification prototype",
+            "description": "<span>Why:</span> Based on the <a href='./assets/images/projects/client/documents/research_document.pdf' target='_blank'>research<i class='fa-solid fa-arrow-right'></i></a> I did with my team, I worked on the gamification prototype, focusing on the homepage, level page, and global styling. I wanted to bring the features of tiered rewards and a sharing option into the design. These elements came from our competitor analysis and global research, which gave us insights into what could work well in our app. <br></br> <span>What:</span> For the prototype, I created the homepage and level page and applied game mechanics like rewards and sharing options. We based these ideas on our research of successful gamification features. <br></br> <span>How:</span> After getting feedback from our teacher, I learned that we needed to better define the 'why' behind the app. We came up with the idea of a reward system to answer this.",
+            "images": [
+              "./assets/images/projects/client/gamification1.png",
+              "./assets/images/projects/client/gamification2.png"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "pov & hmw",
+            "description": "<span>Why:</span> From the problem statement, we created the POV (Point of View): 'As a teenager, I want to buy cheap and trendy clothes so that I fit in.' This helped us focus on the user's needs and develop a clear direction for the project. <br></br> <span>What:</span> After establishing the POV, I contributed ideas to brainstorm solutions. We created multiple HMW (How Might We) questions based on these solutions to guide our design process. <br></br> <span>How:</span> The POV and HMW process helped me think critically about user needs and develop solutions that directly addressed the problem.",
+            "images": [
+              "./assets/images/projects/client/pov_hmw.png"
+            ]
+          },
+          {
+            "id": "6",
+            "title": "concept document",
+            "description": "<span>Why:</span> The concept <a href='./assets/images/projects/client/documents/concept_document.pdf' target='_blank'>document<i class='fa-solid fa-arrow-right'></i></a>  was essential for keeping the project on track and aligned with the professional standards required. It helped us present a clear, well-organized overview to the client and our team. <br></br> <span>What:</span> For the concept document, I created the entire layout and organized the research findings, including the personas I developed. I also included the ideation process, such as the Lotus Blossom and Brainwriting methods. This helped us keep everything in one place and made it easy to track our progress. The document provided a clear timeline and overview, helping us identify our next steps and ensuring that we stayed focused and organized. <br></br> <span>How:</span> The document was very helpful because it acted as a structured reference point for everyone involved. It made it easier to communicate our ideas and progress with the team and the client, keeping everything organized in one accessible place. I really liked this document, as it gave us a clear overview of where we were in the process and what still needed to be done.",
+            "images": [
+              "./assets/images/projects/client/concept_document.png"
+            ]
+          }
+        ],
+        "2": [],
+        "3": [
+          {
+            "id": "1",
+            "title": "gamification prototype",
+            "description": "<span>Why:</span> After getting feedback from our teacher, I realized that we needed to refine the concept behind our <a href='https://www.figma.com/design/YA70evreMaYHq1yYAFF7H5/Gamification-idea?node-id=0-1&t=aS6ViFNsqPeN7NEn-1' target='_blank'>prototype<i class='fa-solid fa-arrow-right'></i></a>. We identified the 'why' of the project and used this to develop a clearer vision for the app. <br></br> <span>What:</span> Our feedback session led to the idea of adding a reward system to better engage the target audience. This helped us refine our approach and make the prototype more aligned with the needs of our users. <br></br> <span>How:</span> I contributed to refining the prototype and ensuring that it reflected the new direction we decided on, making it more clear and user-focused.",
+            "images": [
+              "./assets/images/projects/client/gamification_mobiles.png",
+              "./assets/images/projects/client/reward.png",
+              "./assets/images/projects/client/gamification1.png",
+              "./assets/images/projects/client/gamification2.png"
+            ]
+          }
+        ],
+        "4": [
+          {
+            "id": "1",
+            "title": "team charter",
+            "description": "<span>Why:</span> As a group, we created a <a href='./assets/images/projects/client/documents/team_charter_document.pdf' target='_blank'>team charter<i class='fa-solid fa-arrow-right'></i></a>  to set clear roles, expectations, and professional standards for working together. This document helped us establish group norms and standards of quality, which are important for maintaining professionalism in the project. <br></br> <span>What:</span> The team charter outlined our roles within the team, success metrics, and consequences if something doesn’t go as planned. It also detailed our group norms and the quality of work we aim to maintain. <br></br> <span>How:</span> Creating this document was really useful because it made sure we were all on the same page about how we would collaborate. It helped us set clear guidelines for professionalism and teamwork, and I will definitely use this approach in future projects.",
+            "images": [
+              "./assets/images/projects/client/team_charter.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "trello",
+            "description": "<span>Why:</span> To manage our tasks more effectively, we used Trello. My role was to keep the team leader updated on my progress and check if my work was done correctly. <br></br> <span>What:</span> Trello helped us organize our work by setting clear deadlines and receiving alerts. It also supported our agile work environment, where we used scrum and sprints to stay on track. <br></br> <span>How:</span> The schedule made it easy to keep everything organized and meet deadlines. However, for future projects, I would consider using a different tool for managing the agile scrum process since Trello doesn't clearly show retrospectives or provide an overview of the entire process.",
+            "images": [
+              "./assets/images/projects/client/trello.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "literature study",
+            "description": "<span>Why:</span> Following our teacher’s recommendation, we divided the <a href='./assets/images/projects/client/documents/research_document.pdf' target='_blank'>research<i class='fa-solid fa-arrow-right'></i></a>  tasks into three parts to make the workload more manageable. By doing this, we could focus on specific areas in a methodical way and ensure we were collaborating effectively as a team. <br></br> <span>What:</span> I was responsible for researching our target audience. I structured my research by setting up a document in Teams, which allowed for efficient collaboration and easy access for the team. I focused on understanding teenagers’ behaviors and motivations regarding fast fashion. My research showed that teenagers are driven by affordability and trends, but they are largely unaware of the environmental and ethical issues associated with fast fashion. <br></br> <span>How:</span> This research process helped us understand how teenagers think and behave in the context of fast fashion. The conclusions provided valuable insights that will guide our design decisions. To validate these findings further, we would conduct surveys and create personas. This professional, team-based approach helped ensure that our project stayed organized and aligned with industry standards. I’d definitely use this method in future projects.",
+            "images": [
+              "./assets/images/projects/client/literature_research.png"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "survey",
+            "description": "<span>Why:</span> I created <a href='https://docs.google.com/forms/d/e/1FAIpQLScy63tSLf9eNGVDnIvFdjQIzRDAbXeSsDvIAOutSaMDYsR3XA/viewform' target='_blank'>survey<i class='fa-solid fa-arrow-right'></i></a> questions with Justin based on the conclusions of the research <a href='./assets/images/projects/client/documents/research_document.pdf' target='_blank'>document<i class='fa-solid fa-arrow-right'></i></a>  its main question. We focused on topics like affordability, trendiness, convenience, and popular brands like Shein, Zara, and H&M. We also looked at how teens are unaware of the environmental and social impacts of fast fashion, like pollution, unethical labor, and waste. We wanted to see how education and marketing could help change their habits. The survey was designed for our target group, which is 18-24 years old. <br></br> <span>What:</span> After creating the <a href='https://docs.google.com/forms/d/e/1FAIpQLScy63tSLf9eNGVDnIvFdjQIzRDAbXeSsDvIAOutSaMDYsR3XA/viewform' target='_blank'>survey<i class='fa-solid fa-arrow-right'></i></a>, we asked our teacher for feedback on the questions. She suggested adding more brands as options and rewording some questions to make them easier to understand. After making these changes, we turned the questions into a survey and added a fun QR code to attract our target group. Our teacher also confirmed that our target group was at the school, so we put the QR code on the walls to make it easier for them to take the survey. <br></br> <span>How:</span> After receiving over 19 responses, we analyzed the data. The results showed that our target group (18-24 years old) is not very aware of fast fashion’s impact. Cost was a big factor in their purchasing decisions, and many said they would buy sustainable clothing if it were cheaper. Our survey also showed that both males and females in the 18-24 age range participated, confirming that our target group was accurate. This was very helpful because it gave us valuable insights into our target audience's habits and thoughts. I would definitely use this approach again in future projects.",
+            "images": [
+              "./assets/images/projects/client/survey.png",
+              "./assets/images/projects/client/survey1.png",
+              "./assets/images/projects/client/survey2.png",
+              "./assets/images/projects/client/survey3.png",
+              "./assets/images/projects/client/survey4.png",
+              "./assets/images/projects/client/survey5.png",
+              "./assets/images/projects/client/survey_feedback.png"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "persona's",
+            "description": "<span>Why:</span> Based on the <a href='https://docs.google.com/forms/d/e/1FAIpQLScy63tSLf9eNGVDnIvFdjQIzRDAbXeSsDvIAOutSaMDYsR3XA/viewform' target='_blank'>survey<i class='fa-solid fa-arrow-right'></i></a>, I created two personas that represent our target group. I took the main findings from the survey and added them to these personas. This helped us focus on their needs, frustrations, and other important details. <br></br> <span>What:</span> By creating these personas, we were able to simplify and better understand the main characteristics of our target group. It helped us clearly define the people we are designing for. <br></br> <span>How:</span> These personas were very useful in finding our target group and understanding them more clearly. I would definitely use this method again for future projects to better focus on the people we want to reach.",
+            "images": [
+              "./assets/images/projects/client/persona1.png",
+              "./assets/images/projects/client/persona2.png"
+            ]
+          },
+          {
+            "id": "6",
+            "title": "competitor analysis",
+            "description": "<span>Why:</span> Based on the Lotus Blossom method, we chose 'gamification' as our subject. I researched competitors to understand how they use gamification, and I focused on Starbucks' loyalty program because it has interesting gamification elements. <br></br> <span>What:</span> From my <a href='./assets/images/projects/client/documents/research_document.pdf' target='_blank'>competitor analysis<i class='fa-solid fa-arrow-right'></i></a>, I discovered that Starbucks uses tiered rewards, time-sensitive challenges, and sharing options. These strategies help them keep customers engaged and build long-term brand loyalty by turning satisfied customers into brand advocates. <br></br> <span>How:</span> These insights were really helpful for coming up with ideas for gamification in our project. The competitor analysis gave me valuable data to improve our project, and I will definitely use this research method in future projects.",
+            "images": [
+              "./assets/images/projects/client/competitor_analysis.png"
+            ]
+          },
+          {
+            "id": "7",
+            "title": "pov & hmw",
+            "description": "<span>Why:</span> The POV and HMW method was important for guiding our project in the right direction and ensuring that we were solving real problems. <br></br> <span>What:</span> By using POV and HMW, we were able to understand the user’s perspective and develop solutions that made sense. This allowed us to define the problem clearly and start brainstorming effective solutions. <br></br> <span>How:</span> The process helped me collaborate better with the team to come up with solutions and showed me the importance of defining problems before jumping into solutions. I believe this approach is essential for every project to stay focused on finding the best possible solution.",
+            "images": [
+              "./assets/images/projects/client/pov_hmw.png"
+            ]
+          },
+          {
+            "id": "8",
+            "title": "review prototype",
+            "description": "<span>Why:</span> We showed our <a href='https://www.figma.com/design/YA70evreMaYHq1yYAFF7H5/Gamification-idea?node-id=0-1&t=aS6ViFNsqPeN7NEn-1' target='_blank'>prototype<i class='fa-solid fa-arrow-right'></i></a> to the client, and after getting <a href='https://www.figma.com/design/YA70evreMaYHq1yYAFF7H5/Gamification-idea?node-id=0-1&t=aS6ViFNsqPeN7NEn-1' target='_blank'>feedback<i class='fa-solid fa-arrow-right'></i></a>, I understood the importance of aligning our ideas with client expectations and real-world application. <br></br> <span>What:</span> I presented the prototype with the mockups I created. After receiving feedback that the idea wasn't innovative enough, I reflected on how I could improve the approach. <br></br> <span>How:</span> The feedback process taught me to focus more on the underlying idea rather than just the design. I realized the importance of delivering a prototype that is both functional and innovative, with clear reasoning behind the concept..",
+            "images": [
+              "./assets/images/projects/client/gamification1.png",
+              "./assets/images/projects/client/gamification2.png"
+            ]
+          },
+          {
+            "id": "9",
+            "title": "approval idea",
+            "description": "<span>Why:</span> The <a href='./assets/images/projects/client/documents/transcript_concept.pdf' target='_blank'>feedback<i class='fa-solid fa-arrow-right'></i></a> from both our teacher and client was essential to guide the project in the right direction and finalize the idea. <br></br> <span>What:</span> After reviewing the feedback, we understood the importance of applying professional standards to make the project engaging, relevant, and aligned with the client’s expectations. <br></br> <span>How:</span> The process of refining the idea and presenting it to the client helped improve the quality of the project. I helped combine the information into a clear and concise presentation that was easy to follow. Moving forward, I would keep the presentations shorter and more concise to better communicate our ideas.",
+            "images": [
+              "./assets/images/projects/client/concept_idea.jpg"
+            ]
+          }
+        ],
+        "5": [
+          {
+            "id": "1",
+            "title": "team charter",
+            "description": "<span>Why:</span> We created a team charter to help us understand each other's strengths and weaknesses. I added my own strengths and weaknesses, as well as my core values. I also wrote down my personal goals and commitments, like improving communication within the team and enhancing our use of version control. <br></br> <span>What:</span> In the team charter, we listed our group norms, roles, success metrics, standards of quality, and consequences. This helped clarify our personal goals and how we would work together as a team. <br></br> <span>How:</span> I really liked this document because it helped me reflect on my personal growth and goals for the project. It also gave clear guidelines for the team, and I would definitely recommend creating a team charter at the start of every project to guide personal development.",
+            "images": [
+              "./assets/images/projects/client/team_charter.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "scrum",
+            "description": "<span>Why:</span> We used an agile working method, like Scrum, and worked in sprints. Every two weeks, we did a retrospective to talk about how things were going. In the first retrospective, we realized we needed to communicate better, help each other, and make decisions faster. We also had an issue with some team members being late, so we added a strike method for accountability. <br></br> <span>What:</span> I participated by adding information to the board during sprints and retrospectives. In the second retrospective, we saw improvements, and everything went really well because we solved our issues with communication and decision-making. <br></br> <span>How:</span> This process worked well because the communication got better, and we were able to identify problems quickly through retrospectives. I’ll definitely keep using this approach in the future.",
+            "images": [
+              "./assets/images/projects/client/retrospectives.jpg"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "presenting",
+            "description": "<span>Why:</span> In sprint/retrospective meetings, I presented what I had done in stand-up sessions. This helped me improve my presenting skills for the team. <br></br> <span>What:</span> At first, I wasn’t very confident, but over time, I became better at presenting and speaking in front of others. <br></br> <span>How:</span> This experience helped me grow and improve, and I hope it will help me with presenting in a company in the future.",
+            "images": [
+              "./assets/images/projects/client/retrospectives.jpg"
+            ]
+          }
+        ]
+      },
+      "extraInformation": {
+        "socials": [
+          {
+            "text": "gamification prototype",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/YA70evreMaYHq1yYAFF7H5/Gamification-idea?node-id=0-1&t=aS6ViFNsqPeN7NEn-1"
+          },
+          {
+            "text": "survey",
+            "icon": "fa-solid fa-file",
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLScy63tSLf9eNGVDnIvFdjQIzRDAbXeSsDvIAOutSaMDYsR3XA/viewform"
+          },
+          {
+            "text": "research document",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/research_document.pdf"
+          },
+          {
+            "text": "competitor analysis",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/research_document.pdf"
+          },
+          {
+            "text": "concept document",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/concept_document.pdf"
+          },
+          {
+            "text": "team charter",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/team_charter_document.pdf"
+          },
+          {
+            "text": "transcript problem",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/transcript_problem.pdf"
+          },
+          {
+            "text": "transcript concept",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/transcript_concept.pdf"
+          }
+        ]
+      }
     }
   ]
 }
