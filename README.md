@@ -7,12 +7,14 @@ This repository contains the source code for my portfolio website, designed to s
 
 - [home](https://sanderdehaar.github.io/portfolio-sm3/)
 - [my work](https://sanderdehaar.github.io/portfolio-sm3/#hero-work)
+- [contact](https://sanderdehaar.github.io/portfolio-sm3/#hero-contact)
+
+Projects:
 - [portfolio](https://sanderdehaar.github.io/portfolio-sm3/work.html?name=portfolio)
 - [brand studio](https://sanderdehaar.github.io/portfolio-sm3/work.html?name=brand%20studio)
 - [client work](https://sanderdehaar.github.io/portfolio-sm3/work.html?name=customer)
 - [passionate project](https://sanderdehaar.github.io/portfolio-sm3/)
 - [challenges](https://sanderdehaar.github.io/portfolio-sm3/work.html?name=challenges)
-- [contact](https://sanderdehaar.github.io/portfolio-sm3/#hero-contact)
 
 ## About
 
