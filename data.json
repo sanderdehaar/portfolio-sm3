@@ -553,6 +553,129 @@
           }
         ]
       }
+    },
+    {
+      "name": "challenges",
+      "title": "challenges",
+      "banner": {
+        "backgroundImage": "./assets/images/projects/client/desert.avif",
+        "bannerImage": "./assets/images/projects/client/banner_image.png",
+        "heading": "challenges",
+        "color": "#F3804D"
+      },
+      "information": {
+        "title": "project Information",
+        "description": "Read about all my challenges I have done to challenge myself and upgrade my knowledge about web development and other interesst",
+        "mockupImage": "./assets/images/projects/client/banner_mockup.png",
+        "fullDescription": "On this page, you can see all the challenges I've taken on to push myself and grow my skills. I've worked on various projects to improve my knowledge in web development and other exciting areas like UX/UI design. Each challenge has helped me learn something new, allowing me to try out different ideas, tools, and techniques. By taking on these challenges, I've aimed to build my confidence, expand my abilities, and become better at creating interactive and user-friendly websites. I'm passionate about learning and enjoy testing myself in these different areas, always looking to improve and bring fresh ideas to my work."
+      },
+      "outcomes": {
+        "1": [
+          {
+            "id": "1",
+            "title": "blender character",
+            "description": "<span>Why:</span> I wanted to build my skills in 3D character creation, focusing on sculpting and rendering techniques to create a character that fits a “party animal” style. By challenging myself to bring this concept to life, I developed foundational sculpting skills, along with UV mapping and texturing methods. <br></br> <span>What:</span> For this project, I designed a raccoon character, starting with sculpting tools to create the initial form. I also explored techniques to optimize geometry, which helped me make the model efficient for rendering. After creating the base shape, I moved on to UV mapping, painting, and adding details like fur with a particle system in Blender. <br></br> <span>How:</span> This process introduced me to core sculpting tools (like add, remove, and grab) and UV mapping basics, expanding my skill set. I set up lighting to make the scene look polished, learning how these techniques contribute to a professional look.",
+            "images": [
+              "./assets/images/projects/challenges/blender.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "api retrieve",
+            "description": "<span>Why:</span> The task of retrieving data from an <a href='https://github.com/sanderdehaar/pokemon_game_template' target='_blank'>API<i class='fa-solid fa-arrow-right'></i></a> was important because it allowed me to understand how to connect to external sources and integrate their data into a digital product. This is a crucial skill for front-end development and for planning how to make a product dynamic and interactive. <br></br> <span>What:</span> I set myself a small challenge to retrieve data from an API in JSON format and display it in cards on a webpage. I used a simple API and successfully integrated the data without any issues. This process was straightforward, and I didn't encounter any major problems during the task. It helped me become more comfortable with fetching and displaying data in web development. <br></br> <span>How:</span> This task was helpful because it gave me practical experience working with APIs, which is important for front-end development. It allowed me to see how data is retrieved and displayed dynamically, a key part of building interactive websites. In the future, I plan to work with more complex APIs and integrate multiple databases into one project. This experience has also motivated me to improve my skills in handling larger, more complex data sets.",
+            "images": [
+              "./assets/images/projects/challenges/api.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "api usability",
+            "description": "<span>Why:</span> The task was important because it allowed me to learn how to use data from an <a href='https://github.com/sanderdehaar/pokemon_game_template' target='_blank'>API<i class='fa-solid fa-arrow-right'></i></a> in a practical and interactive way. By creating a game where users can select their Pokémon and battle, I could understand how to retrieve, process, and display API data, which is a key skill for front-end development. <br></br> <span>What:</span> I retrieved data from an API and used it to build a duel-like game where users can select their Pokémon, view information about them, and fight against an opponent. This helped me understand how to work with JSON data in a more practical context and turn it into an interactive element on a webpage. <br></br> <span>How:</span> This project was helpful because I applied my knowledge of API data in a more interactive setting. I learned how to handle JSON data and integrate it into a game, allowing me to practice data manipulation and make the content dynamic. The experience was useful for improving my skills in API integration and interactive web features. In the future, I want to create even more complex projects with APIs and expand my knowledge of how to make dynamic content on websites.",
+            "images": [
+              "./assets/images/projects/challenges/api3.png",
+              "./assets/images/projects/challenges/api2.png",
+              "./assets/images/projects/challenges/api4.png"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "basics react",
+            "description": "<span>Why:</span> I wanted to learn the basics of using a framework, so I chose React. This was important because understanding frameworks is essential for creating modern web applications, and I wanted to build my skills in a framework widely used in front-end development. <br></br> <span>What:</span> I learned how to use React with Vite to set up a <a href='https://github.com/sanderdehaar/the_lost_archive' target='_blank'>project<i class='fa-solid fa-arrow-right'></i></a>. I worked with basic components, such as buttons, carousels, and text elements. I also explored how to use the React Router to navigate between pages. This gave me hands-on experience with setting up a project, organizing components, and managing page navigation. <br></br> <span>How:</span> This experience helped build my confidence in working with frameworks. I learned how to structure a project, create reusable components, and navigate between pages, which are essential skills for front-end development. In the future, I would like to explore other frameworks and understand the differences between them to improve my skills and find the best tools for different projects.",
+            "images": [
+              "./assets/images/projects/challenges/react1.png",
+              "./assets/images/projects/challenges/react2.png",
+              "./assets/images/projects/challenges/react3.png"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "react 3D object",
+            "description": "<span>Why:</span> I wanted to learn how to implement 3D objects into a webpage and make them interactive. This was important because integrating 3D elements can enhance the user experience on websites, and I wanted to understand how to combine React with 3D objects. <br></br> <span>What:</span> I continued developing my React template and learned how to implement a 3D object by using a library that allows interaction with the object, such as changing its rotation and adding additional objects. I used ChatGPT for guidance on how to correctly import and integrate the 3D object. I also faced issues with exporting my Blender file correctly, as it needed a scene.bin file. However, I learned the proper export settings and can now successfully import Blender objects into my project. <br></br> <span>How:</span> This experience helped me understand how to work with 3D models in a web environment, and I now know how to use the library to make 3D objects interactive. I also solved the problem of exporting and importing Blender files correctly, which has improved my workflow. In the future, I would like to explore integrating a database with interactive 3D objects to store and manage data dynamically.",
+            "images": [
+              "./assets/images/projects/challenges/react5.png",
+              "./assets/images/projects/challenges/react4.png",
+              "./assets/images/projects/challenges/react6.png"
+            ]
+          }
+        ],
+        "2": [
+          {
+            "id": "1",
+            "title": "work enviroment",
+            "description": "<span>Why:</span> To create a better work environment, I focused on making my code clear and reusable for others. This is important because in companies, multiple people often work on the same codebase, so everyone needs to understand each part easily. Commenting my code helps with this. <br></br> <span>What:</span> I made sure to comment on my code wherever necessary, explaining parts that might be unclear to others. This way, anyone who reads it will know what each section does and how to use it. <br></br> <span>How:</span> One of my colleagues asked me do you comment your code enough? And i asked myself this question and the case for my was that I didnt do it much, but now I see how small actions, like writing clear comments, make a big difference in a collaborative setting and even when your work alone on a project.",
+            "images": [
+              "./assets/images/projects/challenges/react3.png"
+            ]
+          }
+        ],
+        "3": [
+          {
+            "id": "1",
+            "title": "blender character",
+            "description": "<span>Why:</span> I wanted to learn 3D sculpting and improve my skills in character creation, so I chose to design a raccoon character in a “party animal” style. This gave me a chance to practice using sculpting tools and learn how to apply feedback to improve my work. <br></br> <span>What:</span> I started by shaping the character’s head and body, using sculpting tools to create a raccoon form that matched the style. After a first pass, I showed it to my teacher, who advised me to make the nose more rounded and adjust the mouth indentation to fit the character style better. Based on that, I refined the head structure and continued with UV mapping and texturing. I painted the character using Blender and added fur with a particle system, lighting from a free source, and a simple, curved background. <br></br> <span>How:</span> Working on this character taught me key sculpting basics like add, remove, and grab tools, and also how to UV-map and paint. The feedback process was helpful for learning how to adjust my designs based on input, and I want to keep improving on sculpting techniques, painting, and eventually, adding animations.",
+            "images": [
+              "./assets/images/projects/challenges/blender.png",
+              "./assets/images/projects/challenges/blender1.png",
+              "./assets/images/projects/challenges/blender_feedback.png",
+              "./assets/images/projects/challenges/blender2.png",
+              "./assets/images/projects/challenges/blender3.png"
+            ]
+          }
+        ],
+        "4": [],
+        "5": [
+          {
+            "id": "1",
+            "title": "exploring 3D",
+            "description": "<span>Why:</span> I wanted to improve my skills in 3D modeling because it is something often used in web design, which is related to my goal of becoming a front-end developer. This opportunity allowed me to explore 3D design and apply it to my workflow. <br></br> <span>What:</span> I took this opportunity to learn and improve my skills in sculpting 3D objects in Blender, specifically for web design applications. By creating a party animal-style character, I gained hands-on experience with sculpting tools, UV mapping, and creating realistic textures. I also explored how 3D models can be used in web design, understanding their role in creating interactive or visual elements for websites. <br></br> <span>How:</span> By practicing and refining my 3D modeling skills, I developed a deeper understanding of how 3D objects can enhance web design. This experience was valuable for my development as a front-end developer, as it allowed me to expand my technical skills in areas that are increasingly used in modern web development. ",
+            "images": [
+              "./assets/images/projects/challenges/blender.png"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "exploring frameworks",
+            "description": "<span>Why:</span> I wanted to learn about modern web development trends, especially frameworks like React, because they are used a lot in the industry. Frameworks are important for creating big and easy-to-maintain websites. My teacher suggested I start learning frameworks as feedback, so I decided to focus on React to understand how it works and how it fits in web development today. <br></br> <span>What:</span> I used Vite to set up a React project and worked on basic components like buttons, carousels, and text. I also learned to use React Router to navigate between pages. My teacher’s feedback helped me focus on learning the basics of React first, which is important before moving on to more advanced features. <br></br> <span>How:</span> This project helped me see how React can be used to build interactive websites. My teacher’s feedback made me realize that learning the basics is essential for improving my skills. Now I feel more confident using React and frameworks in my projects. In the future, I want to learn more about React and other frameworks to build more complex websites.",
+            "images": [
+              "./assets/images/projects/challenges/react_feedback.png"
+            ]
+          }
+        ]
+      },
+      "extraInformation": {
+        "socials": [
+          {
+            "text": "pokemon api",
+            "icon": "fa-brands fa-github",
+            "link": "https://github.com/sanderdehaar/pokemon_game_template"
+          },
+          {
+            "text": "3d object",
+            "icon": "fa-brands fa-github",
+            "link": "https://github.com/sanderdehaar/the_lost_archive"
+          }
+        ]
+      }
     }
   ]
 }
