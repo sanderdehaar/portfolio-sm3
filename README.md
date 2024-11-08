@@ -5,6 +5,7 @@ This repository contains the source code for my portfolio website, designed to s
 
 ## Website
 
+Navigation:
 - [home](https://sanderdehaar.github.io/portfolio-sm3/)
 - [my work](https://sanderdehaar.github.io/portfolio-sm3/#hero-work)
 - [contact](https://sanderdehaar.github.io/portfolio-sm3/#hero-contact)
