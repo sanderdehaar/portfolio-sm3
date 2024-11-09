@@ -152,7 +152,8 @@ body.disable-scroll {
 
     #cursor.project-1 .cursor__circle,
     #cursor.project-2 .cursor__circle,
-    #cursor.project-3 .cursor__circle {
+    #cursor.project-3 .cursor__circle,
+    #cursor.project-5 .cursor__circle {
       width: 230px;
       height: 230px;
       background-image: url(../../assets/images/projects/elegant/mockup_elegant.png);
@@ -167,11 +168,15 @@ body.disable-scroll {
     }
 
     #cursor.project-2 .cursor__circle {
-        background-image: url(../../assets/images/projects/bolazno/mockup_bolzano.png);
+        background-image: url(../../assets/images/projects/brand_studio/mockup_brand.png);
     }
 
     #cursor.project-3 .cursor__circle {
-        background-image: url(../../assets/images/projects/jerrys/mockup_jerrys.png);
+        background-image: url(../../assets/images/projects/client/mockup.png);
+    }
+
+    #cursor.project-5 .cursor__circle {
+        background-image: url(../../assets/images/projects/challenges/mockup.png);
     }
 
     /* Project 1 */

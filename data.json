@@ -4,7 +4,7 @@
       "name": "brand studio",
       "title": "brand studio",
       "banner": {
-        "backgroundImage": "./assets/images/projects/brand_studio/building.jpg",
+        "backgroundImage": "./assets/images/projects/brand_studio/banner_background.png",
         "bannerImage": "./assets/images/projects/brand_studio/banner_image.png",
         "heading": "uxynergy",
         "color": "#1E96FC"
@@ -12,7 +12,7 @@
       "information": {
         "title": "project Information",
         "description": "Read about our brand studio project were we created our own brand that stands out of others and shows who we are.",
-        "mockupImage": "./assets/images/projects/brand_studio/banner_second.png",
+        "mockupImage": "./assets/images/projects/brand_studio/banner.png",
         "fullDescription": "Our team project is about creating a studio brand for our company, UXY (UXYnergy). We worked hard to develop a brand identity that truly represents who we are. We focused on the brand’s voice, logo, and visual style to create something unique and memorable. Our main goal was to build a brand that feels fun, stands out from the crowd, and shows the strong spirit of our team. In this project, we’ll take you through every step of the process. You’ll see everything from the initial sketches and wireframes to the stylescapes, version control, and detailed planning that went into the project."
       },
       "outcomes": {
@@ -560,15 +560,15 @@
       "name": "challenges",
       "title": "challenges",
       "banner": {
-        "backgroundImage": "./assets/images/projects/client/desert.avif",
-        "bannerImage": "./assets/images/projects/client/banner_image.png",
+        "backgroundImage": "./assets/images/projects/challenges/banner_color.png",
+        "bannerImage": "./assets/images/projects/challenges/banner_image.png",
         "heading": "challenges",
-        "color": "#F3804D"
+        "color": "#9F9F9F"
       },
       "information": {
         "title": "project Information",
         "description": "Read about all my challenges I have done to challenge myself and upgrade my knowledge about web development and other interesst",
-        "mockupImage": "./assets/images/projects/client/banner_mockup.png",
+        "mockupImage": "./assets/images/projects/challenges/banner_mockup.png",
         "fullDescription": "On this page, you can see all the challenges I've taken on to push myself and grow my skills. I've worked on various projects to improve my knowledge in web development and other exciting areas like UX/UI design. Each challenge has helped me learn something new, allowing me to try out different ideas, tools, and techniques. By taking on these challenges, I've aimed to build my confidence, expand my abilities, and become better at creating interactive and user-friendly websites. I'm passionate about learning and enjoy testing myself in these different areas, always looking to improve and bring fresh ideas to my work."
       },
       "outcomes": {
