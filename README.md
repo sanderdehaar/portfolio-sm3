@@ -3,6 +3,9 @@
 Welcome to the **Portfolio website**! 
 This repository contains the source code for my portfolio website, designed to showcase my work and provide details about my skills, projects, and experiences.
 
+Reading guide:
+- [reading guide[(https://sanderdehaar.github.io/portfolio-sm3/assets/images//projects//portfolio_abstract/portfolio_abstract.pdf)
+
 ## Website
 
 Navigation:
