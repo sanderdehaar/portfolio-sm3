@@ -131,10 +131,10 @@
       "name": "portfolio",
       "title": "portfolio",
       "banner": {
-        "backgroundImage": "./assets/images/projects/portfolio/nature.avif",
-        "bannerImage": "./assets/images/projects/portfolio/mockup.png",
+        "backgroundImage": "./assets/images/projects/portfolio/rock_background.avif",
+        "bannerImage": "./assets/images/projects/portfolio/banner_image.png",
         "heading": "portfolio",
-        "color": "#282828"
+        "color": "#171717"
       },
       "information": {
         "title": "project Information",

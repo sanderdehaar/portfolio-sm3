@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         bannerSection.querySelector('h3').textContent = project.banner.heading;
 
         // Update banner background color
-        const rgbaColor = hexToRgba(project.banner.color, 0.7);
+        const rgbaColor = hexToRgba(project.banner.color, 0.9);
         bannerSection.querySelector('.background-overlay').style.backgroundColor = rgbaColor;
 
         // Update project information section
