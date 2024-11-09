@@ -593,6 +593,9 @@
         flex-direction: column;
         gap: 35px;
     }
+    #hero-project-outcomes .container .outcomes-container a i {
+        display: none;
+    }
     #hero-project-outcomes .container .outcomes-container > .outcomes:nth-of-type(even) {
         flex-direction: column-reverse;
         align-items: start;
@@ -642,6 +645,12 @@
         font-size: 28px;
     }
     #hero-project-outcomes .container .outcomes .carousel .full-screen p {
+        display: none;
+    }
+    #hero-project-information .container .title a {
+        padding-bottom: 5px;
+    }
+    #hero-project-information .container .title a i {
         display: none;
     }
     @keyframes fadeFromBottom {

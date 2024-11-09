@@ -40,6 +40,30 @@
     max-width: 800px;
 }
 
+#hero-work .container .title a {
+    font-size: var(--text-medium);
+    font-family: var(--desc);
+    color: var(--dark_gray);
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--dark_gray);
+    width: max-content;
+}
+
+#hero-work .container .title a i {
+    position: relative;
+    top: 6px;
+    font-size: var(--text-medium);
+    padding-left: 15px;
+    transform: rotate(-45deg);
+}
+
+#hero-work .container .title .small-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 #hero-work .container .showcase-work {
     height: max-content;
     width: 100%;
@@ -130,6 +154,12 @@
     }
     #hero-work .container .showcase-work .item i {
         font-size: var(--text-large);
+    }
+    #hero-work .container .title a {
+        padding-bottom: 5px;
+    }
+    #hero-work .container .title a i {
+        display: none;
     }
 }
 @media only screen and (max-width: 750px) {
