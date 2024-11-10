@@ -412,7 +412,7 @@
           {
             "id": "2",
             "title": "trello",
-            "description": "<span>Why:</span> To manage our tasks more effectively, we used Trello. My role was to keep the team leader updated on my progress and check if my work was done correctly. <br></br> <span>What:</span> Trello helped us organize our work by setting clear deadlines and receiving alerts. It also supported our agile work environment, where we used scrum and sprints to stay on track. <br></br> <span>How:</span> The schedule made it easy to keep everything organized and meet deadlines. However, for future projects, I would consider using a different tool for managing the agile scrum process since Trello doesn't clearly show retrospectives or provide an overview of the entire process.",
+            "description": "<span>Why:</span> To manage our tasks more effectively, we used <a href='https://trello.com/b/Mk6JKvMD/to-do' target='_blank'>trello<i class='fa-solid fa-arrow-right'></i></a>. My role was to keep the team leader updated on my progress and check if my work was done correctly. <br></br> <span>What:</span> Trello helped us organize our work by setting clear deadlines and receiving alerts. It also supported our agile work environment, where we used scrum and sprints to stay on track. <br></br> <span>How:</span> The schedule made it easy to keep everything organized and meet deadlines. However, for future projects, I would consider using a different tool for managing the agile scrum process since Trello doesn't clearly show retrospectives or provide an overview of the entire process.",
             "images": [
               "./assets/images/projects/client/trello.png"
             ]
@@ -552,6 +552,11 @@
             "text": "transcript concept",
             "icon": "fa-solid fa-file",
             "link": "./assets/images/projects/client/documents/transcript_concept.pdf"
+          },
+          {
+            "text": "trello",
+            "icon": "fa-brands fa-trello",
+            "link": "https://trello.com/b/Mk6JKvMD/to-do"
           }
         ]
       }
