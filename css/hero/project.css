@@ -369,12 +369,12 @@
 #hero-project-outcomes .container .extra-information {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
     margin-top: -20px;
 }
 
 #hero-project-outcomes .container .extra-information a {
     text-decoration: none;
+    margin-right: 25px;
 }
 
 #hero-project-outcomes .container .extra-information button {
@@ -603,6 +603,9 @@
     #hero-project-outcomes .container .extra-information {
         gap: 15px;
         margin-top: 0px;
+    }
+    #hero-project-outcomes .container .extra-information a {
+        margin-right: 0px;
     }
     #hero-project-outcomes .container .extra-information button {
         padding: 15px;
