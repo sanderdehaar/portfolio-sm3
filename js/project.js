@@ -158,28 +158,6 @@ function imageCarousel() {
     });
 }
 
-// Function to set up event listeners for outcome buttons
-function changeOutcomes() {
-    const buttons = document.querySelectorAll('.learning-outcome');
-    const outcomes = document.querySelectorAll('#all-outcomes .outcomes-container');
-
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            buttons.forEach(btn => btn.classList.remove('is-active'));
-            outcomes.forEach(outcome => outcome.classList.remove('is-active'));
-
-            const outcomeId = `learning-outcome-${button.getAttribute('data-text')}`;
-            const activeOutcome = document.getElementById(outcomeId);
-            if (activeOutcome) {
-                activeOutcome.classList.add('is-active');
-                button.classList.add('is-active');
-            } else {
-                console.warn(`No active outcome found for ID: ${outcomeId}`);
-            }
-        });
-    });
-}
-
 // Function to convert hex color to RGBA
 function hexToRgba(hex, opacity) {
     hex = hex.replace('#', '');
@@ -291,8 +269,6 @@ function removeEmptyOutcomesAndButtons() {
     const outcomes = Array.from(allOutcomesContainer.children).filter(outcome => 
       outcome.id && outcome.id.startsWith('learning-outcome-')
     );
-
-    console.log(outcomes);
     
     outcomes.forEach(outcome => {
       // Check if the outcome element has any content (text, elements, etc.)
@@ -316,28 +292,73 @@ function removeEmptyOutcomesAndButtons() {
     console.warn('Could not find #all-outcomes or .buttons container on the page.');
   }
 }
-
 document.addEventListener('DOMContentLoaded', () => {
     // Get URL parameters
     const params = new URLSearchParams(window.location.search);
     const outcome = params.get('outcome'); // Get the 'outcome' parameter
 
+    // Delay calling getOutcomes to ensure elements are loaded
     if (outcome) {
-        // Select all the learning outcome buttons
-        const buttons = document.querySelectorAll('.learning-outcome');
-
-        // Remove 'is-active' from all buttons
-        buttons.forEach(button => button.classList.remove('is-active'));
-
-        // Find and activate the button with the matching data-text
-        const activeButton = document.querySelector(`.learning-outcome[data-text="${outcome}"]`);
-        if (activeButton) {
-            activeButton.classList.add('is-active');
-            // Scroll to the section
-            const heroSection = document.getElementById('hero-project-outcomes');
-            if (heroSection) {
-                heroSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
+        waitForElements(() => {
+            getOutcomes(Number(outcome));
+        });
     }
 });
+
+function waitForElements(callback) {
+    const checkElements = () => {
+        const buttons = document.querySelectorAll('.learning-outcome');
+        const outcomes = document.querySelectorAll('#all-outcomes .outcomes-container');
+        if (buttons.length > 0 && outcomes.length > 0) {
+            callback();
+        } else {
+            setTimeout(checkElements, 50); // Check every 50ms
+        }
+    };
+    checkElements();
+}
+function getOutcomes(number) {
+    const buttons = document.querySelectorAll('.learning-outcome');
+    const outcomes = document.querySelectorAll('#all-outcomes .outcomes-container');
+
+    // Remove active class from all buttons and outcomes
+    buttons.forEach(btn => btn.classList.remove('is-active'));
+    outcomes.forEach(outcome => outcome.classList.remove('is-active'));
+
+    const outcomeId = `learning-outcome-${number}`;
+    const activeOutcome = document.getElementById(outcomeId);
+    console.log(outcomeId, activeOutcome);
+
+    if (activeOutcome) {
+        activeOutcome.classList.add('is-active');
+    }
+
+    buttons.forEach(btn => {
+        let btnNumber = btn.getAttribute('data-text');
+        
+        if (btnNumber === number.toString()) {
+            btn.classList.add('is-active');
+        }
+    });
+}
+// Function to set up event listeners for outcome buttons
+function changeOutcomes() {
+    const buttons = document.querySelectorAll('.learning-outcome');
+    const outcomes = document.querySelectorAll('#all-outcomes .outcomes-container');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            buttons.forEach(btn => btn.classList.remove('is-active'));
+            outcomes.forEach(outcome => outcome.classList.remove('is-active'));
+
+            const outcomeId = `learning-outcome-${button.getAttribute('data-text')}`;
+            const activeOutcome = document.getElementById(outcomeId);
+            if (activeOutcome) {
+                activeOutcome.classList.add('is-active');
+                button.classList.add('is-active');
+            } else {
+                console.warn(`No active outcome found for ID: ${outcomeId}`);
+            }
+        });
+    });
+}
