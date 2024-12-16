@@ -380,13 +380,71 @@
           {
             "id": "6",
             "title": "concept document",
-            "description": "<span>Why:</span> The concept <a href='./assets/images/projects/client/documents/concept_document.pdf' target='_blank'>document<i class='fa-solid fa-arrow-right'></i></a>  was essential for keeping the project on track and aligned with the professional standards required. It helped us present a clear, well-organized overview to the client and our team. <br></br> <span>What:</span> For the concept document, I created the entire layout and organized the research findings, including the personas I developed. I also included the ideation process, such as the Lotus Blossom and Brainwriting methods. This helped us keep everything in one place and made it easy to track our progress. The document provided a clear timeline and overview, helping us identify our next steps and ensuring that we stayed focused and organized. <br></br> <span>How:</span> The document was very helpful because it acted as a structured reference point for everyone involved. It made it easier to communicate our ideas and progress with the team and the client, keeping everything organized in one accessible place. I really liked this document, as it gave us a clear overview of where we were in the process and what still needed to be done.",
+            "description": "<span>Why:</span> The concept <a href='./assets/images/projects/client/documents/concept_document.pdf' target='_blank'>document<i class='fa-solid fa-arrow-right'></i></a> was essential for keeping the project on track and aligned with the professional standards required. It helped us present a clear, well-organized overview to the client and our team. <br></br> <span>What:</span> For the concept document, I created the entire layout and organized the research findings, including the personas I developed. I also included the ideation process, such as the Lotus Blossom and Brainwriting methods. This helped us keep everything in one place and made it easy to track our progress. The document provided a clear timeline and overview, helping us identify our next steps and ensuring that we stayed focused and organized. <br></br> <span>How:</span> The document was very helpful because it acted as a structured reference point for everyone involved. It made it easier to communicate our ideas and progress with the team and the client, keeping everything organized in one accessible place. I really liked this document, as it gave us a clear overview of where we were in the process and what still needed to be done.",
             "images": [
               "./assets/images/projects/client/concept_document.png"
             ]
+          },
+          {
+            "id": "7",
+            "title": "moodboard",
+            "description": "<span>Why:</span> We made a <a href='https://www.figma.com/design/iP9kEw3gbpeqoTHmEkh416/Prototype-Project?node-id=505-2&t=XgzmbUospQ8eoKow-1' target='_blank'>moodboard<i class='fa-solid fa-arrow-right'></i></a> based on the concept that our client liked with upcycling with your bestie. It helped us get on the same page and see what designs are already out there for our target audience. <br></br> <span>What:</span> We looked at different designs from other games to understand what’s popular in the market. Our main finding was that a simple, cartoonish style is used by many games, and it felt like the best fit for ours. <br></br> <span>How:</span> By putting these ideas together on a moodboard, we could easily compare them and decide that the simple, cartoonish style would work well for our game.",
+            "images": [
+              "./assets/images/projects/client/moodboard.png"
+            ]
+          },
+          {
+            "id": "8",
+            "title": "demo",
+            "description": "<span>Why:</span> We created a <a href='https://www.figma.com/proto/iP9kEw3gbpeqoTHmEkh416/Prototype-Project?node-id=420-4&starting-point-node-id=420%3A4&t=Ns4zsGAdNgtfgqYi-1' target='_blank'>demo<i class='fa-solid fa-arrow-right'></i></a> to test the product before fully developing it. My goal was to make sure the design was functional and the flow of the game felt natural. <br></br> <span>What:</span> I connected the conversation and store parts to the other pages, ensuring the design flowed well. This gave us a preview of how the game would work. <br></br> <span>How:</span> By linking the pages together, I was able to test the transitions between different sections of the game and ensure the design stayed consistent.",
+            "images": [
+              "./assets/images/projects/client/demo.png"
+            ]
+          },
+          {
+            "id": "9",
+            "title": "coding the flow",
+            "description": "<span>Why:</span> I wanted to create a <a href='https://git.fhict.nl/I522385/upcycling-with-besties' target='_blank'>dynamic chat<i class='fa-solid fa-arrow-right'></i></a> flow with customer animations based on different levels. To do this, I needed to ensure that the chat progress and animation states would be saved, even when the user refreshes the page. This taught me how to preserve user progress across sessions using localStorage. <br></br> <span>What:</span> I used localStorage to save the current index and the state of the chat. This allowed me to load and update the chat flow without losing progress. I also used async functions to fetch data and handle errors. Additionally, I integrated customer animations with CSS keyframes, which gave me hands-on experience with both JavaScript and CSS animations. <br></br> <span>How:</span> By storing the `currentIndex` and `checked` state in localStorage, I was able to load the chat flow dynamically and maintain the user's progress even if they refreshed the page. I used setTimeouts to manage delays for animations and transitions. The animation function allowed me to trigger different animations depending on the direction of movement, adding smooth transitions to the customer actions. This taught me how to combine state management, asynchronous data fetching, and animation techniques in a seamless flow. ",
+            "images": [
+              "./assets/images/projects/client/coding.png"
+            ]
           }
         ],
-        "2": [],
+        "2": [
+          {
+            "id": "1",
+            "title": "co-pilot",
+            "description": "<span>Why:</span> Writing and fixing code can take a lot of time, especially when working in teams. After using GitHub Copilot, I realized it helps make this process faster and more efficient. <br></br> <span>What:</span> Copilot suggests code, helps debug errors, and provides quick solutions. It also makes it easier to understand other people's code and add comments where needed. <br></br>  <span>How:</span> I use Copilot while coding to get quick suggestions for functions and logic. When I get stuck on a problem, it suggests possible solutions, saving time. I also use it to debug errors by checking the suggestions Copilot provides and adjusting my code accordingly. This helps me write clean, understandable code that my team can use.",
+            "images": [
+              "./assets/images/projects/client/copilot.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "usage of version control",
+            "description": "<span>Why:</span> During our project, I noticed that managing our code effectively was crucial for smooth teamwork. After some feedback, I took the lead in guiding everyone on using <a href='https://git.fhict.nl/I522385/upcycling-with-besties' target='_blank'>GitLab<i class='fa-solid fa-arrow-right'></i></a> properly to avoid version control issues. <br></br>  <span>What:</span> I focused on helping the team understand how to work with branches, commit changes, merge their work, and resolve merge errors. This made our collaboration more efficient and reduced the risk of conflicts in the code. <br></br>  <span>How:</span> I provided guidance on how to create and manage branches in GitLab, explained how to commit regularly, and helped the team navigate merge conflicts when they happened. This ensured that everyone was able to collaborate smoothly and keep the project on track.",
+            "images": [
+              "./assets/images/projects/client/merge_conflict.png",
+              "./assets/images/projects/client/version_control.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "adding comments",
+            "description": "<span>Why:</span> I added <a href='https://git.fhict.nl/I522385/upcycling-with-besties' target='_blank'>comments<i class='fa-solid fa-arrow-right'></i></a> to my code to make it easier for my co-workers to understand and follow the process. This helped ensure smooth collaboration and improved our teamwork. <br></br> <span>What:</span> I commented on key parts of my code to explain what was happening. This way, my co-workers didn’t need a full explanation every time they looked at my code. <br></br> <span>How:</span> By adding clear and helpful comments, I made my code more understandable. This allowed the team to work more smoothly and understand my process without needing extra explanations.",
+            "images": [
+              "./assets/images/projects/client/comments.png"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "merge conflicts",
+            "description": "<span>Why:</span> Some of my group members were inexperienced with GitLab and faced merge conflicts during the project. I wanted to help them solve these problems so they could work more efficiently. <br></br> <span>What:</span> I showed my teammates how to solve merge conflicts in GitLab. After explaining the process to them, they were able to handle conflicts on their own. <br></br> <span>How:</span> By teaching them the process, I ensured the team could manage version control better, which improved our workflow and reduced the chances of issues in the future.",
+            "images": [
+              "./assets/images/projects/client/comments.png"
+            ]
+          }
+        ],
         "3": [
           {
             "id": "1",
@@ -397,6 +455,32 @@
               "./assets/images/projects/client/reward.png",
               "./assets/images/projects/client/gamification1.png",
               "./assets/images/projects/client/gamification2.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "artificial intelligence",
+            "description": "<span>Why:</span> My first draft of text is often not as clear as I want it to be. ChatGPT helped me improve and rewrite it quickly. <br></br>  <span>What:</span> I used ChatGPT to rewrite text after I finished typing it. This made it easier to understand and sound better. <br></br>  <span>How:</span> After I wrote a draft, I asked ChatGPT to suggest changes or rewrite parts that needed fixing. This helped me quickly improve my writing and make sure it worked well for the project.",
+            "images": [
+              "./assets/images/projects/client/text.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "store design",
+            "description": "<span>Why:</span> I wanted to take the <a href='https://www.figma.com/design/iP9kEw3gbpeqoTHmEkh416/Prototype-Project?node-id=505-2&t=XgzmbUospQ8eoKow-1' target='_blank'>moodboard<i class='fa-solid fa-arrow-right'></i></a> style we chose and bring it into our game <a href='https://www.figma.com/design/iP9kEw3gbpeqoTHmEkh416/Prototype-Project?node-id=505-2&t=XgzmbUospQ8eoKow-1' target='_blank'>design<i class='fa-solid fa-arrow-right'></i></a> . The goal was to create a setting where players could interact with the design and experience the upcycling process. After receiving feedback from our client, I also wanted to add animation and a conversation to make the experience more engaging. <br></br> <span>What:</span> I recreated a store in the game where customers come in to upcycle their items, using the simple, cartoonish style from the moodboard. Based on the feedback, I added an animation where the customer walks into the store, and I designed a conversation between the customer and the store. <br></br> <span>How:</span> I implemented the animation of the customer walking into the store to make the interaction more dynamic. I also created a conversation flow, where the customer talks about their product, adding more depth to the experience. This allowed me to stay true to the chosen style while improving the game with interactive elements based on the client’s suggestions.",
+            "images": [
+              "./assets/images/projects/client/shop1.png",
+              "./assets/images/projects/client/shop2.png",
+              "./assets/images/projects/client/conversation.png"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "usability testing",
+            "description": "<span>Why:</span> We wanted to ensure our product was usable for our target group and identify any flaws in the user experience we did a <a href='./assets/images/projects/client/documents/usability_testing.pdf' target='_blank'>usability test<i class='fa-solid fa-arrow-right'></i></a>. We aimed to improve our product before finalizing it, ensuring it met user expectations and provided a smooth experience. <br></br> <span>What:</span> I participated in usability testing with two other group members. We focused on gathering feedback from four individuals within our target group, asking them to test the final product and identify any areas for improvement. The feedback was invaluable for identifying non-intended errors, as well as suggestions, like adding more items and showing customers wearing their upcycled clothing. <br></br> <span>How:</span> We observed the testers interacting with the product, noted their feedback, and discussed possible improvements. After the testing, we analyzed the suggestions and made changes to the product, such as the addition of more items and displaying customers in upcycled clothes. This testing process really helped us refine the user experience and align it with our target group’s preferences.",
+            "images": [
+              "./assets/images/projects/client/testing.png"
             ]
           }
         ],
@@ -480,6 +564,30 @@
             "images": [
               "./assets/images/projects/client/concept_idea.jpg"
             ]
+          },
+          {
+            "id": "10",
+            "title": "demo present",
+            "description": "<span>Why:</span> We needed to test our <a href='https://www.figma.com/proto/iP9kEw3gbpeqoTHmEkh416/Prototype-Project?node-id=420-4&starting-point-node-id=420%3A4&t=Ns4zsGAdNgtfgqYi-1' target='_blank'>demo<i class='fa-solid fa-arrow-right'></i></a> with the client to get her feedback and refine the product before finalizing it. This would help us improve the product in line with her expectations. <br></br> <span>What:</span> We presented the demo to the client and asked for her input. She appreciated the demo and suggested features like an introduction, voiceover, and credits. <br></br> <span>How:</span> I documented the feedback and will incorporate the suggested features into the advice report, using version control to track changes and keep the project organized.",
+            "images": [
+              "./assets/images/projects/client/demo.png"
+            ]
+          },
+          {
+            "id": "11",
+            "title": "advice report",
+            "description": "<span>Why:</span> The goal of the <a href='./assets/images/projects/client/documents/advice_report.pdf' target='_blank'>advice report<i class='fa-solid fa-arrow-right'></i></a> was to provide strategic advice on how to improve and implement the 'Upcycling with Besties' game. The aim was to raise awareness about upcycling, educate users, and promote sustainable fashion. The report focuses on improving user engagement and the overall user experience by addressing key issues like responsiveness, game flow, and functionality. <br></br> <span>What:</span> I worked on this report as part of the project to provide recommendations for the game’s improvement. The report analyzed the current situation, conducted surveys, and gathered feedback to help refine the game’s design and user experience. It also included suggestions on adding features like mobile responsiveness, a badge system, and sharing options for upcycled clothing. The report also discussed risks, such as player fatigue and technical issues, and offered strategies to mitigate them. <br></br> <span>How:</span> I contributed by researching and analyzing the current state of the game, then providing recommendations to improve its functionality and user experience. What helped me was the feedback from surveys and playtesting, which gave clear insights into areas of improvement. Next time, I would focus on streamlining the game’s flow to avoid overwhelming players and ensuring smoother cross-platform compatibility. This experience taught me how to structure a report and provide actionable solutions based on research and testing.",
+            "images": [
+              "./assets/images/projects/client/advice_report.png"
+            ]
+          },
+          {
+            "id": "12",
+            "title": "finalizing our product",
+            "description": "<span>Why:</span> We wanted to ensure our <a href='https://git.fhict.nl/I522385/upcycling-with-besties' target='_blank'>product<i class='fa-solid fa-arrow-right'></i></a> was usable for our target group and identify any flaws in the user experience. We aimed to improve our product before finalizing it, ensuring it met user expectations and provided a smooth experience. <br></br> <span>What:</span> I participated in <a href='./assets/images/projects/client/documents/usability_testing.pdf' target='_blank'>usability testing<i class='fa-solid fa-arrow-right'></i></a> with two other group members. We focused on gathering feedback from four individuals within our target group, asking them to test the final product and identify any areas for improvement. The feedback was invaluable for identifying non-intended errors, as well as suggestions, like adding more items and showing customers wearing their upcycled clothing. <br></br> <span>How:</span> We observed the testers interacting with the product, noted their feedback, and discussed possible improvements. After the testing, we analyzed the suggestions and made changes to the product, such as the addition of more items and displaying customers in upcycled clothes. This testing process really helped us refine the user experience and align it with our target group’s preferences.",
+            "images": [
+              "./assets/images/projects/client/final.png"
+            ]
           }
         ],
         "5": [
@@ -507,6 +615,30 @@
             "images": [
               "./assets/images/projects/client/retrospectives.jpg",
               "./assets/images/projects/client/retrospectives2.jpg"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "quick problem solving",
+            "description": "<span>Why:</span> I finished my tasks with the menu, the conversation, and the customer animation walking in. Afterward, I was assigned a quick problem-solving task by my teammate to improve the flow of the game. <br></br> <span>What:</span> I completed my assigned tasks and then took on a problem-solving role to help improve the overall game flow. <br></br> <span>How:</span> By stepping in and helping solve the issue, I showed leadership in taking responsibility for the team's success and ensured the game’s flow was smooth",
+            "images": [
+              "./assets/images/projects/client/flow.png"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "merge conflicts",
+            "description": "<span>Why:</span> I noticed that some of my teammates were struggling with merge conflicts in GitLab. I wanted to step in and help them learn how to solve these issues themselves. <br></br> <span>What:</span> I took the time to teach them how to resolve merge conflicts and troubleshoot related issues. Once they understood the process, they were able to handle it independently. <br></br> <span>How:</span> By showing leadership and teaching my teammates, I helped improve their skills and made the team more efficient. This promoted a positive and supportive work environment.",
+            "images": [
+              "./assets/images/projects/client/comments.png"
+            ]
+          },
+          {
+            "id": "6",
+            "title": "final presentation",
+            "description": "<span>Why:</span> We needed to present our product to the client to show them what we’ve done, explain how it works, and make sure it meets their needs. The <a href='https://www.canva.com/design/DAGYyoiCdr8/FwUK-zAs88M87dysjeMfXQ/edit?utm_content=DAGYyoiCdr8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target='_blank'>presentation<i class='fa-solid fa-arrow-right'></i></a> was important to show our progress and the final result of the project. <br></br> <span>What:</span> For our final presentation, I made my own slides in PowerPoint. After that, our group practiced the presentation to make sure everything went smoothly. This practice helped us know what to say and when to say it, so the presentation was organized. The main feedback from our client was very positive. She liked the idea and was excited to see it in future plans, like adding a social media feature where players could 'upcycle with your bestie' and post their upcycled items. She also suggested adding a feature in the game where the customer wears upcycled items and adding some information about the item at the end to teach the user about it. <br></br> <span>How:</span> I made sure my slides were clear and easy to understand. Practicing with my group helped us work together better and make sure we were ready. What helped me was the feedback from my group, which made me realize some things I could improve. Next time, I would spend more time making the slides look even better and practice more to feel even more confident. This experience helped me improve my teamwork and presentation skills, and I learned how important it is to prepare well and work together for a successful presentation.",
+            "images": [
+              "./assets/images/projects/client/final_presentation.png"
             ]
           }
         ]
@@ -557,6 +689,36 @@
             "text": "trello",
             "icon": "fa-brands fa-trello",
             "link": "https://trello.com/b/Mk6JKvMD/to-do"
+          },
+          {
+            "text": "moodboard",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/iP9kEw3gbpeqoTHmEkh416/Prototype-Project?node-id=505-2&t=XgzmbUospQ8eoKow-1"
+          },
+          {
+            "text": "figma demo",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/proto/iP9kEw3gbpeqoTHmEkh416/Prototype-Project?node-id=420-4&starting-point-node-id=420%3A4&t=Ns4zsGAdNgtfgqYi-1"
+          },
+          {
+            "text": "gitlab",
+            "icon": "fa-brands fa-gitlab",
+            "link": "https://git.fhict.nl/I522385/upcycling-with-besties"
+          },
+          {
+            "text": "usability testing",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/usability_testing.pdf"
+          },
+          {
+            "text": "advice report",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/client/documents/advice_report.pdf"
+          },
+          {
+            "text": "presentation",
+            "icon": "fas fa-presentation",
+            "link": "https://www.canva.com/design/DAGYyoiCdr8/FwUK-zAs88M87dysjeMfXQ/edit?utm_content=DAGYyoiCdr8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
           }
         ]
       }

@@ -110,6 +110,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         // Set up event listeners for outcome buttons (if any)
         changeOutcomes();
+        removeEmptyOutcomesAndButtons();
 
         // Initialize full screen carousel
         callFullScreenCarousel(project);
@@ -279,3 +280,64 @@ function callFullScreenCarousel(project) {
         icon.addEventListener('click', fullScreenCarousel);
     });
 }
+
+function removeEmptyOutcomesAndButtons() {
+  // Select the container that holds all the outcomes and the buttons
+  const allOutcomesContainer = document.getElementById('all-outcomes');
+  const buttonsContainer = document.querySelector('.buttons');
+
+  if (allOutcomesContainer && buttonsContainer) {
+    // Get all child elements of #all-outcomes
+    const outcomes = Array.from(allOutcomesContainer.children).filter(outcome => 
+      outcome.id && outcome.id.startsWith('learning-outcome-')
+    );
+
+    console.log(outcomes);
+    
+    outcomes.forEach(outcome => {
+      // Check if the outcome element has any content (text, elements, etc.)
+      const hasContent = outcome.textContent.trim() !== '' || outcome.children.length > 0;
+      
+      if (!hasContent) {
+        // Extract the number from the id, e.g., "learning-outcome-1" -> 1
+        const outcomeNumber = outcome.id.match(/learning-outcome-(\d+)/)?.[1];
+        
+        if (outcomeNumber) {
+          // Find the corresponding button with the matching data-text attribute
+          const buttonToRemove = buttonsContainer.querySelector(`button[data-text="${outcomeNumber}"]`);
+          
+          if (buttonToRemove) {
+            buttonToRemove.remove();
+          }
+        }
+      }
+    });
+  } else {
+    console.warn('Could not find #all-outcomes or .buttons container on the page.');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Get URL parameters
+    const params = new URLSearchParams(window.location.search);
+    const outcome = params.get('outcome'); // Get the 'outcome' parameter
+
+    if (outcome) {
+        // Select all the learning outcome buttons
+        const buttons = document.querySelectorAll('.learning-outcome');
+
+        // Remove 'is-active' from all buttons
+        buttons.forEach(button => button.classList.remove('is-active'));
+
+        // Find and activate the button with the matching data-text
+        const activeButton = document.querySelector(`.learning-outcome[data-text="${outcome}"]`);
+        if (activeButton) {
+            activeButton.classList.add('is-active');
+            // Scroll to the section
+            const heroSection = document.getElementById('hero-project-outcomes');
+            if (heroSection) {
+                heroSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }
+});
