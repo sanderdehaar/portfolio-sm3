@@ -301,6 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (outcome) {
         waitForElements(() => {
             getOutcomes(Number(outcome));
+            smoothScrollToButton(Number(outcome));
         });
     }
 });
@@ -317,6 +318,7 @@ function waitForElements(callback) {
     };
     checkElements();
 }
+
 function getOutcomes(number) {
     const buttons = document.querySelectorAll('.learning-outcome');
     const outcomes = document.querySelectorAll('#all-outcomes .outcomes-container');
@@ -340,6 +342,17 @@ function getOutcomes(number) {
             btn.classList.add('is-active');
         }
     });
+}
+
+function smoothScrollToButton(number) {
+    const button = document.querySelector(`.learning-outcome[data-text="${number}"]`);
+    if (button) {
+        // Scroll to the button smoothly
+        button.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center', // Scroll to the center of the button
+        });
+    }
 }
 // Function to set up event listeners for outcome buttons
 function changeOutcomes() {
