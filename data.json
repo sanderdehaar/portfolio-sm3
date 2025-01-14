@@ -1,157 +1,6 @@
 {
   "projects": [
     {
-      "name": "passionate project",
-      "title": "passion work",
-      "banner": {
-        "backgroundImage": "./assets/images/projects/passionate/passionate_banner2.png",
-        "bannerImage": "./assets/images/projects/passionate/passionate_banner1.png",
-        "heading": "passionate project",
-        "color": "#649F64"
-      },
-      "information": {
-        "title": "project Information",
-        "description": "Read about my passion project I have done to learn more about app/web design and to use it the next stage of my development process",
-        "mockupImage": "./assets/images/projects/passionate/passionate_banner2.png",
-        "fullDescription": "The project is about a digital agenda for a pedicure practice, created for a client who owns the practice. The problems they faced included rare double bookings and frequently forgetting client appointments. They also wanted better oversight and management of their client base. I have come up with solutions and developed the entire process in Figma/demo design."
-      },
-      "outcomes": {
-        "1": [
-          {
-            "id": "1",
-            "title": "interview pedicure",
-            "description": "<span>Why:</span> In the <a href='./assets/images/projects/passionate/documents/stakeholder_brief.pdf' target='_blank'>interview<i class='fa-solid fa-arrow-right'></i></a>, my client, who runs a pedicure business, told me that she has trouble managing her schedule. She forgets appointments sometimes and is worried about double bookings. She needs an easy way to stay organized and in control of her client appointments. My goal is to create an app that helps her with these problems and makes managing her business easier. <br></br>  <span>What:</span> From the interview, I learned that the app should show her availability and booked appointments clearly. The app needs to have reminders for her appointments, stop double bookings, and be easy to use for managing appointments. She also wants a simple login for security. The app will mainly be used on desktop, but it can be checked on mobile sometimes. <br></br> <span>How:</span> The information from the interview helps me know what to focus on in the design. I will create a simple and easy-to-use interface with a clear calendar and list of appointments. The app will send reminders to make sure the client doesn’t forget appointments. The login will be easy to use, and the design will be made for desktop use so she can manage her schedule easily.",
-            "images": [
-              "./assets/images/projects/passionate/interview.png"
-            ]
-          },
-          {
-            "id": "2",
-            "title": "moodboard",
-            "description": "<span>Why:</span> Based on my client’s request, I wanted to gather some visual inspiration to guide the design process for the scheduling app. I needed a <a href='https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1' target='_blank'>moodboard<i class='fa-solid fa-arrow-right'></i></a> to reflect the simple, clean, and easy-to-use style the client wanted, helping me set the overall direction for the app’s look and feel. <br></br> <span>What:</span> I looked for inspiration online, focusing on simple scheduling apps and clean, minimalistic designs. I gathered images that featured clear calendars, user-friendly interfaces, and other elements that could inform the app's design. The goal was to capture a style that matched the client’s needs and suited the pedicure practice. <br></br> <span>How:</span> The moodboard helped me organize visual ideas and define the style for the app. It gave me a clear direction for the design and kept me focused on creating a clean, professional, and easy-to-use app that aligned with the client’s vision.",
-            "images": [
-              "./assets/images/projects/passionate/moodboard.png"
-            ]
-          },
-          {
-            "id": "3",
-            "title": "low fidelity wireframes",
-            "description": "<span>Why:</span> I created low-fidelity <a href='https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1' target='_blank'>wireframes<i class='fa-solid fa-arrow-right'></i></a> to map out the app’s layout and core features. This step helped me visualize the structure and flow of the app, ensuring it aligned with the client’s needs and the concept I developed. I also referred to literature and design guidelines to ensure the wireframes were based on best practices. <br></br> <span>What:</span> The wireframes were simple, focusing on key components like the calendar view, appointment slots, and login screen. I used basic shapes to represent the content and layout, aiming for a clear, intuitive design. <br></br> <span>How:</span> The wireframes helped me refine the app’s structure, allowing me to organize content in a user-friendly way. This step was essential in visualizing the app’s functionality before moving on to more detailed design work, based on my research.",
-            "images": [
-              "./assets/images/projects/passionate/wireframe_low1.png",
-              "./assets/images/projects/passionate/wireframe_low2.png",
-              "./assets/images/projects/passionate/wireframe_low3.png"
-            ]
-          },
-          {
-            "id": "4",
-            "title": "high fidelity wireframes",
-            "description": "<span>Why:</span> After creating the low-fidelity wireframes, I made high-fidelity <a href='https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1' target='_blank'>wireframes<i class='fa-solid fa-arrow-right'></i></a> to show my client exactly how the desktop app would work. This helped me make the design clearer and more realistic for the client. <br></br> <span>What:</span> The high-fidelity wireframes looked more like the final app, with real content and design details like buttons and the calendar layout. This helped the client see how everything would be arranged and work together. <br></br> <span>How:</span> Making high-fidelity wireframes helped me give the client a clear picture of how the app would look and work. This made it easier for the client to understand the design and helped me with making the final steps, such as a demo.",
-            "images": [
-              "./assets/images/projects/passionate/wireframe_high1.png",
-              "./assets/images/projects/passionate/wireframe_high2.png",
-              "./assets/images/projects/passionate/wireframe_high3.png",
-              "./assets/images/projects/passionate/wireframe_high4.png",
-              "./assets/images/projects/passionate/wireframe_high5.png",
-              "./assets/images/projects/passionate/wireframe_high6.png",
-              "./assets/images/projects/passionate/wireframe_high7.png",
-              "./assets/images/projects/passionate/wireframe_high8.png"
-            ]
-          }
-        ],
-        "2": [],
-        "3": [
-          {
-            "id": "1",
-            "title": "labels & colors",
-            "description": "<span>Why:</span> Based on the feedback I received from my client, I realized that using colors could make it easier for my client to manage appointments and label them clearly. The idea was to create a simple way for the user to select a color for each appointment. <br></br> <span>What:</span> I created two different color selection designs to see which one worked best. After testing, I decided to go with the rectangular option. Then, I showed it to a fellow student, who suggested adding an option for users to choose colors from the entire color wheel. I thought this was a great idea, so I added it to the design. <br></br> <span>How:</span> By creating different iterations of the color selection feature, I was able to improve the design. The feedback from my classmate helped me make the tool more flexible, allowing users to choose any color they want. This helped me refine the design and ensure it met the client’s needs.",
-            "images": [
-              "./assets/images/projects/passionate/iteration1.png",
-              "./assets/images/projects/passionate/iteration2.png",
-              "./assets/images/projects/passionate/iteration3.png",
-              "./assets/images/projects/passionate/iteration4.png"
-            ]
-          },
-          {
-            "id": "2",
-            "title": "personal descriptions",
-            "description": "<span>Why:</span> After receiving feedback from my client, I learned that she also has medical clients and needs to keep track of specific information about them, such as whether they are a medical patient. This would help her manage different types of clients more easily. <br></br> <span>What:</span> I added a feature that allows my client to write a small description for each client. This description can include important details, like if the client is a medical patient. Additionally, I made sure that the description is shown as a tooltip when hovering over a client's name in the schedule or client tab. <br></br> <span>How:</span> By incorporating this feature, I improved the app's usability, making it easier for my client to manage medical and non-medical clients. The tooltip helps her quickly access the information she needs, without cluttering the interface. This change improved the overall design based on the feedback I received.",
-            "images": [
-              "./assets/images/projects/passionate/iteration5.png",
-              "./assets/images/projects/passionate/iteration6.png",
-              "./assets/images/projects/passionate/iteration7.png",
-              "./assets/images/projects/passionate/iteration8.png"
-            ]
-          }
-        ],
-        "4": [
-          {
-            "id": "1",
-            "title": "research",
-            "description": "<span>Why:</span> From my <a href='./assets/images/projects/passionate/documents/research.pdf' target='_blank'>research<i class='fa-solid fa-arrow-right'></i></a>, I found features that could help solve common problems pedicure service providers face, like double-booking and missed appointments. Features like automatic reminders, self-booking, and showing real-time availability could be useful for the app. <br></br> <span>What:</span> I found that pedicure providers have trouble managing appointments manually. To help with this, I included features like automatic reminders, real-time availability, and adjusting appointment times. I also learned that the app should be simple and easy for everyone to use, even if they’re not good with technology. <br></br> <span>How:</span> Using what I learned, I added these helpful features to the app, like reminders and real-time availability, to reduce mistakes and save time. I also made the design simple and easy to use so anyone, even without tech skills, could use it.",
-            "images": [
-              "./assets/images/projects/passionate/research.png"
-            ]
-          },
-          {
-            "id": "2",
-            "title": "feedback",
-            "description": "<span>Why:</span> I shared the high-fidelity wireframes with my client to make sure the design was clear and met her needs. She gave me helpful <a href='./assets/images/projects/passionate/documents/stakeholder_brief.pdf' target='_blank'>feedback<i class='fa-solid fa-arrow-right'></i></a>, which helped me improve the app further. I wanted the design to not only look good but also solve her specific challenges. <br></br> <span>What:</span> One suggestion was to use colors to easily show different types of appointments, like couples or medical clients. She also mentioned the importance of adding a short description for each client so she can quickly see important details, especially for medical clients who may need home visits. She liked that the design was simple to use and visually appealing. <br></br> <span>How:</span> Based on her feedback, I improved the wireframes by adding a feature to assign colors to appointments and a way to include client descriptions. These changes made the app more user-friendly and practical for her daily tasks. Reflecting on this, I learned how important it is to listen to feedback and adapt designs to fit the user’s needs better. This experience also helped me understand how small adjustments can make a big difference in usability.",
-            "images": [
-              "./assets/images/projects/passionate/feedback.png"
-            ]
-          }
-        ],
-        "5": [
-          {
-            "id": "1",
-            "title": "specialization",
-            "description": "<span>Why:</span> I chose this project because it’s related to designing applications and dashboards, which is something I’ll focus on in my specialization next semester. By working on this, I’m getting myself ready for that. It’s important to learn these skills now, so I can be better prepared for the more advanced work I’ll be doing later. <br></br> <span>What:</span> This project involves creating a simple scheduling app, and through this, I’m learning how to design functional, user-friendly interfaces that can be applied to many different types of applications. <br></br> <span>How:</span> Working on this project is helping me develop the skills I need for my specialization. I’m learning how to make apps that not only look good but also work well for the users. This experience will definitely help me in the future when I focus on more advanced design projects.",
-            "images": [
-              "./assets/images/projects/passionate/wireframe_high1.png"
-            ]
-          },
-          {
-            "id": "2",
-            "title": "user focused direction",
-            "description": "<span>Why:</span> I chose this project to improve my skills in designing apps that are easy to use and solve real problems. The project helped me focus on creating something that would be useful and simple for my client. I wanted to make sure the app would help her manage her appointments better while also helping me get better at designing with the user in mind. <br></br> <span>What:</span> In this project, I created a scheduling app that focuses on what my client needs. I looked at her problems, like forgetting appointments and double booking, and made sure the app could help with that. I also added features based on her feedback, like allowing her to write a description for each client and clearer reminders. <br></br> <span>How:</span> By focusing on my client’s needs, I made sure the app was simple and easy to use. I used the feedback I got to make the app better and easier for anyone to understand, even if they’re not good with technology. This project helped me improve my skills in designing apps that are useful and easy for people to use.",
-            "images": [
-              "./assets/images/projects/passionate/wireframe_high1.png"
-            ]
-          }
-        ]
-      },
-      "extraInformation": {
-        "socials": [
-          {
-            "text": "stakeholder brief",
-            "icon": "fa-solid fa-file",
-            "link": "./assets/images/projects/passionate/documents/stakeholder_brief.pdf"
-          },
-          {
-            "text": "interview & feedback",
-            "icon": "fa-solid fa-file",
-            "link": "./assets/images/projects/passionate/documents/interview_transcript.pdf"
-          },
-          {
-            "text": "moodboard",
-            "icon": "fa-brands fa-figma",
-            "link": "https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1"
-          },
-          {
-            "text": "wireframes",
-            "icon": "fa-brands fa-figma",
-            "link": "https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1"
-          },
-          {
-            "text": "research",
-            "icon": "fa-solid fa-file",
-            "link": "./assets/images/projects/passionate/documents/research.pdf"
-          }
-        ]
-      }
-    },
-    {
       "name": "brand studio",
       "title": "brand studio",
       "banner": {
@@ -993,6 +842,157 @@
             "text": "3d object",
             "icon": "fa-brands fa-github",
             "link": "https://github.com/sanderdehaar/the_lost_archive"
+          }
+        ]
+      }
+    },
+    {
+      "name": "passionate project",
+      "title": "passion work",
+      "banner": {
+        "backgroundImage": "./assets/images/projects/passionate/passionate_banner2.png",
+        "bannerImage": "./assets/images/projects/passionate/passionate_banner1.png",
+        "heading": "passionate project",
+        "color": "#649F64"
+      },
+      "information": {
+        "title": "project Information",
+        "description": "Read about my passion project I have done to learn more about app/web design and to use it the next stage of my development process",
+        "mockupImage": "./assets/images/projects/passionate/passionate_banner2.png",
+        "fullDescription": "The project is about a digital agenda for a pedicure practice, created for a client who owns the practice. The problems they faced included rare double bookings and frequently forgetting client appointments. They also wanted better oversight and management of their client base. I have come up with solutions and developed the entire process in Figma/demo design."
+      },
+      "outcomes": {
+        "1": [
+          {
+            "id": "1",
+            "title": "interview pedicure",
+            "description": "<span>Why:</span> In the <a href='./assets/images/projects/passionate/documents/stakeholder_brief.pdf' target='_blank'>interview<i class='fa-solid fa-arrow-right'></i></a>, my client, who runs a pedicure business, told me that she has trouble managing her schedule. She forgets appointments sometimes and is worried about double bookings. She needs an easy way to stay organized and in control of her client appointments. My goal is to create an app that helps her with these problems and makes managing her business easier. <br></br>  <span>What:</span> From the interview, I learned that the app should show her availability and booked appointments clearly. The app needs to have reminders for her appointments, stop double bookings, and be easy to use for managing appointments. She also wants a simple login for security. The app will mainly be used on desktop, but it can be checked on mobile sometimes. <br></br> <span>How:</span> The information from the interview helps me know what to focus on in the design. I will create a simple and easy-to-use interface with a clear calendar and list of appointments. The app will send reminders to make sure the client doesn’t forget appointments. The login will be easy to use, and the design will be made for desktop use so she can manage her schedule easily.",
+            "images": [
+              "./assets/images/projects/passionate/interview.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "moodboard",
+            "description": "<span>Why:</span> Based on my client’s request, I wanted to gather some visual inspiration to guide the design process for the scheduling app. I needed a <a href='https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1' target='_blank'>moodboard<i class='fa-solid fa-arrow-right'></i></a> to reflect the simple, clean, and easy-to-use style the client wanted, helping me set the overall direction for the app’s look and feel. <br></br> <span>What:</span> I looked for inspiration online, focusing on simple scheduling apps and clean, minimalistic designs. I gathered images that featured clear calendars, user-friendly interfaces, and other elements that could inform the app's design. The goal was to capture a style that matched the client’s needs and suited the pedicure practice. <br></br> <span>How:</span> The moodboard helped me organize visual ideas and define the style for the app. It gave me a clear direction for the design and kept me focused on creating a clean, professional, and easy-to-use app that aligned with the client’s vision.",
+            "images": [
+              "./assets/images/projects/passionate/moodboard.png"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "low fidelity wireframes",
+            "description": "<span>Why:</span> I created low-fidelity <a href='https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1' target='_blank'>wireframes<i class='fa-solid fa-arrow-right'></i></a> to map out the app’s layout and core features. This step helped me visualize the structure and flow of the app, ensuring it aligned with the client’s needs and the concept I developed. I also referred to literature and design guidelines to ensure the wireframes were based on best practices. <br></br> <span>What:</span> The wireframes were simple, focusing on key components like the calendar view, appointment slots, and login screen. I used basic shapes to represent the content and layout, aiming for a clear, intuitive design. <br></br> <span>How:</span> The wireframes helped me refine the app’s structure, allowing me to organize content in a user-friendly way. This step was essential in visualizing the app’s functionality before moving on to more detailed design work, based on my research.",
+            "images": [
+              "./assets/images/projects/passionate/wireframe_low1.png",
+              "./assets/images/projects/passionate/wireframe_low2.png",
+              "./assets/images/projects/passionate/wireframe_low3.png"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "high fidelity wireframes",
+            "description": "<span>Why:</span> After creating the low-fidelity wireframes, I made high-fidelity <a href='https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1' target='_blank'>wireframes<i class='fa-solid fa-arrow-right'></i></a> to show my client exactly how the desktop app would work. This helped me make the design clearer and more realistic for the client. <br></br> <span>What:</span> The high-fidelity wireframes looked more like the final app, with real content and design details like buttons and the calendar layout. This helped the client see how everything would be arranged and work together. <br></br> <span>How:</span> Making high-fidelity wireframes helped me give the client a clear picture of how the app would look and work. This made it easier for the client to understand the design and helped me with making the final steps, such as a demo.",
+            "images": [
+              "./assets/images/projects/passionate/wireframe_high1.png",
+              "./assets/images/projects/passionate/wireframe_high2.png",
+              "./assets/images/projects/passionate/wireframe_high3.png",
+              "./assets/images/projects/passionate/wireframe_high4.png",
+              "./assets/images/projects/passionate/wireframe_high5.png",
+              "./assets/images/projects/passionate/wireframe_high6.png",
+              "./assets/images/projects/passionate/wireframe_high7.png",
+              "./assets/images/projects/passionate/wireframe_high8.png"
+            ]
+          }
+        ],
+        "2": [],
+        "3": [
+          {
+            "id": "1",
+            "title": "labels & colors",
+            "description": "<span>Why:</span> Based on the feedback I received from my client, I realized that using colors could make it easier for my client to manage appointments and label them clearly. The idea was to create a simple way for the user to select a color for each appointment. <br></br> <span>What:</span> I created two different color selection designs to see which one worked best. After testing, I decided to go with the rectangular option. Then, I showed it to a fellow student, who suggested adding an option for users to choose colors from the entire color wheel. I thought this was a great idea, so I added it to the design. <br></br> <span>How:</span> By creating different iterations of the color selection feature, I was able to improve the design. The feedback from my classmate helped me make the tool more flexible, allowing users to choose any color they want. This helped me refine the design and ensure it met the client’s needs.",
+            "images": [
+              "./assets/images/projects/passionate/iteration1.png",
+              "./assets/images/projects/passionate/iteration2.png",
+              "./assets/images/projects/passionate/iteration3.png",
+              "./assets/images/projects/passionate/iteration4.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "personal descriptions",
+            "description": "<span>Why:</span> After receiving feedback from my client, I learned that she also has medical clients and needs to keep track of specific information about them, such as whether they are a medical patient. This would help her manage different types of clients more easily. <br></br> <span>What:</span> I added a feature that allows my client to write a small description for each client. This description can include important details, like if the client is a medical patient. Additionally, I made sure that the description is shown as a tooltip when hovering over a client's name in the schedule or client tab. <br></br> <span>How:</span> By incorporating this feature, I improved the app's usability, making it easier for my client to manage medical and non-medical clients. The tooltip helps her quickly access the information she needs, without cluttering the interface. This change improved the overall design based on the feedback I received.",
+            "images": [
+              "./assets/images/projects/passionate/iteration5.png",
+              "./assets/images/projects/passionate/iteration6.png",
+              "./assets/images/projects/passionate/iteration7.png",
+              "./assets/images/projects/passionate/iteration8.png"
+            ]
+          }
+        ],
+        "4": [
+          {
+            "id": "1",
+            "title": "research",
+            "description": "<span>Why:</span> From my <a href='./assets/images/projects/passionate/documents/research.pdf' target='_blank'>research<i class='fa-solid fa-arrow-right'></i></a>, I found features that could help solve common problems pedicure service providers face, like double-booking and missed appointments. Features like automatic reminders, self-booking, and showing real-time availability could be useful for the app. <br></br> <span>What:</span> I found that pedicure providers have trouble managing appointments manually. To help with this, I included features like automatic reminders, real-time availability, and adjusting appointment times. I also learned that the app should be simple and easy for everyone to use, even if they’re not good with technology. <br></br> <span>How:</span> Using what I learned, I added these helpful features to the app, like reminders and real-time availability, to reduce mistakes and save time. I also made the design simple and easy to use so anyone, even without tech skills, could use it.",
+            "images": [
+              "./assets/images/projects/passionate/research.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "feedback",
+            "description": "<span>Why:</span> I shared the high-fidelity wireframes with my client to make sure the design was clear and met her needs. She gave me helpful <a href='./assets/images/projects/passionate/documents/stakeholder_brief.pdf' target='_blank'>feedback<i class='fa-solid fa-arrow-right'></i></a>, which helped me improve the app further. I wanted the design to not only look good but also solve her specific challenges. <br></br> <span>What:</span> One suggestion was to use colors to easily show different types of appointments, like couples or medical clients. She also mentioned the importance of adding a short description for each client so she can quickly see important details, especially for medical clients who may need home visits. She liked that the design was simple to use and visually appealing. <br></br> <span>How:</span> Based on her feedback, I improved the wireframes by adding a feature to assign colors to appointments and a way to include client descriptions. These changes made the app more user-friendly and practical for her daily tasks. Reflecting on this, I learned how important it is to listen to feedback and adapt designs to fit the user’s needs better. This experience also helped me understand how small adjustments can make a big difference in usability.",
+            "images": [
+              "./assets/images/projects/passionate/feedback.png"
+            ]
+          }
+        ],
+        "5": [
+          {
+            "id": "1",
+            "title": "specialization",
+            "description": "<span>Why:</span> I chose this project because it’s related to designing applications and dashboards, which is something I’ll focus on in my specialization next semester. By working on this, I’m getting myself ready for that. It’s important to learn these skills now, so I can be better prepared for the more advanced work I’ll be doing later. <br></br> <span>What:</span> This project involves creating a simple scheduling app, and through this, I’m learning how to design functional, user-friendly interfaces that can be applied to many different types of applications. <br></br> <span>How:</span> Working on this project is helping me develop the skills I need for my specialization. I’m learning how to make apps that not only look good but also work well for the users. This experience will definitely help me in the future when I focus on more advanced design projects.",
+            "images": [
+              "./assets/images/projects/passionate/wireframe_high1.png"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "user focused direction",
+            "description": "<span>Why:</span> I chose this project to improve my skills in designing apps that are easy to use and solve real problems. The project helped me focus on creating something that would be useful and simple for my client. I wanted to make sure the app would help her manage her appointments better while also helping me get better at designing with the user in mind. <br></br> <span>What:</span> In this project, I created a scheduling app that focuses on what my client needs. I looked at her problems, like forgetting appointments and double booking, and made sure the app could help with that. I also added features based on her feedback, like allowing her to write a description for each client and clearer reminders. <br></br> <span>How:</span> By focusing on my client’s needs, I made sure the app was simple and easy to use. I used the feedback I got to make the app better and easier for anyone to understand, even if they’re not good with technology. This project helped me improve my skills in designing apps that are useful and easy for people to use.",
+            "images": [
+              "./assets/images/projects/passionate/wireframe_high1.png"
+            ]
+          }
+        ]
+      },
+      "extraInformation": {
+        "socials": [
+          {
+            "text": "stakeholder brief",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/passionate/documents/stakeholder_brief.pdf"
+          },
+          {
+            "text": "interview & feedback",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/passionate/documents/interview_transcript.pdf"
+          },
+          {
+            "text": "moodboard",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1"
+          },
+          {
+            "text": "wireframes",
+            "icon": "fa-brands fa-figma",
+            "link": "https://www.figma.com/design/ZUOjcSHQXbiADrgqXCDR20/passion-project?node-id=0-1&t=BRI3eR6puKbNNUwi-1"
+          },
+          {
+            "text": "research",
+            "icon": "fa-solid fa-file",
+            "link": "./assets/images/projects/passionate/documents/research.pdf"
           }
         ]
       }
